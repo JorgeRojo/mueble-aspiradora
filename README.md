@@ -57,16 +57,18 @@ Para cumplir la condición de **hacer el mueble todo lo estrecho posible con enc
 * **1x Esmalte ecológico TITANLUX blanco satinado 750 ml** (2 manos de acabado sedoso y lavable).
 
 ### 3.3. Automatización y Herrajes
-* **2x Micro Actuadores Lineales Eléctricos 12V DC, 150N, carrera 150 mm**:
-  * **Ubicación en altura**: Zona superior libre ($Z = 650-680\text{ mm}$ del suelo, en los $157\text{ mm}$ libres sobre la base Dreame y bajo la encimera).
-  * **Disposición cinemática**: **Horizontal** (abren puertas batientes que giran en un plano horizontal).
-  * **Anclaje de chasis (Punto Fijo)**: Soporte en horquilla (*clevis*) atornillado a la cara interior del costado, retrasado $\approx 280\text{ mm}$ del frente.
-  * **Anclaje de puerta (Punto Móvil)**: Soporte en horquilla atornillado a la cara interior de la puerta a $\approx 110\text{ mm}$ de las bisagras.
-  * **Modo Push-to-Open**: Con puerta cerrada, el actuador está retraído ($L_{min} \approx 255\text{ mm}$). Al extenderse $150\text{ mm}$ ($L_{max} \approx 405\text{ mm}$), empuja el soporte abriendo la hoja exactamente a $90^\circ$.
-  * **Pivotes obligatorios**: Ambos extremos llevan pasador giratorio (*clevis pin*) para permitir la rotación y eliminar al 100% cargas laterales (*side load*).
-* **1x Módulo Relé Inteligente ZigBee 2 Canales MHCOZY** (85-250V AC / 5V USB, contactos secos en modo *Interlock*).
+* **2x Micro Actuadores Lineales Dawnso Mini 150N 12V DC (carrera 150 mm)**:
+  * **Características físicas**: Modelo cilíndrico delgado de aluminio plateado ($\approx 20\text{ mm}$ diámetro), motor trasero compacto negro en ángulo recto con fino cable bipolar y vástago cromado pulido extensible.
+  * **Ubicación en altura**: Zona superior diáfana bajo la encimera ($157\text{ mm}$ libres sobre la base Dreame).
+  * **Disposición cinemática**: **Diagonal en plano horizontal** (abren puertas batientes que giran $90^\circ$ hacia delante).
+  * **Anclaje de chasis (Punto Fijo Cenital)**: Soporte metálico en horquilla (*clevis bracket*) con pasador **atornillado directamente a la cara inferior de la encimera superior** (retrasado $\approx 280\text{ mm}$ del frente y a $\approx 35\text{ mm}$ del costado). Se fija con tornillos para madera de $3,5 \times 16\text{ mm}$ en el regrueso de 25 mm de la encimera con máxima firmeza y sin asomar a la cara superior.
+  * **Anclaje de puerta (Punto Móvil)**: Soporte metálico en horquilla con pasador atornillado a la cara interior superior de la puerta a $\approx 120\text{ mm}$ del eje de las bisagras.
+  * **Modo Push-to-Open**: Con puerta cerrada, el actuador está retraído ($L_{min} = 255\text{ mm}$) con ángulo de ataque de $18,3^\circ$ (despegue instantáneo sin punto muerto). Al extenderse los $150\text{ mm}$ ($L_{max} = 405\text{ mm}$), empuja la puerta abriéndola a exactamente $90^\circ$ perpendicular a la fachada y sujetándola con firmeza.
+  * **Pivotes articulados obligatorios**: Ambos extremos llevan pasador giratorio (*clevis pin*) para permitir la libre rotación horizontal y eliminar al 100% tensiones laterales (*side load*).
+* **Ausencia Total de Suelo (Cota Cero Real)**: El mueble carece por completo de suelo de madera o travesaño inferior; el parqué de espiga entra de forma continua hasta la pared y la estación Dreame apoya directamente sobre él.
+* **4x Bisagras estándar de cazoleta para muebles de cocina (Ø35 mm)**: 2 bisagras por puerta (4 en total, solape total, apertura $105^\circ-110^\circ$), embutidas a $12\text{ mm}$ en el regrueso interior de 15 mm mediante broca Forstner.
+* **1x Módulo Relé Inteligente ZigBee 2 Canales MHCOZY** (85-250V AC / 5V USB, contactos secos en modo *Interlock* conmutando inversión de polaridad para apertura/cierre).
 * **1x Fuente de alimentación 12V DC** ($\ge 2\text{A}$).
-* **4x Bisagras estándar de cazoleta para muebles de cocina (Ø35 mm)**: 2 bisagras por puerta (solape total, apertura estándar $105^\circ-110^\circ$), embutidas en el regrueso de 15 mm mediante broca Forstner.
 
 ---
 
@@ -149,10 +151,11 @@ flowchart TD
    * 2 manos de imprimación LUXENS en cantos cortados (como tapaporos) con lija P240 intermedia.
    * 1 mano general a todo el mueble y 2 manos de esmalte TITANLUX blanco satinado.
 5. **Montaje e Instalación**:
-   * Une los 2 costados y la encimera superior formando el puente estructural en "U" invertida.
-   * Coloca el mueble pegado a la pared encajando el cajeado en el rodapié.
-   * Monta las 2 puertas con las 4 bisagras estándar de cocina de $35\text{ mm}$ (2 en cada puerta).
-   * Conecta los actuadores en el interior en disposición diagonal para abrir automáticamente ambas puertas hacia delante cuando la aspiradora vaya a limpiar.
+   * Une los 2 costados y la encimera superior formando el puente estructural en "U" invertida (sin suelo de madera inferior).
+   * Coloca el mueble pegado a la pared encajando el cajeado de $18 \times 95\text{ mm}$ en el rodapié de la vivienda.
+   * Monta las 2 puertas con las 4 bisagras estándar de cocina de $35\text{ mm}$ (2 bisagras por puerta).
+   * Atornilla los soportes de horquilla traseros metálicos de los actuadores Dawnso Mini directamente a la **cara inferior de la encimera superior** (retrasados $280\text{ mm}$ del frente y a $35\text{ mm}$ de cada costado) usando tornillos de $3,5 \times 16\text{ mm}$ en el regrueso de 25 mm.
+   * Atornilla los soportes delanteros a la cara interior superior de cada puerta batiente (a $120\text{ mm}$ del eje de las bisagras) e inserta los pasadores articulados (*clevis pins*) en ambos extremos para permitir el libre giro horizontal sin cargas laterales.
 6. **Conexión Eléctrica ZigBee y Home Assistant**:
    * Configura el relé MHCOZY de 2 canales en modo **Interlock** (enclavamiento mutuo) para evitar activación simultánea de apertura y cierre.
    * Conecta la fuente de 12V DC a los contactos COM/NO/NC configurando inversión de polaridad (puente en H) con ambos actuadores cableados en paralelo.
