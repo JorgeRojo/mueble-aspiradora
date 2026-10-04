@@ -2,7 +2,9 @@
 
 Proyecto de consola recibidor cuadrada a medida diseñada para ocultar la estación de autovaciado y robot aspirador **Dreame L10s / X40** a **Cota Cero**, con **doble puerta batiente motorizada** de apertura frontal, interior 100% diáfano (sin balda) y cajeado trasero para salvar rodapié de 1,5 cm.
 
-![Mueble Recibidor Cuadrado con Doble Puerta Abierta](../foto_realista_mueble_cuadrado_dos_puertas.jpg)
+| Plano con Cotas Milimétricas | Fotografía de Referencia Arquitectónica |
+| :---: | :---: |
+| ![Plano con Cotas Técnicas](../foto_realista_mueble_cuadrado_cotas.jpg) | ![Fotografía Realista](../foto_realista_mueble_cuadrado_dos_puertas.jpg) |
 
 ---
 
@@ -28,7 +30,7 @@ Para lograr que la encimera sea **totalmente cuadrada** y a la vez el mueble sea
 | Cota | Medida | Evaluación Técnica |
 | :--- | :---: | :--- |
 | **Encimera exterior** | **540 x 540 mm** | Planta cuadrada simétrica perfecta. |
-| **Alto exterior** | **750 mm** | Proporción cúbica/armónica con los 54 cm de ancho y fondo. |
+| **Alto exterior** | **750 mm** | Proporción esbelta vertical (1,39:1 respecto al ancho). |
 | **Ancho interior libre** | **490 mm** | $540 - 50\text{ mm}$ (costados de 25 mm). Base Dreame: 423 mm $\to$ **33,5 mm libres a cada lado**. |
 | **Fondo interior útil** | **522 mm** | Deja **14 mm libres** entre el frente de la rampa Dreame (508 mm) y las puertas. |
 | **Altura interior diáfana** | **725 mm** | **Sin balda interior**: Deja **157 mm libres** sobre la base Dreame (568 mm) para abrir tapas de agua. |
@@ -54,21 +56,51 @@ Para lograr que la encimera sea **totalmente cuadrada** y a la vez el mueble sea
 
 ---
 
-## 4. Mecanismo de Apertura y Automatización
+## 4. Cinemática de Montaje de Actuadores y Automatización
 
-1. **Cinemática de Apertura**:
-   * Ambas hojas batientes abren hacia delante ($90^\circ - 100^\circ$) accionadas por dos micro actuadores lineales de 12V montados en el interior.
-   * Sin compuerta inferior ni rieles: el frente completo queda despejado de suelo a techo a cota cero.
-2. **Esquema Eléctrico (Inversión de Polaridad / Puente en H)**:
-   * Los 2 actuadores se conectan en **paralelo** para moverse en perfecta sincronía.
-   * **Relé Inteligente ZigBee 2 Canales MHCOZY**:
-     * Modo: **Interlock** (enclavamiento hardware activado para que jamás coincidan ambos canales activos).
-     * Canal 1: Aplica $+12\text{V}$ al polo A y GND al polo B $\to$ **Apertura de puertas**.
-     * Canal 2: Aplica GND al polo A y $+12\text{V}$ al polo B $\to$ **Cierre de puertas**.
-3. **Lógica de Automatización (Home Assistant)**:
-   * **Trigger salida**: `vacuum.dreame_l10s` cambia a estado `cleaning`.
-   * **Acción 1**: Activar Canal 1 del relé MHCOZY durante 8-10 segundos (apertura total de puertas).
-   * **Acción 2**: El robot abandona la base y sale al salón.
-   * **Trigger retorno**: `vacuum.dreame_l10s` cambia a `docked`.
-   * **Acción 3**: Delay de 15 segundos (asegura acoplamiento e inicio de vaciado).
-   * **Acción 4**: Activar Canal 2 del relé MHCOZY durante 8-10 segundos (cierre completo de ambas puertas).
+### 4.1. Fundamento Físico de Montaje (Triángulo Cinemático para 90°)
+Un actuador colocado verticalmente sobre una puerta batiente no ejerce ningún par de giro alrededor del eje de las bisagras. Para abrir una puerta batiente que pivota horizontalmente, el actuador **debe trabajar en un plano horizontal**:
+
+```
+           Pared Trasera
++-----------------------------------+
+|                                   |
+|   Costado Interior                |
+|   |                               |
+|   |  [Punto Fijo A: Clevis]       |
+|   |  (a ~280 mm del frente)       |
+|   |      \                        |
+|   |       \ Actuador 12V          |
+|   |        \ (Carrera 150 mm)     |
+|   |         \                     |
+|   +----------[Punto B: Puerta]    |
+| (Bisagra)    (a ~110 mm del eje)  |
+|                                   |
++===================================+ Frente
+```
+
+1. **Ubicación en Altura**:
+   * Instalados en el hueco diáfano superior ($Z = 650 - 680\text{ mm}$ desde el suelo), en los $157\text{ mm}$ que quedan entre la parte superior de la base Dreame ($568\text{ mm}$) y la encimera ($725\text{ mm}$).
+   * Quedan completamente fuera de la trayectoria del robot y no obstaculizan la extracción de los depósitos de agua.
+2. **Coordenadas de Anclaje Óptimas**:
+   * **Punto Fijo (A) en el Costado**: Soporte en horquilla (*clevis bracket*) atornillado a la cara interior del costado a **$280\text{ mm}$** hacia el fondo desde la línea frontal de bisagras.
+   * **Punto Móvil (B) en la Puerta**: Soporte en horquilla atornillado a la cara interior de la puerta a **$110\text{ mm}$** del eje de giro de las bisagras.
+3. **Comportamiento Cinemático (*Push-to-Open*)**:
+   * **Puerta Cerrada ($0^\circ$)**: Actuador completamente retraído ($L_{min} \approx 255\text{ mm}$). Brazo de palanca de inicio: $\approx 135\text{ mm}$. El par de arranque es máximo, despegando la puerta suavemente.
+   * **Apertura ($0^\circ \to 90^\circ$)**: Al extender el vástago $150\text{ mm}$ ($L_{max} \approx 405\text{ mm}$), empuja la puerta hasta alcanzar exactamente $90^\circ$ perpendicular a la fachada.
+   * **Par y Fuerza**: Con $150\text{ N}$ de fuerza y un brazo de palanca de $80 - 135\text{ mm}$, el actuador entrega más de $12\text{ N}\cdot\text{m}$ de par de rotación, abriendo una hoja ligera de $1,2\text{ kg}$ con suavidad absoluta y sin esfuerzo.
+4. **Regla Crítica de Instalación (Eliminación de Cargas Laterales)**:
+   * **Imprescindible usar soportes articulados en ambos extremos**: Ambos extremos deben pivotar mediante pasadores (*clevis pins*). Si se fijara rígidamente alguno de los extremos, la fuerza lateral inducida durante el giro de $90^\circ$ doblaría el vástago y quemaría el motor interno.
+
+---
+
+### 4.2. Esquema Eléctrico e Integración ZigBee (Home Assistant)
+
+* **Relé Inteligente ZigBee 2 Canales MHCOZY**:
+  * Configuración hardware: Switch en modo **Interlock** (enclavamiento activo para asegurar que jamás se activen ambos canales a la vez).
+  * Ambos actuadores cableados en **paralelo** a los bornes COM/NO/NC de los relés formando un puente en H de inversión de polaridad.
+  * Canal 1: Polaridad directa (+12V / GND) $\to$ **Apertura de puertas**.
+  * Canal 2: Polaridad invertida (GND / +12V) $\to$ **Cierre de puertas**.
+* **Automatización en Home Assistant**:
+  * **Trigger salida**: `vacuum.dreame_l10s` pasa a `cleaning` $\to$ Activa Canal 1 durante 10 segundos $\to$ Puertas abiertas a $90^\circ$.
+  * **Trigger retorno**: `vacuum.dreame_l10s` pasa a `docked` $+ 15\text{ s}$ delay $\to$ Activa Canal 2 durante 10 segundos $\to$ Puertas cerradas enrasadas.

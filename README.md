@@ -2,14 +2,18 @@
 
 Consola de entrada cuadrada y minimalista a medida diseñada para ocultar la estación de autovaciado y robot aspirador **Dreame (L10s / X40)** a **Cota Cero**, con sistema de **doble puerta batiente motorizada** con actuadores que abren hacia delante, interior 100% diáfano (sin balda) y control nativo por **Zigbee (Home Assistant)**.
 
-![Mueble Recibidor Cuadrado con Doble Puerta Abierta](foto_realista_mueble_cuadrado_dos_puertas.jpg)
+| Plano con Cotas Milimétricas | Fotografía de Referencia Arquitectónica |
+| :---: | :---: |
+| ![Plano con Cotas Técnicas](foto_realista_mueble_cuadrado_cotas.jpg) | ![Fotografía Realista](foto_realista_mueble_cuadrado_dos_puertas.jpg) |
 
 ---
 
-## 1. Fotografía de Referencia del Nuevo Diseño
+## 1. Planos Gráficos y Renders de Referencia
 
-* **Fotografía Principal (Doble Puerta Abierta hacia delante)**: [`foto_realista_mueble_cuadrado_dos_puertas.jpg`](foto_realista_mueble_cuadrado_dos_puertas.jpg)
-  * Muestra la encimera cuadrada de $54 \times 54\text{ cm}$, las dos puertas batientes abiertas a $90^\circ - 100^\circ$ hacia delante mediante actuadores interiores, el robot Dreame saliendo por el centro a Cota Cero, el interior diáfano sin balda y el mueble pegado a la pared salvando el rodapié de $1,5\text{ cm}$.
+* **Plano Fotorrealista con Cotas Milimétricas**: [`foto_realista_mueble_cuadrado_cotas.jpg`](foto_realista_mueble_cuadrado_cotas.jpg)
+  * Muestra todas las cotas acotadas sobre el modelo 3D fotorrealista con líneas y flechas arquitectónicas: $540\text{ mm}$ ancho, $540\text{ mm}$ fondo, $750\text{ mm}$ alto, $268\text{ mm}$ puerta, $490\text{ mm}$ hueco libre, $423\text{ mm}$ base y $157\text{ mm}$ espacio libre superior.
+* **Fotografía Realista Exterior/Interior**: [`foto_realista_mueble_cuadrado_dos_puertas.jpg`](foto_realista_mueble_cuadrado_dos_puertas.jpg)
+  * Muestra la consola cuadrada acabada en blanco satinado con ambas puertas abiertas hacia delante a cota cero, la estación Dreame interior y el robot saliendo por el centro sobre el parqué de espiga.
 
 ---
 
@@ -53,9 +57,15 @@ Para cumplir la condición de **hacer el mueble todo lo estrecho posible con enc
 * **1x Esmalte ecológico TITANLUX blanco satinado 750 ml** (2 manos de acabado sedoso y lavable).
 
 ### 3.3. Automatización y Herrajes
-* **Actuadores lineales 12V DC**: Conectados mecánicamente a las puertas para empujarlas hacia delante en la apertura.
+* **2x Micro Actuadores Lineales Eléctricos 12V DC, 150N, carrera 150 mm**:
+  * **Ubicación en altura**: Zona superior libre ($Z = 650-680\text{ mm}$ del suelo, en los $157\text{ mm}$ libres sobre la base Dreame y bajo la encimera).
+  * **Disposición cinemática**: **Horizontal** (abren puertas batientes que giran en un plano horizontal).
+  * **Anclaje de chasis (Punto Fijo)**: Soporte en horquilla (*clevis*) atornillado a la cara interior del costado, retrasado $\approx 280\text{ mm}$ del frente.
+  * **Anclaje de puerta (Punto Móvil)**: Soporte en horquilla atornillado a la cara interior de la puerta a $\approx 110\text{ mm}$ de las bisagras.
+  * **Modo Push-to-Open**: Con puerta cerrada, el actuador está retraído ($L_{min} \approx 255\text{ mm}$). Al extenderse $150\text{ mm}$ ($L_{max} \approx 405\text{ mm}$), empuja el soporte abriendo la hoja exactamente a $90^\circ$.
+  * **Pivotes obligatorios**: Ambos extremos llevan pasador giratorio (*clevis pin*) para permitir la rotación y eliminar al 100% cargas laterales (*side load*).
 * **1x Módulo Relé Inteligente ZigBee 2 Canales MHCOZY** (85-250V AC / 5V USB, contactos secos en modo *Interlock*).
-* **1x Fuente de alimentación 12V DC**.
+* **1x Fuente de alimentación 12V DC** ($\ge 2\text{A}$).
 * **4x Bisagras de cazoleta de gran apertura ($165^\circ$)**: 2 bisagras por puerta, embutidas en el regrueso de 15 mm.
 
 ---

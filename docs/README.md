@@ -25,7 +25,9 @@ Documentación técnica integral para la fabricación, despiece, montaje y autom
 
 ---
 
-## 2. Fotografía Realista de Referencia
+## 2. Renders y Planos Fotorrealistas de Referencia
 
-* **Fotografía Principal (Doble Puerta Abierta hacia delante)**: [`../foto_realista_mueble_cuadrado_dos_puertas.jpg`](../foto_realista_mueble_cuadrado_dos_puertas.jpg)
+* **Plano Fotorrealista con Cotas Milimétricas**: [`../foto_realista_mueble_cuadrado_cotas.jpg`](../foto_realista_mueble_cuadrado_cotas.jpg)
+  * Muestra el mueble acotado milimétricamente ($540 \times 540\text{ mm}$ encimera, $750\text{ mm}$ alto, $268\text{ mm}$ puertas, $490\text{ mm}$ interior, $423\text{ mm}$ base, $157\text{ mm}$ espacio libre superior y actuadores 12V con carrera de 150 mm).
+* **Fotografía Realista Principal (Doble Puerta Abierta)**: [`../foto_realista_mueble_cuadrado_dos_puertas.jpg`](../foto_realista_mueble_cuadrado_dos_puertas.jpg)
   * Muestra la consola cuadrada lacada en blanco satinado, las dos puertas abiertas hacia delante a cota cero, la estación Dreame interior y el robot saliendo por el centro sobre el parqué de espiga.

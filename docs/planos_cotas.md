@@ -4,9 +4,11 @@ Este documento recoge el esquema dimensional y los planos del mueble recibidor a
 
 ---
 
-## 1. Fotografía de Referencia
+## 1. Renders y Planos Fotorrealistas de Referencia
 
-* **Fotografía Realista Principal (Doble Puerta Abierta hacia delante)**: [`../foto_realista_mueble_cuadrado_dos_puertas.jpg`](../foto_realista_mueble_cuadrado_dos_puertas.jpg)
+* **Plano Fotorrealista con Cotas Milimétricas**: [`../foto_realista_mueble_cuadrado_cotas.jpg`](../foto_realista_mueble_cuadrado_cotas.jpg)
+  * Muestra todas las cotas acotadas sobre el modelo 3D con líneas, flechas y cartelas arquitectónicas: $540\text{ mm}$ ancho, $540\text{ mm}$ fondo, $750\text{ mm}$ alto, $268\text{ mm}$ puerta, $490\text{ mm}$ interior libre, $423\text{ mm}$ base Dreame y $157\text{ mm}$ espacio libre superior.
+* **Fotografía Realista Exterior/Interior**: [`../foto_realista_mueble_cuadrado_dos_puertas.jpg`](../foto_realista_mueble_cuadrado_dos_puertas.jpg)
   * Muestra la encimera cuadrada de $54 \times 54\text{ cm}$, las dos puertas batientes abiertas hacia delante, la estación Dreame a cota cero en el interior diáfano sin balda y el robot saliendo por el centro.
 
 ---
