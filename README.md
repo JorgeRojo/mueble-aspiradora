@@ -2,7 +2,9 @@
 
 Consola de entrada minimalista a medida diseñada para ocultar la estación de autovaciado y robot aspirador **Dreame (L10s / X40)** a **Cota Cero**, con compuerta tipo guillotina automatizada mediante **Micro Actuador Lineal 12V** y control nativo por **Zigbee (Home Assistant)**.
 
-![Mueble Recibidor Terminado](foto_realista_mueble_recibidor.jpg)
+| Vista Exterior (Puerta Cerrada / Salida Robot) | Vista Mecanismo Interior (Puerta Abierta) |
+| :---: | :---: |
+| ![Mueble Recibidor Exterior](foto_realista_mueble_recibidor.jpg) | ![Mueble Recibidor Interior](foto_realista_mueble_abierto.jpg) |
 
 ---
 

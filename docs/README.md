@@ -25,6 +25,7 @@ Bienvenido al repositorio de documentación técnica para la fabricación, despi
 
 ## Archivos Gráficos y Planos de Referencia
  
-* **Fotografía Realista de Referencia (Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
+* **Fotografía Realista Exterior (Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
+* **Fotografía Realista Interior (Puerta Abierta y Mecanismo)**: [`../foto_realista_mueble_abierto.jpg`](../foto_realista_mueble_abierto.jpg)
 * **Render Fotorrealista 3D con Cotas Milimétricas**: [`../render_mueble_realista_cotas.jpg`](../render_mueble_realista_cotas.jpg)
 * **Plano Wireframe CAD / Blueprint**: [`../render_mueble_wireframe.jpg`](../render_mueble_wireframe.jpg)

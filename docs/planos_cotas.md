@@ -6,8 +6,10 @@ Este documento recoge el esquema dimensional y los planos de referencia gráfica
 
 ## 1. Vistas y Renders Disponibles
 
-* **Fotografía Realista de Referencia (Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
+* **Fotografía Realista Exterior (Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
   * Muestra el mueble monolítico terminado lacado en blanco satinado apoyado a cota cero sobre parqué en espiga, con el robot Dreame saliendo por el vano inferior y decoración superior.
+* **Fotografía Realista Interior (Puerta Abierta y Mecanismo)**: [`../foto_realista_mueble_abierto.jpg`](../foto_realista_mueble_abierto.jpg)
+  * Muestra la cara interior de la puerta con nervios de 15 mm, 2 bisagras de 165°, rieles en U, compuerta alzada por el micro actuador lineal 12V y la base Dreame a cota cero sin suelo de madera.
 * **Render Fotorrealista con Cotas Milimétricas**: [`../render_mueble_realista_cotas.jpg`](../render_mueble_realista_cotas.jpg)
   * Puerta abierta a $80^\circ$, compuerta levantada, base Dreame interior y cotas en líneas negras.
 * **Plano Wireframe CAD / Blueprint**: [`../render_mueble_wireframe.jpg`](../render_mueble_wireframe.jpg)
