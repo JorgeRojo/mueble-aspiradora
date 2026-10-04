@@ -1,31 +1,31 @@
-# Documentación Técnica: Proyecto Mueble Consola Dreame a Cota Cero
+# Documentación Técnica: Proyecto Mueble Consola Cuadrada Dreame a Cota Cero
 
-Bienvenido al repositorio de documentación técnica para la fabricación, despiece y montaje del mueble recibidor a medida para la estación robot aspirador **Dreame L10s / X40**.
-
----
-
-## Índice de Documentos
-
-1. ### [Especificaciones Técnicas y Constructivas (`especificaciones_tecnicas.md`)](especificaciones_tecnicas.md)
-   * **Dimensiones exteriores**: $480\text{ mm}$ (ancho) $\times 790\text{ mm}$ (alto) $\times 560\text{ mm}$ (fondo).
-   * **Arquitectura interior y Cota Cero**: Concepto autoportante sin suelo, zócalo ni trasera.
-   * **Técnica constructiva de nervios**: Paneles de contrachapado de 10 mm con regrueso perimetral de 15 mm ($10 + 15 = 25\text{ mm}$). Peso total ultraligero ($\approx 8,5\text{ kg}$).
-   * **Mecanismo de compuerta guillotina**: Compuerta de $410 \times 140\text{ mm}$, micro actuador lineal 12V 150N (carrera 150 mm) y rieles en "U" de $20\text{ mm}$.
-   * **Despiece completo de láminas**: Corte sobre tableros de $60 \times 120\text{ cm}$.
-   * **Lista de materiales comerciales (BOM)**: Herrajes, bisagras de $165^\circ$, actuador y electrónica de control Zigbee.
-   * **Esquema de cableado y automatización**: Puente en H con módulo Zigbee 2 canales MHCOZY e integración con Home Assistant.
-
-2. ### [Planos Técnicos y Esquemas de Cotas (`planos_cotas.md`)](planos_cotas.md)
-   * Esquema dimensional en alzado frontal con puerta cerrada.
-   * Esquema dimensional interior con puerta abierta y base Dreame.
-   * Esquema de distribución de herrajes en la cara interior de la puerta.
-   * Tabla de tolerancias y holguras críticas de funcionamiento.
+Documentación técnica integral para la fabricación, despiece, montaje y automatización del mueble recibidor cuadrado a medida ($540 \times 540\text{ mm}$) para la estación robot aspirador **Dreame L10s / X40**.
 
 ---
 
-## Archivos Gráficos y Planos de Referencia
- 
-* **Fotografía Realista Exterior (Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
-* **Fotografía Realista Interior (Puerta Abierta y Mecanismo)**: [`../foto_realista_mueble_abierto.jpg`](../foto_realista_mueble_abierto.jpg)
-* **Render Fotorrealista 3D con Cotas Milimétricas**: [`../render_mueble_realista_cotas.jpg`](../render_mueble_realista_cotas.jpg)
-* **Plano Wireframe CAD / Blueprint**: [`../render_mueble_wireframe.jpg`](../render_mueble_wireframe.jpg)
+## 1. Documentos Técnicos del Proyecto
+
+1. ### [Guía Maestra y Manual de Construcción (`../README.md`)](../README.md)
+   * Visión general del mueble con encimera cuadrada de $54 \times 54\text{ cm}$ y altura de $75\text{ cm}$.
+   * Lista de materiales comerciales (BOM) y aprovechamiento de los tableros comprados ($60 \times 120\text{ cm}$).
+   * Procedimiento de fabricación paso a paso: despiece, cajeado de rodapié, regrueso perimetral a 25 mm, cazoletas de bisagras y acabado en blanco satinado.
+
+2. ### [Especificaciones Técnicas y Constructivas (`especificaciones_tecnicas.md`)](especificaciones_tecnicas.md)
+   * **Justificación dimensional de la planta cuadrada ($540 \times 540\text{ mm}$)** a partir de la rampa de la base Dreame y el rodapié de 15 mm.
+   * **Arquitectura a Cota Cero**: Apoyo directo sobre el suelo de la vivienda, sin travesaños inferiores ni trasera.
+   * **Interior 100% diáfano**: Sin balda intermedia, dejando 157 mm libres sobre la estación Dreame para la extracción vertical de los depósitos de agua.
+   * **Sistema de doble puerta batiente**: Dos hojas de $268 \times 723\text{ mm}$ motorizadas con apertura hacia delante.
+   * **Automatización y cableado Zigbee**: Conexión de actuadores en paralelo al relé inteligente MHCOZY de 2 canales con enclavamiento (*Interlock*).
+
+3. ### [Planos Técnicos y Esquemas de Cotas (`planos_cotas.md`)](planos_cotas.md)
+   * Esquema de cotas en alzado frontal con ambas puertas abiertas.
+   * Esquema en planta superior con corte de profundidad, cajeado para rodapié ($18 \times 95\text{ mm}$) y holgura frontal de seguridad ($14\text{ mm}$).
+   * Tabla completa de tolerancias y holguras críticas de funcionamiento.
+
+---
+
+## 2. Fotografía Realista de Referencia
+
+* **Fotografía Principal (Doble Puerta Abierta hacia delante)**: [`../foto_realista_mueble_cuadrado_dos_puertas.jpg`](../foto_realista_mueble_cuadrado_dos_puertas.jpg)
+  * Muestra la consola cuadrada lacada en blanco satinado, las dos puertas abiertas hacia delante a cota cero, la estación Dreame interior y el robot saliendo por el centro sobre el parqué de espiga.

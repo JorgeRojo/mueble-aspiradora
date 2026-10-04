@@ -41,23 +41,25 @@ Este documento recoge el esquema dimensional y los planos del mueble recibidor a
 ## 3. Esquema en Planta Superior (Fondo pegado a la Pared)
 
 ```
-        Pared con Rodapié de 15 mm
-=====================================================
-|| [Cajeado 18x95]                 [Cajeado 18x95] ||
-||<- Costado Izq                    Costado Der -> ||
-||                                                 ||
-||         +---------------------------+           ||
-||         |  Base Dreame apoyada      |           ||
-||         |  en rodapié (508 mm)      |           ||
-||         |                           |           ||
-||         |       ROBOT Ø350 mm       |           ||
-||         +---------------------------+           ||
-||                                                 ||
-||<·········· Margen libre: 14 mm ················>||  (No toca las puertas)
-||========================|========================||
-       Puerta Izquierda       Puerta Derecha
-        (268 mm ancho)         (268 mm ancho)
-<----------------- 540 mm exterior --------------->
+                 Pared con Rodapié de 15 mm
+============================================================= ^
+|| [Cajeado 18x95]                         [Cajeado 18x95] || |
+||<- Costado Izq (522 mm fondo)     Costado Der (522 mm) ->|| |
+||                                                         || |
+||         +-------------------------------------+         || |
+||         |  Base Dreame apoyada en rodapié     |         || | 522 mm
+||         |  (Fondo total con rampa: 493 mm)    |         || | (Fondo costados)
+||         |  [Posición frontal: 508 mm]         |         || |
+||         |                                     |         || |
+||         |            ROBOT Ø350 mm            |         || |
+||         +-------------------------------------+         || |
+||                                                         || v
+||<·············· Margen libre frontal: 14 mm ············>|| === Frente costados
+||===========================|=============================|| ^ 18 mm (Puertas)
+       Puerta Izquierda               Puerta Derecha          v
+        (268 mm ancho)                 (268 mm ancho)
+<---------------------- 540 mm exterior -------------------->
+<------------ 540 mm fondo total (Encimera cuadrada) ------->
 ```
 
 ---

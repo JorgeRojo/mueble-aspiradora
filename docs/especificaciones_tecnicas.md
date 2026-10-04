@@ -40,12 +40,13 @@ Para lograr que la encimera sea **totalmente cuadrada** y a la vez el mueble sea
 ## 3. Despiece y Aprovechamiento de Láminas ($60 \times 120\text{ cm}$)
 
 ### 3.1. Láminas de 10 mm (Paneles base)
-* **Lámina 1 (10 mm)**: Costado izquierdo ($725 \times 540\text{ mm}$).
-* **Lámina 2 (10 mm)**: Costado derecho ($725 \times 540\text{ mm}$).
-* **Lámina 3 (10 mm)**: Encimera cuadrada ($540 \times 540\text{ mm}$).
+* **Lámina 1 (10 mm)**: Costado izquierdo (**$725 \times 522\text{ mm}$**).
+  * *Fondo del costado ($522\text{ mm}$)*: Sumado a los $18\text{ mm}$ del frente de puertas enrasa exactamente con los $540\text{ mm}$ de la encimera.
+* **Lámina 2 (10 mm)**: Costado derecho (**$725 \times 522\text{ mm}$**).
+* **Lámina 3 (10 mm)**: Encimera cuadrada (**$540 \times 540\text{ mm}$**).
 * **Lámina 4 (10 mm)**: **Puerta izquierda ($268 \times 723\text{ mm}$) + Puerta derecha ($268 \times 723\text{ mm}$)**.
   * Ambas caben juntas a lo ancho: $268 + 4 + 268 = 540\text{ mm} \le 600\text{ mm}$.
-* **Lámina 5 (10 mm)**: **Tablero de reserva completo**.
+* **Lámina 5 (10 mm)**: **Tablero de reserva completo** (al eliminar la balda y la compuerta guillotina).
 
 ### 3.2. Láminas de 15 mm (Nervios de regrueso)
 * Se cortan en tiras longitudinales de **$50\text{ mm}$ de ancho** ($1200\text{ mm}$ de largo).
@@ -55,12 +56,19 @@ Para lograr que la encimera sea **totalmente cuadrada** y a la vez el mueble sea
 
 ## 4. Mecanismo de Apertura y Automatización
 
-1. **Apertura de Puertas**:
-   * Las dos puertas se abren hacia delante mediante actuadores lineales o empujadores motorizados montados en el interior.
-   * Al abrirse a $90^\circ - 100^\circ$, el frente del mueble queda 100% diáfano a Cota Cero sin necesidad de compuerta guillotina ni rieles.
-2. **Control Zigbee**:
-   * Módulo relé inteligente ZigBee de 2 canales MHCOZY alimentado a 230V o USB 5V, conmutando la alimentación de 12V hacia los actuadores en modo *Interlock*.
-3. **Lógica de Funcionamiento**:
-   * Cuando la aspiradora pasa al estado `cleaning`, el relé activa los actuadores y abre ambas puertas hacia delante.
-   * El robot sale rodando libremente por el centro.
-   * Cuando el robot retorna a la base (`docked`) y transcurren 15 segundos, los actuadores cierran ambas puertas, sellando el mueble por completo.
+1. **Cinemática de Apertura**:
+   * Ambas hojas batientes abren hacia delante ($90^\circ - 100^\circ$) accionadas por dos micro actuadores lineales de 12V montados en el interior.
+   * Sin compuerta inferior ni rieles: el frente completo queda despejado de suelo a techo a cota cero.
+2. **Esquema Eléctrico (Inversión de Polaridad / Puente en H)**:
+   * Los 2 actuadores se conectan en **paralelo** para moverse en perfecta sincronía.
+   * **Relé Inteligente ZigBee 2 Canales MHCOZY**:
+     * Modo: **Interlock** (enclavamiento hardware activado para que jamás coincidan ambos canales activos).
+     * Canal 1: Aplica $+12\text{V}$ al polo A y GND al polo B $\to$ **Apertura de puertas**.
+     * Canal 2: Aplica GND al polo A y $+12\text{V}$ al polo B $\to$ **Cierre de puertas**.
+3. **Lógica de Automatización (Home Assistant)**:
+   * **Trigger salida**: `vacuum.dreame_l10s` cambia a estado `cleaning`.
+   * **Acción 1**: Activar Canal 1 del relé MHCOZY durante 8-10 segundos (apertura total de puertas).
+   * **Acción 2**: El robot abandona la base y sale al salón.
+   * **Trigger retorno**: `vacuum.dreame_l10s` cambia a `docked`.
+   * **Acción 3**: Delay de 15 segundos (asegura acoplamiento e inicio de vaciado).
+   * **Acción 4**: Activar Canal 2 del relé MHCOZY durante 8-10 segundos (cierre completo de ambas puertas).

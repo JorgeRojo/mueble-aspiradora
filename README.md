@@ -39,12 +39,13 @@ Para cumplir la condición de **hacer el mueble todo lo estrecho posible con enc
 * **2x Tablero contrachapado crudo $60 \times 120 \times 1,5\text{ cm}$**
 
 #### Despiece optimizado sobre las láminas de $60 \times 120\text{ cm}$:
-1. **Lámina 1 (10 mm)**: Costado izquierdo ($725 \times 540\text{ mm}$).
-2. **Lámina 2 (10 mm)**: Costado derecho ($725 \times 540\text{ mm}$).
-3. **Lámina 3 (10 mm)**: Encimera cuadrada ($540 \times 540\text{ mm}$).
+1. **Lámina 1 (10 mm)**: Costado izquierdo (**$725 \times 522\text{ mm}$**).
+   * *Justificación de fondo ($522\text{ mm}$)*: Costado ($522\text{ mm}$) + Puerta cerrada ($18\text{ mm}$) = **$540\text{ mm}$** (enrasa a la perfección bajo la encimera de $540\text{ mm}$).
+2. **Lámina 2 (10 mm)**: Costado derecho (**$725 \times 522\text{ mm}$**).
+3. **Lámina 3 (10 mm)**: Encimera cuadrada (**$540 \times 540\text{ mm}$**).
 4. **Lámina 4 (10 mm)**: **Puerta izquierda ($268 \times 723\text{ mm}$) + Puerta derecha ($268 \times 723\text{ mm}$)**.
    * *Ambas puertas caben juntas en un solo tablero*: $268 + 4 + 268 = 540\text{ mm} \le 600\text{ mm}$, y $723\text{ mm} \le 1200\text{ mm}$.
-5. **Lámina 5 (10 mm)**: **Tablero de reserva completo** (la balda interior se ha eliminado).
+5. **Lámina 5 (10 mm)**: **Tablero de reserva completo** (la balda interior y la guillotina se han eliminado).
 6. **Láminas de 15 mm (2 uds)**: Se cortan en tiras longitudinales de **$50\text{ mm}$ de ancho** para regruesar los cantos perimetrales a 25 mm.
 
 ### 3.2. Pintura y Acabado
@@ -89,23 +90,25 @@ Para cumplir la condición de **hacer el mueble todo lo estrecho posible con enc
 ### 4.2. Planta Superior (Corte de Profundidad contra la Pared)
 
 ```
-        Pared con Rodapié de 15 mm
-=====================================================
-|| [Cajeado 18x95]                 [Cajeado 18x95] ||
-||<- Costado Izq                    Costado Der -> ||
-||                                                 ||
-||         +---------------------------+           ||
-||         |  Base Dreame apoyada      |           ||
-||         |  en rodapié (508 mm)      |           ||
-||         |                           |           ||
-||         |       ROBOT Ø350 mm       |           ||
-||         +---------------------------+           ||
-||                                                 ||
-||<·········· Margen libre: 14 mm ················>||  (No toca las puertas)
-||========================|========================||
-       Puerta Izquierda       Puerta Derecha
-        (268 mm ancho)         (268 mm ancho)
-<----------------- 540 mm exterior --------------->
+                 Pared con Rodapié de 15 mm
+============================================================= ^
+|| [Cajeado 18x95]                         [Cajeado 18x95] || |
+||<- Costado Izq (522 mm fondo)     Costado Der (522 mm) ->|| |
+||                                                         || |
+||         +-------------------------------------+         || |
+||         |  Base Dreame apoyada en rodapié     |         || | 522 mm
+||         |  (Fondo total con rampa: 493 mm)    |         || | (Fondo costados)
+||         |  [Posición frontal: 508 mm]         |         || |
+||         |                                     |         || |
+||         |            ROBOT Ø350 mm            |         || |
+||         +-------------------------------------+         || |
+||                                                         || v
+||<·············· Margen libre frontal: 14 mm ············>|| === Frente costados
+||===========================|=============================|| ^ 18 mm (Puertas)
+       Puerta Izquierda               Puerta Derecha          v
+        (268 mm ancho)                 (268 mm ancho)
+<---------------------- 540 mm exterior -------------------->
+<------------ 540 mm fondo total (Encimera cuadrada) ------->
 ```
 
 ---
@@ -124,7 +127,7 @@ flowchart TD
 ```
 
 1. **Despiece y Cajeado de Rodapié**:
-   * Corta los 2 costados a $725 \times 540\text{ mm}$ y la encimera a $540 \times 540\text{ mm}$.
+   * Corta los 2 costados a **$725 \times 522\text{ mm}$** y la encimera a **$540 \times 540\text{ mm}$**.
    * En la esquina inferior trasera de ambos costados, realiza con caladora el cajeado de **$18\text{ mm}$ de profundidad $\times 95\text{ mm}$ de altura** para librar el zócalo de la pared.
    * Corta las 2 puertas a **$268 \times 723\text{ mm}$** del tablero 4.
 2. **Nervios de Regrueso a 25 mm**:
@@ -136,7 +139,11 @@ flowchart TD
    * 2 manos de imprimación LUXENS en cantos cortados (como tapaporos) con lija P240 intermedia.
    * 1 mano general a todo el mueble y 2 manos de esmalte TITANLUX blanco satinado.
 5. **Montaje e Instalación**:
-   * Une los 2 costados y la encimera superior.
+   * Une los 2 costados y la encimera superior formando el puente estructural en "U" invertida.
    * Coloca el mueble pegado a la pared encajando el cajeado en el rodapié.
    * Monta las 2 puertas con las bisagras de $165^\circ$.
    * Conecta los actuadores en el interior para abrir automáticamente ambas puertas hacia delante cuando la aspiradora vaya a limpiar.
+6. **Conexión Eléctrica ZigBee y Home Assistant**:
+   * Configura el relé MHCOZY de 2 canales en modo **Interlock** (enclavamiento mutuo) para evitar activación simultánea de apertura y cierre.
+   * Conecta la fuente de 12V DC a los contactos COM/NO/NC configurando inversión de polaridad (puente en H) con ambos actuadores cableados en paralelo.
+   * En Home Assistant, crea la automatización: al pasar la entidad de la Dreame a `cleaning`, activa el Canal 1 (abrir puertas); al volver a `docked` y transcurrir 15 segundos, activa el Canal 2 (cerrar puertas).
