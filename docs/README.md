@@ -23,10 +23,8 @@ Bienvenido al repositorio de documentación técnica para la fabricación, despi
 
 ---
 
-## Archivos Gráficos y Renders Asociados
-
-* **Fotografía Realista Principal (Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
-* **Fotografía Realista Variante (Puerta Suspendida)**: [`../foto_realista_mueble_recibidor_alt.jpg`](../foto_realista_mueble_recibidor_alt.jpg)
+## Archivos Gráficos y Planos de Referencia
+ 
+* **Fotografía Realista de Referencia (Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
 * **Render Fotorrealista 3D con Cotas Milimétricas**: [`../render_mueble_realista_cotas.jpg`](../render_mueble_realista_cotas.jpg)
-* **Visor 3D Interactivo WebGL (Three.js)**: [`../render_3d_photorealistic.html`](../render_3d_photorealistic.html)
 * **Plano Wireframe CAD / Blueprint**: [`../render_mueble_wireframe.jpg`](../render_mueble_wireframe.jpg)

@@ -6,13 +6,11 @@ Este documento recoge el esquema dimensional y los planos de referencia gráfica
 
 ## 1. Vistas y Renders Disponibles
 
-* **Fotografía Realista Principal (Acabado en Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
+* **Fotografía Realista de Referencia (Recibidor)**: [`../foto_realista_mueble_recibidor.jpg`](../foto_realista_mueble_recibidor.jpg)
   * Muestra el mueble monolítico terminado lacado en blanco satinado apoyado a cota cero sobre parqué en espiga, con el robot Dreame saliendo por el vano inferior y decoración superior.
-* **Variante con Puerta Suspendida**: [`../foto_realista_mueble_recibidor_alt.jpg`](../foto_realista_mueble_recibidor_alt.jpg)
 * **Render Fotorrealista con Cotas Milimétricas**: [`../render_mueble_realista_cotas.jpg`](../render_mueble_realista_cotas.jpg)
   * Puerta abierta a $80^\circ$, compuerta levantada, base Dreame interior y cotas en líneas negras.
 * **Plano Wireframe CAD / Blueprint**: [`../render_mueble_wireframe.jpg`](../render_mueble_wireframe.jpg)
-* **Visor 3D Interactivo WebGL (Three.js)**: [`../render_3d_photorealistic.html`](../render_3d_photorealistic.html)
 
 ---
 
