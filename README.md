@@ -1,237 +1,142 @@
 # Mueble Recibidor Automatizado a Cota Cero para Robot Aspirador
 
-Consola de entrada minimalista a medida diseñada para ocultar la estación de autovaciado y robot aspirador **Dreame (L10s / X40)** a **Cota Cero**, con compuerta tipo guillotina automatizada mediante **Micro Actuador Lineal 12V** y control nativo por **Zigbee (Home Assistant)**.
+Consola de entrada cuadrada y minimalista a medida diseñada para ocultar la estación de autovaciado y robot aspirador **Dreame (L10s / X40)** a **Cota Cero**, con sistema de **doble puerta batiente motorizada** con actuadores que abren hacia delante, interior 100% diáfano (sin balda) y control nativo por **Zigbee (Home Assistant)**.
 
-| Vista Exterior (Puerta Cerrada / Salida Robot) | Vista Mecanismo Interior (Puerta Abierta) |
-| :---: | :---: |
-| ![Mueble Recibidor Exterior](foto_realista_mueble_recibidor.jpg) | ![Mueble Recibidor Interior](foto_realista_mueble_abierto.jpg) |
+![Mueble Recibidor Cuadrado con Doble Puerta Abierta](foto_realista_mueble_cuadrado_dos_puertas.jpg)
 
 ---
 
-## 1. Planos Técnicos Limpios
+## 1. Fotografía de Referencia del Nuevo Diseño
 
-### 1.1. Plano de Cotas Milimétricas (Alzado Interior con Puerta Abierta)
-> Archivo de alta resolución: [`render_mueble_realista_cotas.jpg`](render_mueble_realista_cotas.jpg)
-
-![Plano de Cotas Técnicas](render_mueble_realista_cotas.jpg)
-
-### 1.2. Plano Wireframe CAD (Secciones Interiores y Transparencia)
-> Archivo de alta resolución: [`render_mueble_wireframe.jpg`](render_mueble_wireframe.jpg)
-
-![Plano Wireframe CAD](render_mueble_wireframe.jpg)
+* **Fotografía Principal (Doble Puerta Abierta hacia delante)**: [`foto_realista_mueble_cuadrado_dos_puertas.jpg`](foto_realista_mueble_cuadrado_dos_puertas.jpg)
+  * Muestra la encimera cuadrada de $54 \times 54\text{ cm}$, las dos puertas batientes abiertas a $90^\circ - 100^\circ$ hacia delante mediante actuadores interiores, el robot Dreame saliendo por el centro a Cota Cero, el interior diáfano sin balda y el mueble pegado a la pared salvando el rodapié de $1,5\text{ cm}$.
 
 ---
 
-## 2. Dimensiones Generales del Mueble
+## 2. Dimensiones Generales Recalculadas (Encimera Cuadrada)
 
-| Cota | Medida | Justificación Técnica |
+Para cumplir la condición de **hacer el mueble todo lo estrecho posible con encimera cuadrada ($Ancho = Fondo$)**, la cota viene fijada por la profundidad de la aspiradora:
+
+| Cota | Medida | Justificación Técnica y Holguras |
 | :--- | :---: | :--- |
-| **Ancho exterior** | **480 mm** | Deja un hueco interior libre de **430 mm** (la base Dreame mide 423 mm, holgura de 3,5 mm por lado). |
-| **Alto exterior** | **790 mm** | Altura estricta de consola recibidor (bajo la cintura), optimizada para apoyo de portátil y llaves. |
-| **Fondo exterior** | **560 mm** | Alberga los 493 mm de la base con rampa + 20 mm de cables + 47 mm libres para compuerta y actuador. |
-| **Vano paso robot** | **390 x 117 mm** | Cajeado en "U" a ras de suelo con montantes laterales de 45 mm. Holgura de +20 mm lateral y superior. |
-| **Compuerta guillotina**| **410 x 140 mm** | Panel deslizante interior de 10 mm guiado por perfiles de aluminio de 20 mm. |
-| **Ranura superior útil**| **40 mm libres** | Espacio estrecho bajo la encimera para bayetas, mopas planas y recambios. |
-| **Margen depósitos agua**| **132 mm libres** | Distancia entre la estación Dreame (568 mm) y la balda (700 mm) para retirar tanques verticalmente. |
+| **Encimera (Planta Cuadrada)**| **$540 \times 540\text{ mm}$** | Planta simétrica perfecta ($54\text{ cm}$ de ancho por $54\text{ cm}$ de fondo). |
+| **Alto exterior** | **750 mm** | Altura esbelta de consola recibidor bajo cintura. |
+| **Cajeado trasero (Rodapié)** | **$18\text{ mm}$ (fondo) $\times 95\text{ mm}$ (alto)** | Vaciado inferior trasero en ambos costados para encajar el zócalo de pared de $15\text{ mm}$ y pegar el mueble 100% a la pared. |
+| **Fondo interior útil libre** | **522 mm** | Desde la pared hasta la cara interior de las puertas cerradas ($540 - 18\text{ mm}$ puerta). |
+| **Posición estación Dreame** | **508 mm desde pared** | $15\text{ mm}$ (rodapié) $+ 493\text{ mm}$ (estación con rampa y robot acoplado). |
+| **Margen frontal libre** | **+14 mm libres** | **La aspiradora NO queda pegada a las puertas** (queda $1,4\text{ cm}$ de separación entre la rampa y las puertas). |
+| **Ancho interior libre** | **490 mm** | $540 - 50\text{ mm}$ (costados regruesados a 25 mm). La base Dreame mide $423\text{ mm}$ $\to$ **$33,5\text{ mm}$ libres por lado**. |
+| **Altura interior diáfana** | **725 mm libres** | **Sin balda interior**: Espacio único y continuo de suelo a techo. |
+| **Margen superior para tapas** | **+157 mm libres** | Sobre los $568\text{ mm}$ de la estación, para abrir las tapas y extraer los depósitos de agua hacia arriba sin mover el mueble. |
+| **Puertas frontales (x2 hojas)**| **$268 \times 723\text{ mm}$ cada una** | Dos hojas batientes que abren hacia delante, dejando 2 mm de holgura con el suelo para girar libremente. |
 
 ---
 
-## 3. Componentes Exactos Comprados (Lista de Materiales BOM)
+## 3. Componentes Comprados y su Aprovechamiento
 
-### 3.1. Carpintería y Acabados
-* **5x Tablero de contrachapado crudo $60 \times 120 \times 1,0\text{ cm}$** (Paneles base estructurales).
-* **2x Tablero de contrachapado crudo $60 \times 120 \times 1,5\text{ cm}$** (Tiras de $50\text{ mm}$ para nervios perimetrales de regrueso a 25 mm).
-* **1x Imprimación universal LUXENS 1 L** (Sellador/tapaporos para cantos y caras).
-* **1x Esmalte de interior ecológico TITANLUX blanco satinado 750 ml** (RAL 9010).
-* Cola blanca de carpintero (D3) y tornillos para madera de $3,5 \times 16\text{ mm}$ y $3,5 \times 20\text{ mm}$.
+### 3.1. Tableros de Contrachapado Comprados
+* **5x Tablero contrachapado crudo $60 \times 120 \times 1,0\text{ cm}$**
+* **2x Tablero contrachapado crudo $60 \times 120 \times 1,5\text{ cm}$**
 
-### 3.2. Mecanismo y Automatización
-* **1x Micro Actuador Lineal Eléctrico Mini 12V DC, 150N, carrera 150 mm** (cuerpo tubular delgado $< 35\text{ mm}$, velocidad $12-15\text{ mm/s}$).
-* **1x Módulo Relé Inteligente ZigBee 2 Canales MHCOZY** (85-250V AC / 5V USB, con contactos secos y modo *Interlock*).
-* **1x Fuente de alimentación 230V AC a 12V DC** (estabilizada, $\ge 2\text{A}$).
-* **2x Perfiles en "U" de aluminio anodizado $20 \times 15 \times 1,5\text{ mm}$** (longitud $280\text{ mm}$).
-* **2x Bisagras de cazoleta gran angular $165^\circ - 170^\circ$ solape total** (cazoleta $\varnothing 35\text{ mm}$).
-* **2x Escuadras metálicas de fijación** con pasadores/tornillos M6 para los extremos del actuador.
-* Tira de fieltro o teflón adhesivo de 1 mm para el interior de los rieles.
+#### Despiece optimizado sobre las láminas de $60 \times 120\text{ cm}$:
+1. **Lámina 1 (10 mm)**: Costado izquierdo ($725 \times 540\text{ mm}$).
+2. **Lámina 2 (10 mm)**: Costado derecho ($725 \times 540\text{ mm}$).
+3. **Lámina 3 (10 mm)**: Encimera cuadrada ($540 \times 540\text{ mm}$).
+4. **Lámina 4 (10 mm)**: **Puerta izquierda ($268 \times 723\text{ mm}$) + Puerta derecha ($268 \times 723\text{ mm}$)**.
+   * *Ambas puertas caben juntas en un solo tablero*: $268 + 4 + 268 = 540\text{ mm} \le 600\text{ mm}$, y $723\text{ mm} \le 1200\text{ mm}$.
+5. **Lámina 5 (10 mm)**: **Tablero de reserva completo** (la balda interior se ha eliminado).
+6. **Láminas de 15 mm (2 uds)**: Se cortan en tiras longitudinales de **$50\text{ mm}$ de ancho** para regruesar los cantos perimetrales a 25 mm.
+
+### 3.2. Pintura y Acabado
+* **1x Imprimación universal LUXENS 1 L** (2 manos en cantos cortados como tapaporos/sellador + 1 mano general).
+* **1x Esmalte ecológico TITANLUX blanco satinado 750 ml** (2 manos de acabado sedoso y lavable).
+
+### 3.3. Automatización y Herrajes
+* **Actuadores lineales 12V DC**: Conectados mecánicamente a las puertas para empujarlas hacia delante en la apertura.
+* **1x Módulo Relé Inteligente ZigBee 2 Canales MHCOZY** (85-250V AC / 5V USB, contactos secos en modo *Interlock*).
+* **1x Fuente de alimentación 12V DC**.
+* **4x Bisagras de cazoleta de gran apertura ($165^\circ$)**: 2 bisagras por puerta, embutidas en el regrueso de 15 mm.
 
 ---
 
-## 4. Procedimiento de Construcción Paso a Paso
+## 4. Esquema de Cotas en Alzado y Planta
+
+### 4.1. Alzado Frontal (Puertas Abiertas hacia delante)
+
+```
+                     540 mm (Ancho Exterior)
+                     490 mm (Hueco Interior Libre)
+        <------------------------------------------------>
+        +----+--------------------------------------+----+  ^
+        |    |       ENCIMERA CUADRADA (25 mm)      |    |  |
+        | 25 |                                      | 25 |  |
+        | mm |                                      | mm |  |
+        |    |                                      |    |  |
+        | c  |    ESPACIO DIÁFANO SUPERIOR (157 mm) | c  |  | 750 mm
+        | o  |     (Apertura libre de depósitos)    | o  |  | (Alto Total)
+        | s  |                                      | s  |  |
+        | t  + - - - - - - - - - - - - - - - - - - -+ t  |  |
+        | a  |                                      | a  |  |  ^
+        | d  |         BASE DREAME                  | d  |  |  |
+        | o  |         (Ancho: 423 mm)              | o  |  |  | 568 mm (Alto Base)
+        |    |         [Holgura: 33.5 mm por lado]  |    |  |  |
+        | I  |                                      | D  |  |  |
+        | z  |            ROBOT Ø350 mm             | e  |  |  |
+  [Pta] | q  |          (Sale por el centro)        | r  |  |  |
+ [Izquierda] +======================================+ [Pta Derecha] Suelo (Cota Cero)
+```
+
+### 4.2. Planta Superior (Corte de Profundidad contra la Pared)
+
+```
+        Pared con Rodapié de 15 mm
+=====================================================
+|| [Cajeado 18x95]                 [Cajeado 18x95] ||
+||<- Costado Izq                    Costado Der -> ||
+||                                                 ||
+||         +---------------------------+           ||
+||         |  Base Dreame apoyada      |           ||
+||         |  en rodapié (508 mm)      |           ||
+||         |                           |           ||
+||         |       ROBOT Ø350 mm       |           ||
+||         +---------------------------+           ||
+||                                                 ||
+||<·········· Margen libre: 14 mm ················>||  (No toca las puertas)
+||========================|========================||
+       Puerta Izquierda       Puerta Derecha
+        (268 mm ancho)         (268 mm ancho)
+<----------------- 540 mm exterior --------------->
+```
+
+---
+
+## 5. Procedimiento de Fabricación Paso a Paso
 
 ```mermaid
 flowchart TD
-    A["Paso 1: Despiece de tableros (60x120 cm)"] --> B["Paso 2: Encolado de nervios de 15 mm (Regrueso 25 mm)"]
-    B --> C["Paso 3: Mecanizados (Cazoletas 35 mm, vano robot y rieles)"]
-    C --> D["Paso 4: Sellado de cantos con imprimación y esmaltado"]
-    D --> E["Paso 5: Ensamblaje estructural del mueble"]
-    E --> F["Paso 6: Montaje de guillotina, rieles y actuador"]
-    F --> G["Paso 7: Conexión eléctrica (Puente en H) y Zigbee HA"]
+    A["Paso 1: Corte de costados, encimera y 2 puertas (60x120 cm)"] --> B["Paso 2: Cajeado para rodapié (18x95 mm) en costados traseros"]
+    B --> C["Paso 3: Encolado de nervios de 15 mm (Regrueso perimetral a 25 mm)"]
+    C --> D["Paso 4: Fresado de cazoletas de 35 mm para 4 bisagras (2 por puerta)"]
+    D --> E["Paso 5: Sellado de cantos con imprimación Luxens y esmalte blanco"]
+    E --> F["Paso 6: Ensamblaje estructural de costados y encimera a cota cero"]
+    F --> G["Paso 7: Instalación de las 2 puertas y mecanismo de empuje/actuadores"]
+    G --> H["Paso 8: Conexión eléctrica Zigbee y automatización Home Assistant"]
 ```
 
----
-
-### Paso 1: Despiece y Corte de Tableros ($60 \times 120\text{ cm}$)
-
-Corta las piezas base con escuadradora o sierra circular con guía:
-
-#### Tableros de 10 mm (Paneles base)
-* **Lámina 1 (10 mm)**:
-  * 1x **Costado izquierdo**: **$765 \times 535\text{ mm}$**.
-  * Del retal sobrante ($435 \times 600\text{ mm}$): cortar la **Compuerta guillotina** (**$410 \times 140\text{ mm}$**).
-* **Lámina 2 (10 mm)**:
-  * 1x **Costado derecho**: **$765 \times 535\text{ mm}$**.
-* **Lámina 3 (10 mm)**:
-  * 1x **Encimera superior**: **$480 \times 535\text{ mm}$**.
-  * 1x **Balda interior**: **$430 \times 530\text{ mm}$** *(caben ambas a lo largo: $535 + 530 = 1065\text{ mm} \le 1200\text{ mm}$)*.
-* **Lámina 4 (10 mm)**:
-  * 1x **Puerta frontal**: **$480 \times 790\text{ mm}$**.
-* **Lámina 5 (10 mm)**: Tablero de reserva.
-
-#### Tableros de 15 mm (Nervios de regrueso)
-* Corta los 2 tableros longitudinalmente en **tiras de $50\text{ mm}$ de ancho** ($1200\text{ mm}$ de largo). Se obtienen más de 20 metros lineales de listones de refuerzo.
-
----
-
-### Paso 2: Encolado de Nervios de 15 mm (Regrueso a 25 mm)
-
-La técnica consiste en pegar tiras de 15 mm en el perímetro interior de los paneles de 10 mm para lograr un borde exterior de **25 mm de espesor**:
-
-1. **Ubicación de las tiras**:
-   * **Costados (x2)**: Encolar tiras de 50 mm enrasadas a los 4 cantos perimetrales por la cara interior.
-   * **Encimera (x1)**: Encolar tiras en los bordes frontal, izquierdo y derecho por la cara inferior.
-   * **Balda (x1)**: Encolar tira en el canto frontal visto.
-   * **Puerta (x1)**: Encolar tiras en los 4 bordes interiores (especialmente crítico en el montante izquierdo para las bisagras y en los laterales para los rieles de la guillotina).
-2. **Prensado**: Aplica cola blanca generosa, fija con sargentos o peso repartido y deja secar 45 minutos.
-3. **Lijado de igualación**: Pasa un taco de lija de grano **P150** por los cantos para nivelar la unión de los dos tableros ($10 + 15\text{ mm}$). Debe quedar al tacto como un único bloque sólido de 25 mm.
-
----
-
-### Paso 3: Mecanizados Críticos
-
-*Realiza todos los cajeados antes de aplicar pintura:*
-
-1. **Cazoletas de bisagras ($\varnothing 35\text{ mm}$)**:
-   * En la cara interior de la puerta (montante izquierdo), marca los centros de las 2 bisagras a 100 mm de los extremos superior e inferior.
-   * Con broca Forstner de 35 mm, fresa a **$11,5 - 12\text{ mm}$ de profundidad**.
-   * *Seguridad*: Al taladrar sobre el nervio de 15 mm encolado al tablero de 10 mm (25 mm en total), quedan 13 mm de margen y no hay riesgo de perforar el frontal visto.
-2. **Cajeado vano robot ($390 \times 117\text{ mm}$)**:
-   * En la parte inferior de la puerta, traza el hueco centrado: $390\text{ mm}$ de ancho $\times 117\text{ mm}$ de alto, dejando dos montantes laterales de **$45\text{ mm}$** que llegan hasta el suelo.
-   * Corta con sierra de calar y lija los bordes.
-3. **Pretaladros para rieles en U**:
-   * Presenta los rieles de aluminio de 280 mm en la cara interior de los montantes de la puerta y realiza taladros guía con broca de 2 mm.
-
----
-
-### Paso 4: Sellado de Madera y Acabado (Imprimación y Esmalte)
-
-1. **Tratamiento de cantos (Uso de imprimación como tapaporos)**:
-   * Con brocha, aplica una mano abundante de imprimación LUXENS sin diluir directamente en todos los cantos cortados (la testa del contrachapado absorberá rápidamente).
-   * Deja secar 2–3 horas y lija suavemente con lija **P240** para eliminar el repelo.
-   * Aplica una segunda mano de imprimación en los cantos.
-2. **Imprimación general**:
-   * Aplica 1 mano uniforme de imprimación a todas las caras con rodillo de espuma poro cero o teflón.
-   * Deja secar 4 horas y pasa lija **P320** para eliminar motas de polvo.
-3. **Esmaltado blanco satinado**:
-   * Aplica **2 manos finas** de esmalte TITANLUX blanco satinado con rodillo, estirando bien la pintura.
-   * Respeta 6 horas de secado entre manos.
-
----
-
-### Paso 5: Ensamblaje Estructural del Mueble
-
-1. **Costados y Encimera**:
-   * Une los costados a la encimera superior mediante espigas de madera (tubillones de 8 mm) o tornillos embutidos desde el interior a través de los nervios de 15 mm.
-   * Ancho exterior resultante: **480 mm**. Altura exterior: **790 mm**.
-2. **Fijación de la Balda Interior**:
-   * Fija la balda interior de forma permanente a **$Y = 700\text{ mm}$** respecto al suelo.
-   * Deja libre la ranura superior de **40 mm** ($725 - 765\text{ mm}$) y deja **$132\text{ mm}$ libres** sobre la estación base Dreame (568 mm) para abrir tapas y extraer depósitos.
-3. **Montaje de la Puerta**:
-   * Atornilla las bases de las 2 bisagras de gran apertura ($165^\circ$) en el costado izquierdo interior y acopla la puerta.
-   * Regula los tornillos excéntricos de la bisagra para asegurar un solape frontal uniforme y holgura de 2 mm respecto al suelo.
-
----
-
-### Paso 6: Montaje de la Compuerta Guillotina y Actuador
-
-1. **Rieles de aluminio en U**:
-   * Pega una tira de fieltro o teflón autoadhesivo en el fondo del perfil en U para amortiguar el movimiento.
-   * Atornilla los 2 perfiles verticales ($280\text{ mm}$ de largo) en la cara interior de los montantes de la puerta con tornillos de $3,5 \times 16\text{ mm}$.
-2. **Compuerta guillotina ($410 \times 140\text{ mm}$)**:
-   * Introduce el panel de contrachapado de 10 mm por las guías. Debe deslizar libremente por gravedad hasta apoyar en el suelo.
-3. **Fijación del actuador lineal**:
-   * Fija una escuadra metálica en el centro superior del panel de la guillotina y conéctala al vástago móvil del actuador con un pasador M6.
-   * Retrae completamente el actuador. Con la compuerta apoyada en el suelo, sitúa el anclaje superior del cuerpo del actuador en la puerta ($\approx Y = 520\text{ mm}$) y atorníllalo firmemente sobre el nervio.
-   * Al alimentar el actuador, extenderá 125–150 mm elevando la compuerta y dejando el vano de 117 mm totalmente despejado.
-
----
-
-### Paso 7: Conexión Eléctrica y Automatización Zigbee
-
-#### 7.1. Esquema de Cableado (Puente en H con MHCOZY 2 Canales)
-
-El módulo MHCOZY 2CH se alimenta a **230V AC** (directo del enchufe) o mediante un cable **Micro-USB de 5V**. Los relés funcionan como contactos secos independientes que invierten la polaridad de los 12V hacia el motor:
-
-```
-                       +--------------------------------+
-                       |  MHCOZY ZIGBEE 2 CANALES       |
-Alimentación 230V AC   |  (Modo Interlock Activado)     |
-o Micro-USB 5V ------->|                                |
-                       +--------------------------------+
-                                  |          |
-                           Relé 1 (Subir)   Relé 2 (Bajar)
-                           [NO1] [COM1] [NC1]  [NO2] [COM2] [NC2]
-                             |     |     |       |     |     |
-Fuente 12V (+) ──────────────+─────┼─────┼───────+     |     |
-Fuente 12V (-) ────────────────────┼─────+─────────────┼─────+
-                                   |                   |
-Actuador Cable 1 (Rojo) ───────────+                   |
-Actuador Cable 2 (Negro) ──────────────────────────────+
-```
-
-1. **Configuración de Modo**: Pulsa el botón físico "Mode" del módulo MHCOZY hasta que el LED confirme el **Modo Interlock** (enclavamiento mutuo: encender Relé 1 apaga automáticamente Relé 2 y viceversa).
-2. **Comportamiento**:
-   * **Relé 1 ON**: Sube la compuerta durante 10 segundos (los finales de carrera internos del actuador cortan automáticamente al llegar a 150 mm).
-   * **Relé 2 ON**: Baja la compuerta hasta apoyar en el suelo.
-   * **Ambos OFF**: Motor desconectado, freno pasivo, **consumo 0W en reposo**.
-
-#### 7.2. Lógica de Automatización en Home Assistant
-
-```yaml
-# Automatización de Apertura
-alias: "Mueble Dreame - Abrir Compuerta"
-trigger:
-  - platform: state
-    entity_id: vacuum.dreame_bot
-    to: "cleaning"
-action:
-  - service: switch.turn_on
-    target:
-      entity_id: switch.rele_compuerta_subir
-  - delay: "00:00:10"
-  - service: switch.turn_off
-    target:
-      entity_id: switch.rele_compuerta_subir
-
-# Automatización de Cierre
-alias: "Mueble Dreame - Cerrar Compuerta"
-trigger:
-  - platform: state
-    entity_id: vacuum.dreame_bot
-    to: "docked"
-    for: "00:00:15"
-action:
-  - service: switch.turn_on
-    target:
-      entity_id: switch.rele_compuerta_bajar
-  - delay: "00:00:10"
-  - service: switch.turn_off
-    target:
-      entity_id: switch.rele_compuerta_bajar
-```
-
----
-
-## 5. Documentación Adicional
-
-* [Especificaciones Técnicas y Constructivas Detalladas (`docs/especificaciones_tecnicas.md`)](docs/especificaciones_tecnicas.md)
-* [Planos de Cotas y Esquemas Dimensionales (`docs/planos_cotas.md`)](docs/planos_cotas.md)
+1. **Despiece y Cajeado de Rodapié**:
+   * Corta los 2 costados a $725 \times 540\text{ mm}$ y la encimera a $540 \times 540\text{ mm}$.
+   * En la esquina inferior trasera de ambos costados, realiza con caladora el cajeado de **$18\text{ mm}$ de profundidad $\times 95\text{ mm}$ de altura** para librar el zócalo de la pared.
+   * Corta las 2 puertas a **$268 \times 723\text{ mm}$** del tablero 4.
+2. **Nervios de Regrueso a 25 mm**:
+   * Encola tiras de $50\text{ mm}$ de ancho (tablero de 15 mm) en el perímetro interior de los costados, encimera y bordes de bisagra de ambas puertas.
+   * Pasa lija P150 por los cantos para dejarlos enrasados y uniformes como un bloque de 25 mm.
+3. **Fresado de Cazoletas de Bisagras**:
+   * Con broca Forstner de 35 mm, fresa 2 cazoletas por puerta a 12 mm de profundidad sobre el nervio de 15 mm. Al tener 25 mm de espesor compuesto, no hay riesgo de perforar el frente.
+4. **Tratamiento y Pintura**:
+   * 2 manos de imprimación LUXENS en cantos cortados (como tapaporos) con lija P240 intermedia.
+   * 1 mano general a todo el mueble y 2 manos de esmalte TITANLUX blanco satinado.
+5. **Montaje e Instalación**:
+   * Une los 2 costados y la encimera superior.
+   * Coloca el mueble pegado a la pared encajando el cajeado en el rodapié.
+   * Monta las 2 puertas con las bisagras de $165^\circ$.
+   * Conecta los actuadores en el interior para abrir automáticamente ambas puertas hacia delante cuando la aspiradora vaya a limpiar.
