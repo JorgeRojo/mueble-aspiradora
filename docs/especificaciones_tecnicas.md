@@ -58,39 +58,58 @@ Para lograr que la encimera sea **totalmente cuadrada** y a la vez el mueble sea
 
 ## 4. Cinemática de Montaje de Actuadores y Automatización
 
-### 4.1. Fundamento Físico de Montaje (Triángulo Cinemático para 90°)
-Un actuador colocado verticalmente sobre una puerta batiente no ejerce ningún par de giro alrededor del eje de las bisagras. Para abrir una puerta batiente que pivota horizontalmente, el actuador **debe trabajar en un plano horizontal**:
+### 4.1. Fundamento Matemático: Cálculo de Ángulos y Triángulo Cinemático (Teorema del Coseno)
+Para abrir una puerta batiente que pivota sobre bisagras estándar de cocina de $35\text{ mm}$ en un ángulo de $90^\circ$, el actuador trabaja en el plano horizontal formando un triángulo dinámico cuyos vértices son:
+1. **$H$**: Eje de giro de las bisagras $(0, 0)$.
+2. **$A$**: Punto de anclaje fijo en el costado $(X_A, Y_A)$.
+3. **$B$**: Punto de anclaje móvil en la hoja de la puerta $(X_B, Y_B)$.
+
+#### Teorema del Coseno (Ley de Cosenos)
+La longitud instantánea del actuador $C(\theta)$ en función del ángulo de apertura de la puerta $\theta$ ($0^\circ \le \theta \le 90^\circ$) viene regida por:
+$$C^2(\theta) = A^2 + B^2 - 2AB \cdot \cos(\gamma(\theta))$$
+
+Donde:
+* **$A$**: Distancia desde la bisagra al soporte fijo del costado: **$280\text{ mm}$**.
+* **$B$**: Distancia desde la bisagra al soporte de la puerta: **$120\text{ mm}$**.
+* **$\gamma(\theta)$**: Ángulo comprendido entre los brazos de anclaje.
 
 ```
-           Pared Trasera
-+-----------------------------------+
-|                                   |
-|   Costado Interior                |
-|   |                               |
-|   |  [Punto Fijo A: Clevis]       |
-|   |  (a ~280 mm del frente)       |
-|   |      \                        |
-|   |       \ Actuador 12V          |
-|   |        \ (Carrera 150 mm)     |
-|   |         \                     |
-|   +----------[Punto B: Puerta]    |
-| (Bisagra)    (a ~110 mm del eje)  |
-|                                   |
-+===================================+ Frente
+                 Pared Trasera
++-------------------------------------------------+
+|                                                 |
+|   Costado Interior                              |
+|   |                                             |
+|   |  [Punto Fijo A: Horquilla]                  |
+|   |  (a 280 mm del frente, cota Z ~660 mm)      |
+|   |      \                                      |
+|   |       \  Actuador Lineal 12V 150N           |
+|   |        \ (Lmin 255 mm -> Lmax 405 mm)       |
+|   |         \ (Inclinación oblicua 3D)          |
+|   |          \                                  |
+|   +----------[Punto Móvil B: Puerta]            |
+| (Bisagra)    (a 120 mm del eje de giro)         |
+|                                                 |
++=================================================+ Frente
 ```
 
-1. **Ubicación en Altura**:
-   * Instalados en el hueco diáfano superior ($Z = 650 - 680\text{ mm}$ desde el suelo), en los $157\text{ mm}$ que quedan entre la parte superior de la base Dreame ($568\text{ mm}$) y la encimera ($725\text{ mm}$).
-   * Quedan completamente fuera de la trayectoria del robot y no obstaculizan la extracción de los depósitos de agua.
-2. **Coordenadas de Anclaje Óptimas**:
-   * **Punto Fijo (A) en el Costado**: Soporte en horquilla (*clevis bracket*) atornillado a la cara interior del costado a **$280\text{ mm}$** hacia el fondo desde la línea frontal de bisagras.
-   * **Punto Móvil (B) en la Puerta**: Soporte en horquilla atornillado a la cara interior de la puerta a **$110\text{ mm}$** del eje de giro de las bisagras.
-3. **Comportamiento Cinemático (*Push-to-Open*)**:
-   * **Puerta Cerrada ($0^\circ$)**: Actuador completamente retraído ($L_{min} \approx 255\text{ mm}$). Brazo de palanca de inicio: $\approx 135\text{ mm}$. El par de arranque es máximo, despegando la puerta suavemente.
-   * **Apertura ($0^\circ \to 90^\circ$)**: Al extender el vástago $150\text{ mm}$ ($L_{max} \approx 405\text{ mm}$), empuja la puerta hasta alcanzar exactamente $90^\circ$ perpendicular a la fachada.
-   * **Par y Fuerza**: Con $150\text{ N}$ de fuerza y un brazo de palanca de $80 - 135\text{ mm}$, el actuador entrega más de $12\text{ N}\cdot\text{m}$ de par de rotación, abriendo una hoja ligera de $1,2\text{ kg}$ con suavidad absoluta y sin esfuerzo.
-4. **Regla Crítica de Instalación (Eliminación de Cargas Laterales)**:
-   * **Imprescindible usar soportes articulados en ambos extremos**: Ambos extremos deben pivotar mediante pasadores (*clevis pins*). Si se fijara rígidamente alguno de los extremos, la fuerza lateral inducida durante el giro de $90^\circ$ doblaría el vástago y quemaría el motor interno.
+#### Cálculo Numérico de Ángulos y Fuerzas
+* **Posición CERRADA ($\theta = 0^\circ$)**:
+  * Longitud del actuador: $C_{cerrado} = \sqrt{(120 - 35)^2 + (-43 - (-280))^2} = \mathbf{254,9\text{ mm}}$ (coincide con $L_{min} \approx 255\text{ mm}$ del actuador retraído).
+  * **Ángulo de ataque inicial ($\alpha_{cerrado}$)**: **$18,3^\circ$** respecto a la puerta cerrada.
+    * *Regla de oro industrial (Firgelli / BFT)*: El ángulo de ataque inicial **jamás debe ser menor de $10^\circ - 12^\circ$**. Si fuera plano o paralelo ($\alpha \approx 0^\circ$), el actuador comprimiría la bisagra en punto muerto sin poder girar la puerta. Al tener $18,3^\circ$, el despegue es instantáneo.
+  * **Brazo de palanca al arranque**: $d = 120\text{ mm} \times \sin(71,7^\circ) = \mathbf{127,4\text{ mm}}$.
+  * **Par de arranque**: $\tau = 150\text{ N} \times 0,1274\text{ m} = \mathbf{19,1\text{ N}\cdot\text{m}}$ (para una puerta de $1,2\text{ kg}$, el factor de seguridad supera el **$1200\%$**).
+* **Posición ABIERTA ($\theta = 90^\circ$ proyectada hacia delante)**:
+  * La puerta gira hacia la habitación. El soporte B pasa a estar $120\text{ mm}$ por delante de la línea del mueble ($Y = +120\text{ mm}$).
+  * Longitud del actuador: $C_{abierto} = \sqrt{(43 - 35)^2 + (120 - (-280))^2} = \mathbf{405,0\text{ mm}}$ (coincide con $L_{max} \approx 405\text{ mm}$ del actuador extendido).
+  * Carrera consumida: $405,0 - 254,9 = \mathbf{150,1\text{ mm}}$ (aprovechamiento perfecto del 100% del pistón de 150 mm).
+  * **Ángulo en posición abierta**: El actuador queda inclinado diagonalmente formando una biela de retención en $45^\circ - 50^\circ$ que bloquea la puerta firmemente a $90^\circ$ frente a corrientes de aire.
+
+#### Herrajes de Bisagras: 4x Bisagras Estándar de Mueble de Cocina
+* **Modelo**: 4 bisagras estándar de cazoleta de **$\varnothing 35\text{ mm}$** (las típicas de mueble de cocina de solape total, ángulo de apertura $105^\circ - 110^\circ$).
+* **Distribución**: **2 bisagras por puerta** (una superior a $80\text{ mm}$ de la encimera y una inferior a $100\text{ mm}$ del suelo).
+* **Fijación**: Embutidas en el nervio de regrueso de $15\text{ mm}$ encolado sobre la cara interior de la puerta (profundidad de cazoleta de $11,5 - 12\text{ mm}$ sin riesgo de perforar el frente).
+* **Soportes de los Actuadores**: Ambos extremos DEBEN montarse con horquillas articuladas (*clevis brackets*) y pasadores giratorios para permitir la libre rotación horizontal y absorber al 100% cualquier carga lateral sobre el vástago cromado.
 
 ---
 

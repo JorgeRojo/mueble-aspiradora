@@ -66,7 +66,7 @@ Para cumplir la condición de **hacer el mueble todo lo estrecho posible con enc
   * **Pivotes obligatorios**: Ambos extremos llevan pasador giratorio (*clevis pin*) para permitir la rotación y eliminar al 100% cargas laterales (*side load*).
 * **1x Módulo Relé Inteligente ZigBee 2 Canales MHCOZY** (85-250V AC / 5V USB, contactos secos en modo *Interlock*).
 * **1x Fuente de alimentación 12V DC** ($\ge 2\text{A}$).
-* **4x Bisagras de cazoleta de gran apertura ($165^\circ$)**: 2 bisagras por puerta, embutidas en el regrueso de 15 mm.
+* **4x Bisagras estándar de cazoleta para muebles de cocina (Ø35 mm)**: 2 bisagras por puerta (solape total, apertura estándar $105^\circ-110^\circ$), embutidas en el regrueso de 15 mm mediante broca Forstner.
 
 ---
 
@@ -151,8 +151,8 @@ flowchart TD
 5. **Montaje e Instalación**:
    * Une los 2 costados y la encimera superior formando el puente estructural en "U" invertida.
    * Coloca el mueble pegado a la pared encajando el cajeado en el rodapié.
-   * Monta las 2 puertas con las bisagras de $165^\circ$.
-   * Conecta los actuadores en el interior para abrir automáticamente ambas puertas hacia delante cuando la aspiradora vaya a limpiar.
+   * Monta las 2 puertas con las 4 bisagras estándar de cocina de $35\text{ mm}$ (2 en cada puerta).
+   * Conecta los actuadores en el interior en disposición diagonal para abrir automáticamente ambas puertas hacia delante cuando la aspiradora vaya a limpiar.
 6. **Conexión Eléctrica ZigBee y Home Assistant**:
    * Configura el relé MHCOZY de 2 canales en modo **Interlock** (enclavamiento mutuo) para evitar activación simultánea de apertura y cierre.
    * Conecta la fuente de 12V DC a los contactos COM/NO/NC configurando inversión de polaridad (puente en H) con ambos actuadores cableados en paralelo.
