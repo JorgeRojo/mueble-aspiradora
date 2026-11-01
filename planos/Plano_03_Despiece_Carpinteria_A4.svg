@@ -2192,7 +2192,7 @@
     <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="30" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="293.5">- Corte transversal 2 a X = 956 mm -> [P02] Costado Derecho: 478 x 600 x 15 mm (1 ud)</text>
    </g>
    <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1232.06,186)">
-    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="30" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="343.5">- Cajeado trasero inferior en ambos costados: 15 x 110 mm para salvar el rodapie de la pared.</text>
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="30" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="343.5">- Costados 100% rectos (sin cajeados): 1 unico corte transversal a 478 mm por cada costado.</text>
    </g>
    <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1232.06,186)">
     <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="30" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="393.5">- Sobrante libre del Tablero #1 de 15 mm: 244 x 600 x 15 mm.</text>

@@ -26,7 +26,7 @@ Módulo cubre-base a medida diseñado para ocultar la estación de autovaciado y
 | **Plano 01** | [`Plano_01_Alzado_y_Planta_A4.pdf`](planos/Plano_01_Alzado_y_Planta_A4.pdf) · [`.svg`](planos/Plano_01_Alzado_y_Planta_A4.svg) | Alzado frontal y planta superior acotados. |
 | **Plano 02** | [`Plano_02_Perfil_e_Isometrica_A4.pdf`](planos/Plano_02_Perfil_e_Isometrica_A4.pdf) · [`.svg`](planos/Plano_02_Perfil_e_Isometrica_A4.svg) | Sección lateral y vista isométrica general. |
 | **Plano 03** | [`Plano_03_Despiece_Carpinteria_A4.pdf`](planos/Plano_03_Despiece_Carpinteria_A4.pdf) · [`.svg`](planos/Plano_03_Despiece_Carpinteria_A4.svg) | Vistas de carpintería y lista de materiales (BOM). |
-| **Plano 04** | [`Plano_04_Puerta_Vertical_y_Actuadores_A4.pdf`](planos/Plano_04_Puerta_Vertical_y_Actuadores_A4.pdf) · [`.svg`](planos/Plano_04_Puerta_Vertical_y_Actuadores_A4.svg) | Cinemática de las bisagras Garosa $80^\circ$ sin muelles y actuadores Dawnso Mini 150N. |
+| **Plano 04** | [`Plano_04_Cinematica_Bisagras_80deg_y_Actuadores_A4.pdf`](planos/Plano_04_Cinematica_Bisagras_80deg_y_Actuadores_A4.pdf) · [`.svg`](planos/Plano_04_Cinematica_Bisagras_80deg_y_Actuadores_A4.svg) | Cinemática de las bisagras Garosa $80^\circ$ sin muelles y actuadores Dawnso Mini 150N. |
 
 | Hoja 1 de Corte: Mapas de Tableros | Hoja 2 de Corte: Despiece Acotado y Taladros |
 | :---: | :---: |
