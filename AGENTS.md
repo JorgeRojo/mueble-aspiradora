@@ -29,13 +29,13 @@ La IA dibujaba los actuadores como varillas verticales flotantes o pegadas en pl
 ### Cinemática Horizontal Real (Teorema del Coseno)
 Para abrir una puerta batiente de 268 mm de ancho a 90°:
 * **Punto de giro**: Bisagras en el vértice frontal lateral ($O$).
-* **Anclaje de chasis (A)**: En el techo interior (cara inferior de la encimera), a $x = 55\text{ mm}$ hacia el interior y $y = -225\text{ mm}$ hacia el fondo.
-* **Anclaje en puerta (B)**: En la cara interior superior de la puerta batiente, a $B = 175\text{ mm}$ del eje de giro.
+* **Anclaje de chasis (A)**: En el techo interior (cara inferior de la encimera), a $x = 55\text{ mm}$ hacia el interior ($35\text{ mm}$ desde el costado interior) y $y = -211\text{ mm}$ desde el frente exterior ($193\text{ mm}$ tras la cara interior de la puerta).
+* **Anclaje en puerta (B)**: En la cara interior superior de la puerta batiente, a $B = 130\text{ mm}$ del eje de giro.
 * **Recorrido del actuador**:
-  * Puerta cerrada ($\gamma = 0^\circ$): longitud cerrada $L_c = 255\text{ mm}$.
-  * Puerta abierta ($\gamma = 90^\circ$): longitud extendida $L_o = 405\text{ mm}$ (carrera de $150\text{ mm}$).
-* **Ángulo de ataque inicial**: $\beta = 61.9^\circ$.
-* **Par de arranque**: $\tau = F \cdot B \cdot \sin(\beta) = 150\text{ N} \cdot 0.175\text{ m} \cdot \sin(61.9^\circ) = 23.2\text{ N}\cdot\text{m}$ (sobrado para una puerta de 2.1 kg).
+  * Puerta cerrada ($\gamma = 0^\circ$): longitud plegada $L_c = 215\text{ mm}$ ($21,5\text{ cm}$).
+  * Puerta abierta ($\gamma = 90^\circ$): longitud desplegada $L_o = 325\text{ mm}$ ($32,5\text{ cm}$, carrera útil de $110\text{ mm}$).
+* **Ángulo de ataque inicial**: $\beta = 63.9^\circ$.
+* **Par de arranque**: $\tau = F \cdot B \cdot \sin(\beta) = 150\text{ N} \cdot 0.130\text{ m} \cdot \sin(63.9^\circ) = 17.5\text{ N}\cdot\text{m}$ (sobrado para una puerta de 2.1 kg).
 
 ### Descripción del Prompt de Actuadores
 * *"Modelo exacto: Micro Actuador Lineal Eléctrico Cilíndrico Delgado Dawnso Mini 150N 12V (cuerpo tubular fino de aluminio plateado de 20 mm, cabezal motor trasero negro con cable bipolar fino, y vástago cromado pulido extensible)"*.
@@ -47,9 +47,9 @@ Para abrir una puerta batiente de 268 mm de ancho a 90°:
 ## 3. Arquitectura Eléctrica y Automatización
 
 ### Actuadores
-* **Modelo**: Dawnso Mini 150N, carrera 150 mm, 12V DC.
+* **Modelo**: Dawnso Mini 150N, 12V DC ($215\text{ mm}$ plegado / $325\text{ mm}$ desplegado, carrera $110\text{ mm}$).
 * **Corriente**: $\approx 0.6\text{A}$ nominal por unidad ($\approx 1.2\text{A}$ en paralelo, pico 1.5–2A).
-* **Compatibilidad espacial**: Longitud cerrada 255 mm, carrera 150 mm. Cabe perfectamente en los 157 mm de luz superior sobre la estación Dreame y los 522 mm de fondo.
+* **Compatibilidad espacial**: Longitud plegada 215 mm ($21,5\text{ cm}$) y desplegada 325 mm ($32,5\text{ cm}$). Cabe holgadamente en los 157 mm de luz superior sobre la estación Dreame y los 522 mm de fondo.
 
 ### Relé Zigbee (MHCOZY 2 Canales)
 * **Especificación**: MHCOZY 2CH Zigbee (5V Micro-USB / 85–250V AC, contactos secos NO/NC/COM 10A).

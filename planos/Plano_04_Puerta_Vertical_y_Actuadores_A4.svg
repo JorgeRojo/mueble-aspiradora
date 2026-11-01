@@ -1,0 +1,1407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg baseProfile="tiny" height="210mm" version="1.2" viewBox="0 0 2970 2100" width="297mm" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:freecad="https://www.freecad.org/wiki/index.php?title=Svg_Namespace" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>FreeCAD SVG Export</title>
+ <desc>Drawing page: Plano_04_Puerta_Vertical_y_Actuadores_A4 exported from FreeCAD document: Mueble_Aspiradora_Cota_Cero</desc>
+ <defs/>
+ <g id="Plano_04_Puerta_Vertical_y_Actuadores_A4" inkscape:groupmode="layer" inkscape:label="TechDraw">
+  <g id="A4_Landscape_ISO5457_minimal3.svg" style="stroke: none;" transform="scale(10.000000, 10.000000)">
+   <title id="title">Drawing sheet ISO 5457 - A4T - Minimal</title>
+   <metadata id="metadata">
+    <rdf:RDF>
+     <cc:Work rdf:about="">
+      <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+      <dc:title>Drawing sheet ISO 5457 - A4T - Minimal</dc:title>
+      <dc:creator>
+       <cc:Agent>
+        <dc:title>Benjamin May</dc:title>
+       </cc:Agent>
+      </dc:creator>
+     </cc:Work>
+     <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+      <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+      <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+      <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+     </cc:License>
+    </rdf:RDF>
+   </metadata>
+   <rect height="190" id="drawing_space_frame" style="fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round" width="267" x="20" y="10"/>
+   <g id="centring_marks" style="fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:round">
+    <path d="m 148.5,5 v 10" id="top_centering"/>
+    <path d="m 292,105 h -10" id="right_centering"/>
+    <path d="m 148.5,205 v -6" id="bottom_centering"/>
+    <path d="m 15,105 h 10" id="left_centering"/>
+   </g>
+   <g id="grid_reference_system">
+    <g id="grid_reference_borders" style="fill:none;stroke:#000000;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round">
+     <rect height="200" id="grid_reference_border" width="277" x="15" y="5"/>
+     <path d="m 48.5,5 v 5" id="upper_border_1"/>
+     <path d="m 98.5,5 v 5" id="upper_border_2"/>
+     <path d="m 198.5,5 v 5" id="upper_border_4"/>
+     <path d="m 248.5,5 v 5" id="upper_border_5"/>
+     <path d="m 292,55 h -5" id="right_border_1"/>
+     <path d="m 292,155 h -5" id="right_border_3"/>
+     <path d="m 48.5,205 v -5" id="lower_border_1"/>
+     <path d="m 98.5,205 v -5" id="lower_border_2"/>
+     <path d="m 198.5,205 v -5" id="lower_border_4"/>
+     <path d="m 248.5,205 v -5" id="lower_border_5"/>
+     <path d="m 15,55 h 5" id="left_border_1"/>
+     <path d="m 15,155 h 5" id="left_border_3"/>
+    </g>
+    <g id="grid_reference_markers" style="font-size:3.5px;font-family:osifont;text-align:center;text-anchor:middle;fill:#000000;stroke:none">
+     <text id="upper_marker_1" x="23.5" y="8.8">1</text>
+     <text id="upper_marker_2" x="73.5" y="8.8">2</text>
+     <text id="upper_marker_3" x="123.5" y="8.8">3</text>
+     <text id="upper_marker_4" x="173.5" y="8.8">4</text>
+     <text id="upper_marker_5" x="223.5" y="8.8">5</text>
+     <text id="upper_marker_6" x="273.5" y="8.8">6</text>
+     <text id="right_marker_1" x="289.5" y="31.3">A</text>
+     <text id="right_marker_2" x="289.5" y="81.3">B</text>
+     <text id="right_marker_3" x="289.5" y="131.3">C</text>
+     <text id="right_marker_4" x="289.5" y="181.3">D</text>
+     <text id="lower_marker_6" x="273.5" y="203.8">A4</text>
+    </g>
+   </g>
+   <g id="trimming_marks" style="fill:#000000;stroke:none">
+    <path d="m 0,0 h 10 v 5 h -5 v 5 h -5 z" id="top_left_trimming"/>
+    <path d="m 297,0 h -10 v 5 h 5 v 5 h 5 z" id="top_right_trimming"/>
+    <path d="m 297,210 h -10 v -5 h 5 v -5 h 5 z" id="bottom_right_trimming"/>
+    <path d="m 0,210 h 10 v -5 h -5 v -5 h -5 z" id="bottom_left_trimming"/>
+   </g>
+   <!-- Title block -->
+   <g id="title_block_borders" style="fill:none;stroke:#000000;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round">
+    <rect height="36" id="title_block_frame" style="stroke-width:0.7" width="180" x="107" y="164"/>
+    <rect height="24" id="legal_owner_border" width="40" x="247" y="164"/>
+    <rect height="12" id="identification_number_border" width="80" x="107" y="188"/>
+    <rect height="12" id="revision_index_border" width="20" x="247" y="188"/>
+    <rect height="12" id="date_of_issue_border" width="40" x="207" y="188"/>
+    <rect height="12" id="sheet_number_border" width="20" x="267" y="188"/>
+    <rect height="12" id="language_code_border" width="20" x="187" y="188"/>
+    <rect height="12" id="title_border" width="80" x="107" y="164"/>
+    <rect height="12" id="approval_person_border" width="60" x="187" y="176"/>
+    <rect height="12" id="creator_border" width="60" x="187" y="164"/>
+    <rect height="12" id="document_type_border" width="80" x="107" y="176"/>
+   </g>
+   <g id="title_block_labels" style="font-size:3.5px;font-family:osifont;text-anchor:start;fill:#000000;stroke:none">
+    <text id="legal_owner label" x="247.5" y="167.6">Owner:</text>
+    <text id="identification_number_label" x="107.5" y="191.6">Drawing number:</text>
+    <text id="revision_index_label" x="247.5" y="191.6">Revision:</text>
+    <text id="date_of_issue_label" x="207.5" y="191.6">Issue date:</text>
+    <text id="sheet_number_label" x="267.5" y="191.6">Sheet:</text>
+    <text id="language_code_label" x="187.5" y="191.6">Language:</text>
+    <text id="title_label" x="107.5" y="167.6">Title:</text>
+    <text id="approval_person_label" x="187.5" y="179.6">Approved by:</text>
+    <text id="creator_label" x="187.5" y="167.6">Created by:</text>
+    <text id="document_type_label" x="107.5" y="179.6">Document type:</text>
+    <text id="sheet_scale_label" x="227.5" y="155.6">Scale:</text>
+    <text id="general_tolerances_label" x="187.5" y="155.6">General tolerances:</text>
+    <text id="part_material_label" x="107.5" y="155.6">Part Material:</text>
+   </g>
+   <g id="title_block_data_fields" style="font-size:5px;font-family:osifont;text-anchor:start;fill:#000000;stroke:none">
+    <text freecad:autofill="organization" freecad:editable="legal_owner_1" id="legal_owner_1_data_field" style="font-size:3.5px;text-align:center;text-anchor:middle" x="267" y="173.1">
+     <tspan xml:space="preserve"/>
+    </text>
+    <text freecad:editable="legal_owner_2" id="legal_owner_2_data_field" style="font-size:3.5px;text-align:center;text-anchor:middle" x="267" y="177.1">
+     <tspan xml:space="preserve"/>
+    </text>
+    <text freecad:editable="legal_owner_3" id="legal_owner_3_data_field" style="font-size:3.5px;text-align:center;text-anchor:middle" x="267" y="181.1">
+     <tspan xml:space="preserve"/>
+    </text>
+    <text freecad:editable="legal_owner_4" id="legal_owner_4_data_field" style="font-size:3.5px;text-align:center;text-anchor:middle" x="267" y="185.1">
+     <tspan xml:space="preserve"/>
+    </text>
+    <text freecad:editable="drawing_number" id="identification_number_data_field" x="108" y="197.2">
+     <tspan xml:space="preserve">DN</tspan>
+    </text>
+    <text freecad:editable="revision_index" id="revision_index_data_field" style="text-align:center;text-anchor:middle" x="257" y="197.2">
+     <tspan xml:space="preserve">AAA</tspan>
+    </text>
+    <text freecad:autofill="date" freecad:editable="date_of_issue" id="date_of_issue_data_field" x="208" y="197.2">
+     <tspan xml:space="preserve">1 Nov 2026</tspan>
+    </text>
+    <text freecad:autofill="sheet" freecad:editable="sheet_number" id="sheet_number_data_field" style="text-align:center;text-anchor:middle" x="277" y="197.2">
+     <tspan xml:space="preserve">0 / 4</tspan>
+    </text>
+    <text freecad:editable="language_code" id="language_code_data_field" style="text-align:center;text-anchor:middle" x="197" y="197.2">
+     <tspan xml:space="preserve">EN</tspan>
+    </text>
+    <text freecad:autofill="title" freecad:editable="title" id="title_data_field" x="108" y="173.2">
+     <tspan xml:space="preserve">Mueble_Aspiradora_Cota_Cero</tspan>
+    </text>
+    <text freecad:editable="approval_person" id="approval_person_data_field" x="188" y="185.2">
+     <tspan xml:space="preserve">B. Hecate</tspan>
+    </text>
+    <text freecad:autofill="author" freecad:editable="creator" id="creator_data_field" x="188" y="173.2">
+     <tspan xml:space="preserve">A. Nemesis</tspan>
+    </text>
+    <text freecad:editable="document_type" id="document_type_data_field" x="108" y="185.2">
+     <tspan xml:space="preserve">Component Drawing</tspan>
+    </text>
+    <text freecad:autofill="scale" freecad:editable="scale" id="sheet_scale_data_field" style="text-align:center;text-anchor:middle" x="237" y="161.2">
+     <tspan xml:space="preserve">1 : 1</tspan>
+    </text>
+    <text freecad:editable="general_tolerances" id="general_tolerances_data_field" x="188" y="161.2">
+     <tspan xml:space="preserve">ISO 2768-m</tspan>
+    </text>
+    <text freecad:editable="part_material" id="part_material_data_field" x="108" y="161.2">
+     <tspan xml:space="preserve">Stainless steel Mat.No. 1.4301</tspan>
+    </text>
+   </g>
+   <g id="extras_outlines" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round">
+    <path d="m 266,147 -10,2.5 v 5 l 10,2.5 z" id="first_angle_trapezoid"/>
+    <circle cx="273" cy="152" id="first_angle_inner circle" r="2.5"/>
+    <circle cx="273" cy="152" id="first_angle_outer circle" r="5"/>
+   </g>
+   <g id="extras_centre_lines" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6, 0.75, 0.125, 0.75">
+    <path d="m 255,152 h 24" id="first_angle_horizontal" style="stroke-dashoffset:0.25"/>
+    <path d="m 273,158 v -12" id="first_angle_vertical" style="stroke-dashoffset:4.625"/>
+   </g>
+  </g>
+  <g fill="none" fill-rule="evenodd" id="DrawingContent" stroke="black" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="1">
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M441.97,-130.981 L435.718,-95.5276 L287.083,-121.736 L291.266,-117.898 L293.236,-117.947 L293.283,-116.048 L376.851,-39.3672 L388.886,-39.3672 L388.886,-28.324 L394.128,-23.5147 L388.886,-17.8025 L388.886,-5.76723 L377.843,-5.76723 L373.034,-0.525851 L367.322,-5.76723 L355.286,-5.76723 L355.286,-7.83586 L165.95,21.3494 L165.95,46.5768 L165.95,190.577 L69.9505,190.577 L69.9505,36.1474 L53.7358,38.6468 L55.564,50.5068 L-355.57,113.881 L-355.57,149.057 L-441.97,149.057 L-441.97,43.4568 L-370.483,43.4568 L-371.965,33.8447 L-281.829,19.9507 L-276.711,53.1585 L48.2513,3.06705 L50.0795,14.927 L69.9505,11.864 L69.9505,-133.423 L134.117,-133.423 L136.519,-147.054 L299.605,-118.311 L294.19,-87.5843 L262.43,-93.1819 L271.803,-93.4123 L341.002,-29.9174 L165.95,-2.93401 L165.95,-85.4232 L165.95,-90.8097 L262.43,-93.1819 L294.19,-87.5843 L299.605,-118.311 L136.519,-147.054 L134.117,-133.423 L138.024,-133.423 L142.72,-144.679 L164.87,-135.437 L164.03,-133.423 L165.95,-133.423 L165.95,-114.817 L271.142,-117.403 L276.784,-123.552 L97.7322,-155.124 L103.984,-190.577 L441.97,-130.981" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,190.577 L165.95,46.5768 L159.95,46.5768 L159.95,-85.4232 L165.95,-85.4232 L165.95,-90.8097 L165.95,-114.817 L165.95,-133.423 L164.03,-133.423 L156.305,-133.423 L142.044,-133.423 L138.024,-133.423 L134.117,-133.423 L69.9505,-133.423 L69.9505,11.864 L69.9505,36.1474 L69.9505,190.577 L165.95,190.577" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-371.965,33.8447 L-281.829,19.9507 L-276.711,53.1585 L-272.323,81.6223 L-276.711,53.1585 L48.2513,3.06705 L50.0795,14.927 L53.7358,38.6468 L55.564,50.5068 L-355.57,113.881 L-355.57,43.4568 L-370.483,43.4568 L-371.965,33.8447" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M441.97,-130.981 L435.718,-95.5276 L287.083,-121.736 L276.784,-123.552 L97.7322,-155.124 L103.984,-190.577 L441.97,-130.981" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-355.57,149.057 L-355.57,113.881 L-355.57,43.4568 L-370.483,43.4568 L-441.97,43.4568 L-441.97,149.057 L-355.57,149.057" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,21.3494 L355.286,-7.83586 L355.286,-16.8104 L341.002,-29.9174 L165.95,-2.93401 L165.95,21.3494" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M293.283,-116.048 L376.851,-39.3672 L388.886,-28.324 L394.128,-23.5147 L388.886,-17.8025 L377.843,-5.76723 L373.034,-0.525851 L367.322,-5.76723 L355.286,-16.8104 L341.002,-29.9174 L271.803,-93.4123 L293.826,-93.9538 L293.283,-116.048" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,-90.8097 L165.95,-114.817 L271.142,-117.403 L291.266,-117.898 L293.236,-117.947 L293.283,-116.048 L293.826,-93.9538 L271.803,-93.4123 L262.43,-93.1819 L165.95,-90.8097" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-369.97,113.057 L-369.97,79.4568 L-427.57,79.4568 L-427.57,113.057 L-369.97,113.057" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,46.5768 L165.95,21.3494 L165.95,-2.93401 L165.95,-85.4232 L159.95,-85.4232 L159.95,46.5768 L165.95,46.5768" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M50.0795,14.927 L53.7358,38.6468 L69.9505,36.1474 L69.9505,11.864 L50.0795,14.927" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M380.486,-22.5672 C380.486,-17.928 376.726,-14.1672 372.086,-14.1672 C367.447,-14.1672 363.686,-17.928 363.686,-22.5672 C363.686,-27.2064 367.447,-30.9672 372.086,-30.9672 C376.726,-30.9672 380.486,-27.2064 380.486,-22.5672 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M289.934,-105.655 C289.934,-101.016 286.174,-97.2552 281.534,-97.2552 C276.895,-97.2552 273.134,-101.016 273.134,-105.655 C273.134,-110.294 276.895,-114.055 281.534,-114.055 C286.174,-114.055 289.934,-110.294 289.934,-105.655 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M379.286,-22.5672 C379.286,-18.5908 376.063,-15.3672 372.086,-15.3672 C368.11,-15.3672 364.886,-18.5908 364.886,-22.5672 C364.886,-26.5437 368.11,-29.7672 372.086,-29.7672 C376.063,-29.7672 379.286,-26.5437 379.286,-22.5672 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-391.57,96.2568 C-391.57,100.233 -394.793,103.457 -398.77,103.457 C-402.746,103.457 -405.97,100.233 -405.97,96.2568 C-405.97,92.2803 -402.746,89.0568 -398.77,89.0568 C-394.793,89.0568 -391.57,92.2803 -391.57,96.2568 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M164.03,-133.423 L164.87,-135.437 L142.72,-144.679 L138.024,-133.423 L142.044,-133.423 C143.577,-135.886 146.273,-137.383 149.174,-137.383 C152.076,-137.383 154.772,-135.886 156.305,-133.423 L164.03,-133.423" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M287.083,-121.736 L291.266,-117.898 L271.142,-117.403 L276.784,-123.552 L287.083,-121.736" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M367.322,-5.76723 L355.286,-5.76723 L355.286,-7.83586 L355.286,-16.8104 L367.322,-5.76723" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-28.324 L388.886,-39.3672 L376.851,-39.3672 L388.886,-28.324" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-5.76723 L388.886,-17.8025 L377.843,-5.76723 L388.886,-5.76723" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,580)">
+    <path d="M149.174,-137.383 C152.076,-137.383 154.772,-135.886 156.305,-133.423 L142.044,-133.423 C143.577,-135.886 146.273,-137.383 149.174,-137.383 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M441.97,-130.981 L103.984,-190.577" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M103.984,-190.577 L97.7322,-155.124" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M435.718,-95.5276 L97.7322,-155.124" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M441.97,-130.981 L435.718,-95.5276" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,190.577 L165.95,-133.423" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,-133.423 L69.9505,-133.423" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M69.9505,190.577 L69.9505,-133.423" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,190.577 L69.9505,190.577" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,-85.4232 L159.95,-85.4232" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M159.95,46.5768 L159.95,-85.4232" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,46.5768 L159.95,46.5768" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,-90.8097 L293.826,-93.9538" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,-114.817 L293.236,-117.947" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M293.236,-117.947 L293.826,-93.9538" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M289.934,-105.655 C289.934,-101.016 286.174,-97.2552 281.534,-97.2552 C276.895,-97.2552 273.134,-101.016 273.134,-105.655 C273.134,-110.294 276.895,-114.055 281.534,-114.055 C286.174,-114.055 289.934,-110.294 289.934,-105.655 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M164.03,-133.423 L164.87,-135.437" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M138.024,-133.423 L142.72,-144.679" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M142.72,-144.679 L164.87,-135.437" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M149.174,-137.383 C152.076,-137.383 154.772,-135.886 156.305,-133.423 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M142.044,-133.423 C143.577,-135.886 146.273,-137.383 149.174,-137.383 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M136.519,-147.054 L134.117,-133.423" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M262.43,-93.1819 L294.19,-87.5843" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M136.519,-147.054 L299.605,-118.311" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M299.605,-118.311 L294.19,-87.5843" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M276.784,-123.552 L271.142,-117.403" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M271.803,-93.4123 L373.034,-0.525851" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M287.083,-121.736 L291.266,-117.898" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M293.283,-116.048 L394.128,-23.5147" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M394.128,-23.5147 L373.034,-0.525851" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M380.486,-22.5672 C380.486,-17.928 376.726,-14.1672 372.086,-14.1672 C367.447,-14.1672 363.686,-17.928 363.686,-22.5672 C363.686,-27.2064 367.447,-30.9672 372.086,-30.9672 C376.726,-30.9672 380.486,-27.2064 380.486,-22.5672 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-5.76723 L388.886,-17.8025" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-28.324 L388.886,-39.3672" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-39.3672 L376.851,-39.3672" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M355.286,-5.76723 L355.286,-16.8104" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-5.76723 L377.843,-5.76723" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M367.322,-5.76723 L355.286,-5.76723" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-355.57,149.057 L-355.57,43.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-355.57,43.4568 L-441.97,43.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-441.97,149.057 L-441.97,43.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-355.57,149.057 L-441.97,149.057" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-369.97,113.057 L-369.97,79.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-369.97,79.4568 L-427.57,79.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-427.57,113.057 L-427.57,79.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-369.97,113.057 L-427.57,113.057" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-391.57,96.2568 C-391.57,100.233 -394.793,103.457 -398.77,103.457 C-402.746,103.457 -405.97,100.233 -405.97,96.2568 C-405.97,92.2803 -402.746,89.0568 -398.77,89.0568 C-394.793,89.0568 -391.57,92.2803 -391.57,96.2568 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M379.286,-22.5672 C379.286,-18.5908 376.063,-15.3672 372.086,-15.3672 C368.11,-15.3672 364.886,-18.5908 364.886,-22.5672 C364.886,-26.5437 368.11,-29.7672 372.086,-29.7672 C376.063,-29.7672 379.286,-26.5437 379.286,-22.5672 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M48.2513,3.06705 L55.564,50.5068" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-355.57,113.881 L55.564,50.5068" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-371.965,33.8447 L-370.483,43.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-281.829,19.9507 L-272.323,81.6223" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-371.965,33.8447 L-281.829,19.9507" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M53.7358,38.6468 L69.9505,36.1474" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,21.3494 L355.286,-7.83586" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-276.711,53.1585 L48.2513,3.06705" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M50.0795,14.927 L69.9505,11.864" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,-2.93401 L341.002,-29.9174" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M441.97,-130.981 L103.984,-190.577" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M103.984,-190.577 L97.7322,-155.124" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M435.718,-95.5276 L97.7322,-155.124" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M441.97,-130.981 L435.718,-95.5276" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M389.972,-140.149 L383.72,-104.696" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,190.577 L165.95,-133.423" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,-133.423 L69.9505,-133.423" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M69.9505,190.577 L69.9505,-133.423" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,190.577 L69.9505,190.577" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,-85.4232 L159.95,-85.4232" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M159.95,46.5768 L159.95,-85.4232" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M165.95,46.5768 L159.95,46.5768" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M129.659,-113.925 L130.249,-89.9319" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M289.934,-105.655 C289.934,-101.016 286.174,-97.2552 281.534,-97.2552 C276.895,-97.2552 273.134,-101.016 273.134,-105.655 C273.134,-110.294 276.895,-114.055 281.534,-114.055 C286.174,-114.055 289.934,-110.294 289.934,-105.655 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M150.35,-102.223 C150.35,-97.584 146.59,-93.8232 141.95,-93.8232 C137.311,-93.8232 133.55,-97.584 133.55,-102.223 C133.55,-106.862 137.311,-110.623 141.95,-110.623 C146.59,-110.623 150.35,-106.862 150.35,-102.223 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M130.249,-89.9319 L293.826,-93.9538" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M129.659,-113.925 L293.236,-117.947" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M293.236,-117.947 L293.826,-93.9538" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M78.2551,9.83084 L100.405,19.0722" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M157.574,-128.983 C157.574,-124.344 153.814,-120.583 149.174,-120.583 C144.535,-120.583 140.774,-124.344 140.774,-128.983 C140.774,-133.622 144.535,-137.383 149.174,-137.383 C153.814,-137.383 157.574,-133.622 157.574,-128.983 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M102.35,3.37677 C102.35,8.01596 98.5896,11.7768 93.9505,11.7768 C89.3113,11.7768 85.5505,8.01596 85.5505,3.37677 C85.5505,-1.26242 89.3113,-5.02323 93.9505,-5.02323 C98.5896,-5.02323 102.35,-1.26242 102.35,3.37677 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M100.405,19.0722 L164.87,-135.437" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M78.2551,9.83084 L142.72,-144.679" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M142.72,-144.679 L164.87,-135.437" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M136.519,-147.054 L131.104,-116.328" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M131.104,-116.328 L294.19,-87.5843" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M136.519,-147.054 L299.605,-118.311" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M299.605,-118.311 L294.19,-87.5843" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M380.486,-22.5672 C380.486,-17.928 376.726,-14.1672 372.086,-14.1672 C367.447,-14.1672 363.686,-17.928 363.686,-22.5672 C363.686,-27.2064 367.447,-30.9672 372.086,-30.9672 C376.726,-30.9672 380.486,-27.2064 380.486,-22.5672 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M280.587,-127.697 L259.493,-104.708" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M259.493,-104.708 L373.034,-0.525851" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M280.587,-127.697 L394.128,-23.5147" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M394.128,-23.5147 L373.034,-0.525851" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-5.76723 L388.886,-39.3672" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-39.3672 L355.286,-39.3672" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M355.286,-5.76723 L355.286,-39.3672" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M388.886,-5.76723 L355.286,-5.76723" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-355.57,149.057 L-355.57,43.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-355.57,43.4568 L-441.97,43.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-441.97,149.057 L-441.97,43.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-355.57,149.057 L-441.97,149.057" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-369.97,113.057 L-369.97,79.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-369.97,79.4568 L-427.57,79.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-427.57,113.057 L-427.57,79.4568" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-369.97,113.057 L-427.57,113.057" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-391.57,96.2568 C-391.57,100.233 -394.793,103.457 -398.77,103.457 C-402.746,103.457 -405.97,100.233 -405.97,96.2568 C-405.97,92.2803 -402.746,89.0568 -398.77,89.0568 C-394.793,89.0568 -391.57,92.2803 -391.57,96.2568 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M379.286,-22.5672 C379.286,-18.5908 376.063,-15.3672 372.086,-15.3672 C368.11,-15.3672 364.886,-18.5908 364.886,-22.5672 C364.886,-26.5437 368.11,-29.7672 372.086,-29.7672 C376.063,-29.7672 379.286,-26.5437 379.286,-22.5672 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M55.564,50.5068 L48.2513,3.06705" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-362.459,95.5163 L-272.323,81.6223" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-281.829,19.9507 L-272.323,81.6223" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-371.965,33.8447 L-281.829,19.9507" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-400.598,84.3968 L-396.941,108.117" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-396.941,108.117 L-361.362,102.632" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-400.598,84.3968 L-365.018,78.9124" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M373.915,-10.7073 L370.258,-34.4272" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M41.8759,40.475 L38.2196,16.7551" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M382.886,-22.5672 C382.886,-16.6026 378.051,-11.7672 372.086,-11.7672 C366.122,-11.7672 361.286,-16.6026 361.286,-22.5672 C361.286,-28.5319 366.122,-33.3672 372.086,-33.3672 C378.051,-33.3672 382.886,-28.5319 382.886,-22.5672 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-359.533,114.492 L55.564,50.5068" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-365.018,78.9124 L-361.362,102.632" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M41.8759,40.475 L373.915,-10.7073" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-359.533,114.492 L-362.459,95.5163" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-362.459,95.5163 L-366.846,67.0525" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-370.483,43.4568 L-366.846,67.0525" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-371.965,33.8447 L-365.018,78.9124" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-365.018,78.9124 L-362.459,95.5163" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-362.459,95.5163 L-361.362,102.632" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-359.533,114.492 L-362.459,95.5163" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-362.459,95.5163 L-366.846,67.0525" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-371.965,33.8447 L-366.846,67.0525" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-371.965,33.8447 L-365.018,78.9124" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-365.018,78.9124 L-362.459,95.5163" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-362.459,95.5163 L-361.362,102.632" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M-366.846,67.0525 L48.2513,3.06705" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-dasharray="42,10.5" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="3.5" transform="matrix(1,0,0,1,620,580)">
+    <path d="M38.2196,16.7551 L370.258,-34.4272" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M431.505,88.1219 L434.962,89.2286 L469.532,73.2909 L469.531,12.356 L466.074,11.2492 L431.504,27.187 L431.504,28.1564 L424.883,31.2093 L426.541,14.9269 L405.799,8.28646 L369.735,16.896 L367.229,41.4986 L264.705,65.9737 L264.704,4.72134 L261.823,3.79905 L231.464,17.7955 L229.569,12.1191 L251.284,-3.41366 L248.782,-22.7182 L-95.1124,-132.815 L-95.1125,-143.138 L-111.329,-148.33 L-110.447,-156.988 L-114.702,-158.35 L-114.702,-174.684 L-118.159,-175.791 L-152.729,-159.853 L-152.729,-158.486 L-165.658,-155.399 L-334.299,-209.389 L-469.532,-112.654 L-467.03,-93.3492 L-428.755,-81.0953 L-437.064,-66.2686 L-444.807,-68.7477 C-445.229,-68.8826 -445.7,-68.8375 -446.179,-68.6166 C-447.498,-68.0088 -448.648,-66.1877 -448.972,-64.1952 C-449.296,-62.2027 -448.711,-60.5474 -447.551,-60.1763 L-441.554,-58.2562 L-442.323,-56.8848 L-436.769,-50.7158 L-436.769,-46.504 L-425.245,-42.8148 L-415.186,-47.4522 L-414.82,-47.3348 C-414.384,-47.1952 -413.91,-47.1837 -413.42,-47.3007 C-412.298,-47.5686 -411.153,-48.4938 -410.232,-49.8765 L-364.982,-60.6789 L-361.397,-59.531 L-361.396,21.2425 L-358.515,22.1648 L-320.104,4.45616 L-320.105,-46.3115 L-274.268,-31.6372 C-230.353,-31.7108 -189.22,-25.9524 -154.685,-14.896 C-120.149,-3.83966 -93.3291,12.1567 -76.711,31.61 L116.051,93.322 L152.837,67.008 L131.284,105.466 L125.186,103.513 L115.128,108.151 L114.761,108.033 C112.662,107.362 110.04,109.695 108.903,113.246 C107.767,116.796 108.546,120.219 110.645,120.891 L111.743,121.242 L111.743,129.1 L123.266,132.789 L127.685,130.752 L129.609,132.889 L133.066,133.996 L137.005,126.967 L148.206,130.553 C149.605,131.001 151.353,129.445 152.111,127.078 C152.868,124.711 152.349,122.429 150.95,121.982 L141.495,118.955 L141.777,118.452 L207.857,102.677 L207.857,120.394 L226.294,126.296 L226.295,209.389 L223.414,208.467 L223.413,47.33 L221.183,46.6163 L218.668,47.6865 L226.294,50.1277 L226.293,22.43 L223.412,21.5077 L223.412,23.8457 L223.413,29.6413 L223.413,29.6662 L223.413,31.8145 L223.413,45.6675 L223.413,47.33 L223.414,208.467 L226.295,209.389 L264.706,191.681 L264.705,96.8167 L416.142,60.6647 C417.364,60.3729 418.515,59.8169 419.546,59.0193 L431.505,62.8477 L431.505,88.1219" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-469.532,-112.654 L-276.77,-50.9417 C-232.854,-51.0153 -191.721,-45.2569 -157.186,-34.2005 C-122.651,-23.1442 -95.8305,-7.14778 -79.2124,12.3055 L113.55,74.0174 L248.782,-22.7182 L-95.1124,-132.815 L-108.328,-137.046 L-112.347,-138.332 L-144.916,-148.759 L-165.658,-155.399 L-334.299,-209.389 L-469.532,-112.654" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M226.295,209.389 L264.706,191.681 L264.705,96.8167 L264.705,65.9737 L264.704,4.72134 L226.293,22.43 L226.294,50.1277 L228.694,49.0209 L228.695,125.189 L226.294,126.296 L226.295,209.389" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M426.541,14.9269 L424.883,31.2093 L423.883,41.0195 L423.668,43.1348 C425.279,49.4539 423.613,55.8749 419.546,59.0193 C418.515,59.8169 417.364,60.3729 416.142,60.6647 L264.705,96.8167 L264.705,65.9737 L367.229,41.4986 L389.181,36.2581 L386.673,60.8767 L389.181,36.2581 L390.477,23.5365 L426.541,14.9269" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-276.77,-50.9417 C-232.854,-51.0153 -191.721,-45.2569 -157.186,-34.2005 C-122.651,-23.1442 -95.8305,-7.14778 -79.2124,12.3055 L-76.711,31.61 C-93.3291,12.1567 -120.149,-3.83966 -154.685,-14.896 C-189.22,-25.9524 -230.353,-31.7108 -274.268,-31.6372 L-276.77,-50.9417" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-79.2124,12.3055 L113.55,74.0174 L116.051,93.322 L-76.711,31.61 L-79.2124,12.3055" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-469.532,-112.654 L-276.77,-50.9417 L-274.268,-31.6372 L-320.105,-46.3115 L-358.516,-58.6087 L-361.397,-59.531 L-364.982,-60.6789 L-392.576,-69.513 L-413.687,-76.2715 L-425.298,-79.9886 L-428.755,-81.0953 L-467.03,-93.3492 L-469.532,-112.654" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M113.55,74.0174 L248.782,-22.7182 L251.284,-3.41366 L229.569,12.1191 L219.877,19.052 L217.8,20.5377 L178.054,48.9696 L171.553,53.6199 L168.982,55.4589 L167.735,56.3507 L166.345,57.3456 L163.352,59.4863 L159.642,62.1399 L152.837,67.008 L116.051,93.322 L113.55,74.0174" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-358.515,22.1648 L-320.104,4.45616 L-320.105,-46.3115 L-358.516,-58.6087 L-358.515,22.1648" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M434.962,89.2286 L469.532,73.2909 L469.531,12.356 L434.961,28.2937 L434.962,89.2286" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M207.856,87.2556 L207.856,52.2879 L171.672,67.687 L170.447,67.2949 L151.755,100.649 L207.856,87.2556" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M207.857,120.394 L226.294,126.296 L226.294,50.1277 L218.668,47.6865 L207.856,52.2879 L207.856,87.2556 L207.857,102.677 L207.857,120.394" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M207.857,102.677 L207.856,87.2556 L151.755,100.649 L141.777,118.452 L207.857,102.677" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M168.8,66.2208 L168.791,66.7647 L170.447,67.2949 L151.755,100.649 L141.777,118.452 L141.495,118.955 L137.492,117.673 C137.181,117.058 136.734,116.643 136.198,116.471 L135.046,116.102 C134.554,115.945 134.004,115.998 133.445,116.255 C131.907,116.964 130.565,119.089 130.187,121.414 C129.809,123.738 130.492,125.669 131.844,126.102 L132.997,126.471 C133.533,126.643 134.138,126.565 134.747,126.244 L137.005,126.967 L133.066,133.996 L124.626,124.622 L159.642,62.1399 L163.352,59.4863 L164.612,69.2161 L168.8,66.2208" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-413.687,-76.2715 L-392.576,-69.513 L-411.802,-64.9235 L-392.576,-69.513 L-364.982,-60.6789 L-410.232,-49.8765 C-409.027,-51.6869 -408.354,-54.0575 -408.449,-56.1527 C-408.545,-58.2479 -409.397,-59.7736 -410.704,-60.192 C-411.673,-60.5025 -412.807,-60.1739 -413.873,-59.2735 C-415.35,-62.0094 -417.913,-63.4646 -420.265,-62.903 C-417.913,-63.4646 -415.35,-62.0094 -413.873,-59.2735 C-415.584,-57.8281 -416.844,-55.1517 -417.053,-52.5199 C-417.262,-49.888 -416.377,-47.8333 -414.82,-47.3348 L-415.186,-47.4522 L-417.529,-48.2022 L-425.245,-50.6725 L-425.245,-62.2032 L-421.86,-63.7638 L-419.639,-63.0525 L-421.86,-63.7638 L-411.802,-68.4012 L-417.14,-70.1103 L-413.687,-76.2715" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.413,45.6675 L223.413,31.8145 L171.908,53.7335 L171.672,67.687 L207.856,52.2879 L218.668,47.6865 L221.183,46.6163 L223.413,45.6675" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M440.723,65.7991 L463.77,55.1739 L463.77,35.7855 L440.723,46.4107 L440.723,65.7991" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M405.799,8.28646 L426.541,14.9269 L390.477,23.5365 L369.735,16.896 L405.799,8.28646" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M369.735,16.896 L390.477,23.5365 L389.181,36.2581 L367.229,41.4986 L369.735,16.896" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-131.189,-163.628 L-114.702,-158.35 L-110.447,-156.988 L-144.916,-148.759 L-165.658,-155.399 L-152.729,-158.486 L-150.283,-159.07 L-146.732,-159.918 L-131.189,-163.628" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-110.447,-156.988 L-111.329,-148.33 L-112.347,-138.332 L-144.916,-148.759 L-110.447,-156.988" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M220.667,29.1249 L217.8,20.5377 L178.054,48.9696 L214.764,33.3467 L220.667,29.1249" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M152.837,67.008 L159.642,62.1399 L124.626,124.622 L121.169,123.515 L123.266,119.773 L126.428,114.131 L128.081,111.18 L131.284,105.466 L152.837,67.008" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-361.396,21.2425 L-358.515,22.1648 L-358.516,-58.6087 L-361.397,-59.531 L-361.396,21.2425" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-436.769,-46.504 L-425.245,-42.8148 L-425.245,-50.6725 L-425.245,-62.2032 L-436.769,-65.8923 L-436.769,-59.52 L-436.769,-53.4487 L-436.769,-50.7158 L-436.769,-46.504" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M111.743,129.1 L123.266,132.789 L123.266,125.844 L121.169,123.515 L123.266,119.773 L123.266,113.401 L111.743,109.711 L111.743,121.242 L111.743,129.1" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M431.505,88.1219 L434.962,89.2286 L434.961,28.2937 L431.504,27.187 L431.504,28.1564 L431.505,43.4594 L431.505,62.8477 L431.505,88.1219" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-131.189,-163.628 L-114.702,-158.35 L-114.702,-174.684 L-146.732,-159.918 L-131.189,-163.628" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M226.294,126.296 L228.695,125.189 L228.694,49.0209 L226.294,50.1277 L226.294,126.296" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M419.546,59.0193 L431.505,62.8477 L431.505,43.4594 L423.883,41.0195 L423.668,43.1348 C425.279,49.4539 423.613,55.8749 419.546,59.0193 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M134.447,116.698 L137.492,117.673 L141.495,118.955 L150.95,121.982 C150.528,121.847 150.057,121.892 149.578,122.113 C148.259,122.72 147.109,124.542 146.785,126.534 C146.461,128.526 147.046,130.182 148.206,130.553 L137.005,126.967 L134.747,126.244 L131.703,125.27 C131.103,124.081 131.08,122.28 131.642,120.525 C132.204,118.77 133.269,117.318 134.447,116.698 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-436.769,-65.8923 L-431.953,-68.1124 L-423.325,-72.0904 L-417.14,-70.1103 L-411.802,-68.4012 L-421.86,-63.7638 L-425.245,-62.2032 L-436.769,-65.8923" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.413,31.8145 L223.413,29.6662 L221.167,30.6219 L214.764,33.3467 L178.054,48.9696 L171.553,53.6199 L171.908,53.7335 L223.413,31.8145" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-111.329,-148.33 L-112.347,-138.332 L-108.328,-137.046 L-95.1125,-143.138 L-111.329,-148.33" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M111.743,109.711 L115.128,108.151 L125.186,103.513 L131.284,105.466 L128.081,111.18 L123.627,113.234 L123.266,113.401 L111.743,109.711" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-425.298,-79.9886 L-413.687,-76.2715 L-417.14,-70.1103 L-423.325,-72.0904 L-431.953,-68.1124 L-425.298,-79.9886" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M431.504,27.187 L466.074,11.2492 L469.531,12.356 L434.961,28.2937 L431.504,27.187" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-152.729,-159.853 L-118.159,-175.791 L-114.702,-174.684 L-146.732,-159.918 L-150.283,-159.07 L-152.729,-159.853" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M424.883,31.2093 L423.883,41.0195 L431.505,43.4594 L431.504,28.1564 L424.883,31.2093" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.412,21.5077 L223.89,21.2876 L230.598,18.195 L231.464,17.7955 L261.823,3.79905 L264.704,4.72134 L226.293,22.43 L223.412,21.5077" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-410.232,-49.8765 C-409.027,-51.6869 -408.354,-54.0575 -408.449,-56.1527 C-408.545,-58.2479 -409.397,-59.7736 -410.704,-60.192 C-411.673,-60.5025 -412.807,-60.1739 -413.873,-59.2735 C-415.584,-57.8281 -416.844,-55.1517 -417.053,-52.5199 C-417.262,-49.888 -416.377,-47.8333 -414.82,-47.3348 C-414.384,-47.1952 -413.91,-47.1837 -413.42,-47.3007 C-412.298,-47.5686 -411.153,-48.4938 -410.232,-49.8765 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-444.807,-68.7477 L-437.064,-66.2686 L-441.554,-58.2562 L-447.551,-60.1763 C-448.711,-60.5474 -449.296,-62.2027 -448.972,-64.1952 C-448.648,-66.1877 -447.498,-68.0088 -446.179,-68.6166 C-445.7,-68.8375 -445.229,-68.8826 -444.807,-68.7477 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-428.755,-81.0953 L-425.298,-79.9886 L-431.953,-68.1124 L-436.769,-65.8923 L-436.769,-59.52 L-438.866,-55.778 L-442.323,-56.8848 L-441.554,-58.2562 L-437.064,-66.2686 L-428.755,-81.0953" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-108.328,-137.046 L-95.1124,-132.815 L-95.1125,-143.138 L-108.328,-137.046" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M178.19,53.6675 L179.343,54.0365 C180.975,54.559 181.581,57.2212 180.697,59.9826 C179.813,62.744 177.773,64.559 176.141,64.0365 L174.989,63.6676 C173.636,63.2346 172.954,61.3034 173.332,58.9788 C173.71,56.6542 175.051,54.5296 176.59,53.8205 C177.149,53.5627 177.699,53.5102 178.19,53.6675 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M179.343,54.0365 C178.851,53.8791 178.301,53.9316 177.742,54.1894 C176.204,54.8985 174.862,57.0231 174.484,59.3477 C174.106,61.6723 174.789,63.6035 176.141,64.0365 C177.773,64.559 179.813,62.744 180.697,59.9826 C181.581,57.2212 180.975,54.559 179.343,54.0365 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M163.352,59.4863 L166.345,57.3456 C166.159,59.426 166.848,61.0612 168.075,61.4541 L168.876,61.7107 L168.8,66.2208 L164.612,69.2161 L163.352,59.4863" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-419.255,-48.4272 C-418.681,-48.2434 -418.099,-48.1676 -417.529,-48.2022 L-415.186,-47.4522 L-425.245,-42.8148 L-425.245,-50.6725 L-417.529,-48.2022 C-418.099,-48.1676 -418.681,-48.2434 -419.255,-48.4272 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M459.38,48.3511 C458.959,48.2163 458.487,48.2613 458.008,48.4822 C456.69,49.0901 455.54,50.9111 455.216,52.9036 C454.892,54.8961 455.477,56.5514 456.636,56.9226 C458.035,57.3705 459.784,55.8148 460.541,53.4478 C461.299,51.0809 460.779,48.799 459.38,48.3511 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-411.39,-58.0492 C-411.811,-58.1841 -412.283,-58.139 -412.762,-57.9181 C-414.08,-57.3102 -415.23,-55.4892 -415.554,-53.4967 C-415.878,-51.5042 -415.293,-49.8489 -414.134,-49.4777 C-412.735,-49.0298 -410.986,-50.5855 -410.229,-52.9525 C-409.471,-55.3194 -409.991,-57.6013 -411.39,-58.0492 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M150.95,121.982 C150.528,121.847 150.057,121.892 149.578,122.113 C148.259,122.72 147.109,124.542 146.785,126.534 C146.461,128.526 147.046,130.182 148.206,130.553 C149.605,131.001 151.353,129.445 152.111,127.078 C152.868,124.711 152.349,122.429 150.95,121.982 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M168.982,55.4589 L171.553,53.6199 L171.908,53.7335 L171.672,67.687 L170.447,67.2949 L168.791,66.7647 L168.8,66.2208 L168.876,61.7107 L168.877,61.6693 L168.982,55.4589" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M114.761,108.033 L115.128,108.151 L111.743,109.711 L111.743,121.242 L110.645,120.891 C108.546,120.219 107.767,116.796 108.903,113.246 C110.04,109.695 112.662,107.362 114.761,108.033 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M230.598,18.195 L231.464,17.7955 L229.569,12.1191 L219.877,19.052 L223.413,29.6413 L223.412,23.8457 C222.642,22.7341 222.514,20.8237 223.082,18.9141 C223.65,17.0045 224.816,15.4251 226.092,14.8368 C226.651,14.5791 227.201,14.5266 227.692,14.6839 L228.845,15.0528 C229.861,15.3783 230.524,16.5652 230.598,18.195 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.413,29.6662 L223.413,29.6413 L219.877,19.052 L217.8,20.5377 L220.667,29.1249 L221.167,30.6219 L223.413,29.6662" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M230.598,18.195 C230.524,16.5652 229.861,15.3783 228.845,15.0528 C228.353,14.8955 227.803,14.948 227.244,15.2058 C225.472,16.0229 224.004,18.6843 223.89,21.2876 L230.598,18.195" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M121.169,123.515 L123.266,125.844 L127.685,130.752 L129.609,132.889 L133.066,133.996 L124.626,124.622 L121.169,123.515" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M123.266,132.789 L127.685,130.752 L123.266,125.844 L123.266,132.789" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M178.19,53.6675 L179.343,54.0365 C178.851,53.8791 178.301,53.9316 177.742,54.1894 C176.204,54.8985 174.862,57.0231 174.484,59.3477 C174.106,61.6723 174.789,63.6035 176.141,64.0365 L174.989,63.6676 C173.636,63.2346 172.954,61.3034 173.332,58.9788 C173.71,56.6542 175.051,54.5296 176.59,53.8205 C177.149,53.5627 177.699,53.5102 178.19,53.6675 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M135.046,116.102 L136.198,116.471 C135.706,116.314 135.156,116.367 134.597,116.624 C134.547,116.647 134.497,116.672 134.447,116.698 C133.269,117.318 132.204,118.77 131.642,120.525 C131.08,122.28 131.103,124.081 131.703,125.27 C132.013,125.884 132.46,126.3 132.997,126.471 L131.844,126.102 C130.492,125.669 129.809,123.738 130.187,121.414 C130.565,119.089 131.907,116.964 133.445,116.255 C134.004,115.998 134.554,115.945 135.046,116.102 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M227.692,14.6839 L228.845,15.0528 C228.353,14.8955 227.803,14.948 227.244,15.2058 C225.472,16.0229 224.004,18.6843 223.89,21.2876 L223.412,21.5077 L223.412,23.8457 C222.642,22.7341 222.514,20.8237 223.082,18.9141 C223.65,17.0045 224.816,15.4251 226.092,14.8368 C226.651,14.5791 227.201,14.5266 227.692,14.6839 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M123.627,113.234 L126.428,114.131 L123.266,119.773 L123.266,113.401 L123.627,113.234" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-442.323,-56.8848 L-436.769,-50.7158 L-436.769,-53.4487 L-438.866,-55.778 L-442.323,-56.8848" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M167.735,56.3507 L168.982,55.4589 L168.877,61.6693 C167.593,60.941 167.118,58.7287 167.735,56.3507 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-436.769,-53.4487 L-436.769,-59.52 L-438.866,-55.778 L-436.769,-53.4487" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M221.167,30.6219 L220.667,29.1249 L214.764,33.3467 L221.167,30.6219" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M166.345,57.3456 L167.735,56.3507 C167.118,58.7287 167.593,60.941 168.877,61.6693 L168.876,61.7107 L168.075,61.4541 C166.848,61.0612 166.159,59.426 166.345,57.3456 " fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M123.627,113.234 L128.081,111.18 L126.428,114.131 L123.627,113.234" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.413,47.33 L223.413,45.6675 L221.183,46.6163 L223.413,47.33" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-150.283,-159.07 L-152.729,-158.486 L-152.729,-159.853 L-150.283,-159.07" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M137.492,117.673 C137.181,117.058 136.734,116.643 136.198,116.471 C135.706,116.314 135.156,116.367 134.597,116.624 C134.547,116.647 134.497,116.672 134.447,116.698 L137.492,117.673" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="#f1f3f5" fill-opacity="1" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M131.703,125.27 C132.013,125.884 132.46,126.3 132.997,126.471 C133.533,126.643 134.138,126.565 134.747,126.244 L131.703,125.27" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-469.532,-112.654 L-334.299,-209.389" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-469.532,-112.654 L-467.03,-93.3492" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-469.532,-112.654 L-276.77,-50.9417" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-276.77,-50.9417 C-232.854,-51.0153 -191.721,-45.2569 -157.186,-34.2005 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-157.186,-34.2005 C-122.651,-23.1442 -95.8305,-7.14778 -79.2124,12.3055 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-79.2124,12.3055 L113.55,74.0174" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M113.55,74.0174 L248.782,-22.7182" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-334.299,-209.389 L248.782,-22.7182" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M248.782,-22.7182 L251.284,-3.41366" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-467.03,-93.3492 L-274.268,-31.6372" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-274.268,-31.6372 C-230.353,-31.7108 -189.22,-25.9524 -154.685,-14.896 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-154.685,-14.896 C-120.149,-3.83966 -93.3291,12.1567 -76.711,31.61 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-76.711,31.61 L116.051,93.322" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M116.051,93.322 L251.284,-3.41366" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-276.77,-50.9417 L-274.268,-31.6372" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-79.2124,12.3055 L-76.711,31.61" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M113.55,74.0174 L116.051,93.322" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-361.396,21.2425 L-361.397,-59.531" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-358.515,22.1648 L-358.516,-58.6087" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-320.104,4.45616 L-320.105,-46.3115" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-358.515,22.1648 L-320.104,4.45616" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-361.396,21.2425 L-358.515,22.1648" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-428.755,-81.0953 L-442.323,-56.8848" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-442.323,-56.8848 L-436.769,-50.7158" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-413.687,-76.2715 L-417.14,-70.1103" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-442.323,-56.8848 L-438.866,-55.778" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-425.298,-79.9886 L-431.953,-68.1124" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-436.769,-59.52 L-438.866,-55.778" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-438.866,-55.778 L-436.769,-53.4487" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-436.769,-46.504 L-436.769,-65.8923" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-436.769,-65.8923 L-423.325,-72.0904" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-425.245,-42.8148 L-425.245,-62.2032" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-425.245,-62.2032 L-411.802,-68.4012" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-425.245,-42.8148 L-415.186,-47.4522" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-436.769,-46.504 L-425.245,-42.8148" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-436.769,-65.8923 L-425.245,-62.2032" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-423.325,-72.0904 L-411.802,-68.4012" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.414,208.467 L223.412,21.5077" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.412,21.5077 L261.823,3.79905" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M226.295,209.389 L226.293,22.43" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M226.293,22.43 L264.704,4.72134" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M264.706,191.681 L264.704,4.72134" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M226.295,209.389 L264.706,191.681" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.414,208.467 L226.295,209.389" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.412,21.5077 L226.293,22.43" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M261.823,3.79905 L264.704,4.72134" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M207.857,120.394 L207.856,52.2879" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M226.294,50.1277 L228.694,49.0209" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M228.695,125.189 L228.694,49.0209" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M226.294,126.296 L228.695,125.189" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M207.857,120.394 L226.294,126.296" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M218.668,47.6865 L226.294,50.1277" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M221.183,46.6163 L223.413,47.33" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.413,29.6662 L178.054,48.9696" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M168.982,55.4589 L168.791,66.7647" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M168.791,66.7647 L171.672,67.687" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.413,45.6675 L171.672,67.687" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M171.553,53.6199 L171.908,53.7335" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.413,31.8145 L171.908,53.7335" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M171.908,53.7335 L171.672,67.687" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M176.59,53.8205 C175.051,54.5296 173.71,56.6542 173.332,58.9788 C172.954,61.3034 173.636,63.2346 174.989,63.6676 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M178.19,53.6675 C177.699,53.5102 177.149,53.5627 176.59,53.8205 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M177.742,54.1894 C176.204,54.8985 174.862,57.0231 174.484,59.3477 C174.106,61.6723 174.789,63.6035 176.141,64.0365 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M176.141,64.0365 C177.773,64.559 179.813,62.744 180.697,59.9826 C181.581,57.2212 180.975,54.559 179.343,54.0365 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M179.343,54.0365 C178.851,53.8791 178.301,53.9316 177.742,54.1894 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M221.167,30.6219 L217.8,20.5377" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M223.413,29.6413 L219.877,19.052" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M231.464,17.7955 L229.569,12.1191" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M226.092,14.8368 C224.816,15.4251 223.65,17.0045 223.082,18.9141 C222.514,20.8237 222.642,22.7341 223.412,23.8457 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M227.692,14.6839 C227.201,14.5266 226.651,14.5791 226.092,14.8368 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M227.244,15.2058 C225.472,16.0229 224.004,18.6843 223.89,21.2876 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M230.598,18.195 C230.524,16.5652 229.861,15.3783 228.845,15.0528 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M228.845,15.0528 C228.353,14.8955 227.803,14.948 227.244,15.2058 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M220.667,29.1249 L214.764,33.3467" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M168.8,66.2208 L164.612,69.2161" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M163.352,59.4863 L164.612,69.2161" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M166.345,57.3456 C166.159,59.426 166.848,61.0612 168.075,61.4541 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M167.735,56.3507 C167.118,58.7287 167.593,60.941 168.877,61.6693 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M152.837,67.008 L121.169,123.515" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M121.169,123.515 L129.609,132.889" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M129.609,132.889 L133.066,133.996" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M170.447,67.2949 L141.495,118.955" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M137.005,126.967 L133.066,133.996" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M121.169,123.515 L124.626,124.622" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M159.642,62.1399 L124.626,124.622" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M124.626,124.622 L133.066,133.996" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M133.445,116.255 C131.907,116.964 130.565,119.089 130.187,121.414 C129.809,123.738 130.492,125.669 131.844,126.102 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M135.046,116.102 C134.554,115.945 134.004,115.998 133.445,116.255 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M134.597,116.624 C133.059,117.333 131.717,119.458 131.339,121.783 C130.961,124.107 131.644,126.038 132.997,126.471 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M132.997,126.471 C133.533,126.643 134.138,126.565 134.747,126.244 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M137.492,117.673 C137.181,117.058 136.734,116.643 136.198,116.471 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M136.198,116.471 C135.706,116.314 135.156,116.367 134.597,116.624 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M111.743,129.1 L111.743,109.711" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M111.743,109.711 L125.186,103.513" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M123.266,132.789 L123.266,125.844" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M123.266,119.773 L123.266,113.401" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M123.266,113.401 L128.081,111.18" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M123.266,132.789 L127.685,130.752" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M111.743,129.1 L123.266,132.789" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M111.743,109.711 L123.266,113.401" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M125.186,103.513 L131.284,105.466" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-152.729,-158.486 L-152.729,-159.853" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-152.729,-159.853 L-118.159,-175.791" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-146.732,-159.918 L-114.702,-174.684" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-114.702,-158.35 L-114.702,-174.684" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-152.729,-159.853 L-150.283,-159.07" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-118.159,-175.791 L-114.702,-174.684" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-108.328,-137.046 L-95.1125,-143.138" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-95.1124,-132.815 L-95.1125,-143.138" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-111.329,-148.33 L-95.1125,-143.138" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-412.762,-57.9181 C-414.08,-57.3102 -415.23,-55.4892 -415.554,-53.4967 C-415.878,-51.5042 -415.293,-49.8489 -414.134,-49.4777 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-414.134,-49.4777 C-412.735,-49.0298 -410.986,-50.5855 -410.229,-52.9525 C-409.471,-55.3194 -409.991,-57.6013 -411.39,-58.0492 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-411.39,-58.0492 C-411.811,-58.1841 -412.283,-58.139 -412.762,-57.9181 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-446.179,-68.6166 C-447.498,-68.0088 -448.648,-66.1877 -448.972,-64.1952 C-449.296,-62.2027 -448.711,-60.5474 -447.551,-60.1763 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-444.807,-68.7477 C-445.229,-68.8826 -445.7,-68.8375 -446.179,-68.6166 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M431.505,88.1219 L431.504,27.187" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M431.504,27.187 L466.074,11.2492" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M434.962,89.2286 L434.961,28.2937" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M434.961,28.2937 L469.531,12.356" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M469.532,73.2909 L469.531,12.356" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M434.962,89.2286 L469.532,73.2909" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M431.505,88.1219 L434.962,89.2286" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M431.504,27.187 L434.961,28.2937" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M466.074,11.2492 L469.531,12.356" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M424.883,31.2093 L431.504,28.1564" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M440.723,65.7991 L440.723,46.4107" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M440.723,46.4107 L463.77,35.7855" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M463.77,55.1739 L463.77,35.7855" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M440.723,65.7991 L463.77,55.1739" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M419.546,59.0193 L431.505,62.8477" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M423.883,41.0195 L431.505,43.4594" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M458.008,48.4822 C456.69,49.0901 455.54,50.9111 455.216,52.9036 C454.892,54.8961 455.477,56.5514 456.636,56.9226 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M456.636,56.9226 C458.035,57.3705 459.784,55.8148 460.541,53.4478 C461.299,51.0809 460.779,48.799 459.38,48.3511 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M459.38,48.3511 C458.959,48.2163 458.487,48.2613 458.008,48.4822 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M149.578,122.113 C148.259,122.72 147.109,124.542 146.785,126.534 C146.461,128.526 147.046,130.182 148.206,130.553 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M148.206,130.553 C149.605,131.001 151.353,129.445 152.111,127.078 C152.868,124.711 152.349,122.429 150.95,121.982 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M150.95,121.982 C150.528,121.847 150.057,121.892 149.578,122.113 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-131.189,-163.628 L-165.658,-155.399" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-110.447,-156.988 L-112.347,-138.332" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-110.447,-156.988 L-144.916,-148.759" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-131.189,-163.628 L-110.447,-156.988" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-419.255,-48.4272 C-418.681,-48.2434 -418.099,-48.1676 -417.529,-48.2022 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-413.873,-59.2735 C-415.35,-62.0094 -417.913,-63.4646 -420.265,-62.903 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-413.42,-47.3007 C-411.343,-47.7966 -409.337,-50.4819 -408.666,-53.6635 C-407.996,-56.8452 -408.856,-59.6004 -410.704,-60.192 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-410.704,-60.192 C-412.802,-60.8639 -415.425,-58.5303 -416.561,-54.9799 C-417.698,-51.4295 -416.918,-48.0067 -414.82,-47.3348 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-414.82,-47.3348 C-414.384,-47.1952 -413.91,-47.1837 -413.42,-47.3007 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M416.142,60.6647 C419.12,59.9538 421.596,57.6949 423.012,54.3971 C424.427,51.0994 424.664,47.0403 423.668,43.1348 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M369.735,16.896 L367.229,41.4986" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M405.799,8.28646 L369.735,16.896" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M426.541,14.9269 L423.668,43.1348" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M390.477,23.5365 L386.673,60.8767" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M426.541,14.9269 L390.477,23.5365" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M405.799,8.28646 L426.541,14.9269" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M369.735,16.896 L390.477,23.5365" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M114.761,108.033 C112.662,107.362 110.04,109.695 108.903,113.246 C107.767,116.796 108.546,120.219 110.645,120.891 " fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M174.989,63.6676 L176.141,64.0365" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M178.19,53.6675 L179.343,54.0365" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M227.692,14.6839 L228.845,15.0528" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M168.075,61.4541 L168.876,61.7107" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M131.844,126.102 L132.997,126.471" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M135.046,116.102 L136.198,116.471" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-447.551,-60.1763 L-441.554,-58.2562" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-444.807,-68.7477 L-437.064,-66.2686" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M131.703,125.27 L148.206,130.553" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M123.627,113.234 L126.428,114.131" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M134.447,116.698 L150.95,121.982" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-392.576,-69.513 L-411.802,-64.9235" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-364.982,-60.6789 L-410.232,-49.8765" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-425.245,-50.6725 L-414.82,-47.3348" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M-421.86,-63.7638 L-419.639,-63.0525" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M389.181,36.2581 L264.705,65.9737" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M416.142,60.6647 L264.705,96.8167" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M207.856,87.2556 L151.755,100.649" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M207.857,102.677 L141.777,118.452" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M110.645,120.891 L111.743,121.242" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="7" transform="matrix(1,0,0,1,620,1450)">
+    <path d="M114.761,108.033 L115.128,108.151" fill-rule="evenodd" vector-effect="none"/>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="42.1875">CINEMATICA EXACTA Y ANGULOS CALCULADOS (GAROSA 135x40x35mm SIN MUELLES):</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="91.1875">1. PIVOTES FIJOS EN COSTADO DE 15 mm (Placa base Y in [-461, -421], Z in [2, 137 mm]):</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="140.188">- Pivote Superior Bisagra (O1): Y = -451.0 mm, Z = 124.0 mm (Brazo 1: L1 = 58.21 mm).</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="189.188">- Pivote Inferior Bisagra (O2): Y = -431.0 mm, Z = 80.0 mm (Brazo 2: L2 = 48.88 mm).</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="238.188">- Pivote Trasero Actuador (A): Y = -225.7 mm, Z = 41.3 mm (a 252.3 mm del frente).</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="287.188">2. POSICION CERRADA (gamma = 0.0° — Porton vertical enrasado en Y in [-478, -463 mm]):</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="336.188">- Pivotes puerta: P1(0°) = (-456.0, 66.0 mm) | P2(0°) = (-456.0, 122.0 mm).</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="385.188">- Angulos brazos bisagra: alpha_1(0°) = -94.9° | alpha_2(0°) = +120.8°.</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="434.188">- Pin delantero actuador: B(0°) = (-440.0, 24.0 mm) -> Longitud L_c = 215.00 mm,</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="483.188">angulo del actuador cerrado: beta_c = -4.6° respecto a la horizontal (-175.4°).</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="532.188">3. POSICION ABIERTA (gamma = 80.0° — Porton abatido hacia delante a 10.0° de la horizontal):</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="581.188">- Pivotes puerta: P1(80°) = (-509.2, 125.4 mm) | P2(80°) = (-454.0, 135.1 mm).</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="630.188">- Angulos brazos bisagra: alpha_1(80°) = +168.7° (+11.3° s/horiz.) | alpha_2(80°) = +128.0°.</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="679.188">- Pin delantero actuador: B(80°) = (-546.9, 90.8 mm) -> Longitud L_o = 325.00 mm (carrera</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#000000" fill-opacity="1" font-family="osifont" font-size="29" font-style="normal" font-weight="700" stroke="none" x="4" xml:space="preserve" y="728.188">exacta = 110.00 mm), angulo del actuador abierto: beta_o = +8.8° sobre la horizontal (+171.2°).</text>
+   </g>
+   <g fill="none" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="#ffffff" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="0.847059" stroke-width="1" transform="matrix(1,0,0,1,1428.9,148.5)">
+    <text fill="#ffffff" fill-opacity="0.847059" font-family=".AppleSystemUIFont" font-size="45.8611" font-style="normal" font-weight="400" stroke="none" x="1165.45" xml:space="preserve" y="728.188"/>
+   </g>
+  </g>
+ </g>
+</svg>

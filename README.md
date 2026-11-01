@@ -1,162 +1,72 @@
-# Mueble Recibidor Automatizado a Cota Cero para Robot Aspirador
+# Mueble Automatizado a Cota Cero para Robot Aspirador Dreame (Diseño Final: $540 \times 478 \times 620\text{ mm}$)
 
-Consola de entrada cuadrada y minimalista a medida diseñada para ocultar la estación de autovaciado y robot aspirador **Dreame (L10s / X40)** a **Cota Cero**, con sistema de **doble puerta batiente motorizada** con actuadores que abren hacia delante, interior 100% diáfano (sin balda) y control nativo por **Zigbee (Home Assistant)**.
+Módulo cubre-base a medida diseñado para ocultar la estación de autovaciado y robot aspirador **Dreame (L10s / X40)** a **Cota Cero**, con **portón inferior abatible frontal de $80^\circ$** mediante **bisagras articuladas Garosa $135 \times 40 \times 35\text{ mm}$ (sin muelles)** accionado por **2 actuadores lineales Dawnso Mini 150N ($215/325\text{ mm}$, carrera $110\text{ mm}$)** y control nativo por **Zigbee (Home Assistant)**.
 
-| Plano con Cotas Milimétricas | Fotografía de Referencia Arquitectónica |
+| Vista 3D Cerrado ($540 \times 478 \times 620\text{ mm}$) | Vista 3D Portón Abierto a $80^\circ$ | Cinemática Lateral Exacta ($80^\circ$) |
+| :---: | :---: | :---: |
+| ![Mueble Cerrado](planos/Vista_3D_Mueble_Final_Cerrado.png) | ![Portón Abierto 80°](planos/Vista_3D_Porton_Abierto_80deg.png) | ![Cinemática Abierto Acotado](planos/Vista_3D_Perfil_Mecanismo_Abierto_Acotado.png) |
+
+---
+
+## 1. Modelos 3D CAD en FreeCAD y Planos Técnicos ISO A4
+
+### 1.1. Modelos 3D Maestros (`.FCStd` y `.step`)
+* [`Mueble_Aspiradora_Cota_Cero.FCStd`](Mueble_Aspiradora_Cota_Cero.FCStd): Modelo CAD 3D maestro en estado cerrado ($\theta = 0^\circ$) con las 6 hojas técnicas ISO A4 integradas en TechDraw.
+* [`Modulo_01_Porton_Abierto_80deg.FCStd`](Modulo_01_Porton_Abierto_80deg.FCStd): Modelo CAD 3D con el portón abierto a $\theta = 80^\circ$ y los actuadores extendidos a $325,0\text{ mm}$ ($\beta_o = +8,8^\circ$).
+* [`Mecanismo_Metalico_Bisagras_y_Actuadores.FCStd`](Mecanismo_Metalico_Bisagras_y_Actuadores.FCStd) y [`planos/Mecanismo_Metalico_Bisagras_y_Actuadores.step`](planos/Mecanismo_Metalico_Bisagras_y_Actuadores.step): Modelo 3D aislado exclusivamente con los herrajes metálicos (bisagras Garosa sin muelles + escuadras) y los 2 actuadores lineales.
+
+### 1.2. Dossiers de Planos ISO A4 Listos para Impresión
+* **Dossier de Corte y Mecanizado de Madera (2 Hojas A4)**: [`planos/Planos_Corte_Madera_Diseño_Final_A4.pdf`](planos/Planos_Corte_Madera_Diseño_Final_A4.pdf)
+* **Dossier Maestro Completo del Proyecto (6 Hojas A4)**: [`planos/Planos_Mueble_Aspiradora_Completo_A4.pdf`](planos/Planos_Mueble_Aspiradora_Completo_A4.pdf)
+
+| Hoja | Vista Previa / Archivos | Contenido |
+| :--- | :--- | :--- |
+| **Corte 1/2** | [`Plano_Corte_01_Mapas_Tableros_A4.pdf`](planos/Plano_Corte_01_Mapas_Tableros_A4.pdf) · [`.png`](planos/Plano_Corte_01_Mapas_Tableros_A4.png) | Mapas de corte a escala sobre **2 tableros de $1200 \times 600 \times 15\text{ mm}$** y **1 tablero de $1200 \times 600 \times 10\text{ mm}$** + secuencia de 8 cortes rectos. |
+| **Corte 2/2** | [`Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf`](planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf) · [`.png`](planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.png) | Despiece acotado individual de las **7 piezas (`[P01]`–`[P07]`)**, arco LiDAR ($244 \times 22\text{ mm}, R=178\text{ mm}$) y **plantilla milimétrica de taladros**. |
+| **Plano 01** | [`Plano_01_Alzado_y_Planta_A4.pdf`](planos/Plano_01_Alzado_y_Planta_A4.pdf) · [`.svg`](planos/Plano_01_Alzado_y_Planta_A4.svg) | Alzado frontal y planta superior acotados. |
+| **Plano 02** | [`Plano_02_Perfil_e_Isometrica_A4.pdf`](planos/Plano_02_Perfil_e_Isometrica_A4.pdf) · [`.svg`](planos/Plano_02_Perfil_e_Isometrica_A4.svg) | Sección lateral y vista isométrica general. |
+| **Plano 03** | [`Plano_03_Despiece_Carpinteria_A4.pdf`](planos/Plano_03_Despiece_Carpinteria_A4.pdf) · [`.svg`](planos/Plano_03_Despiece_Carpinteria_A4.svg) | Vistas de carpintería y lista de materiales (BOM). |
+| **Plano 04** | [`Plano_04_Puerta_Vertical_y_Actuadores_A4.pdf`](planos/Plano_04_Puerta_Vertical_y_Actuadores_A4.pdf) · [`.svg`](planos/Plano_04_Puerta_Vertical_y_Actuadores_A4.svg) | Cinemática de las bisagras Garosa $80^\circ$ sin muelles y actuadores Dawnso Mini 150N. |
+
+| Hoja 1 de Corte: Mapas de Tableros | Hoja 2 de Corte: Despiece Acotado y Taladros |
 | :---: | :---: |
-| ![Plano con Cotas Técnicas](foto_realista_mueble_cuadrado_cotas.jpg) | ![Fotografía Realista](foto_realista_mueble_cuadrado_dos_puertas.jpg) |
+| ![Hoja 1 Mapas de Corte](planos/Plano_Corte_01_Mapas_Tableros_A4.png) | ![Hoja 2 Despiece Acotado](planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.png) |
 
 ---
 
-## 1. Planos Gráficos y Renders de Referencia
+## 2. Dimensiones Generales y Despiece de Madera (7 Piezas)
 
-* **Plano Fotorrealista con Cotas Milimétricas**: [`foto_realista_mueble_cuadrado_cotas.jpg`](foto_realista_mueble_cuadrado_cotas.jpg)
-  * Muestra todas las cotas acotadas sobre el modelo 3D fotorrealista con líneas y flechas arquitectónicas: $540\text{ mm}$ ancho, $540\text{ mm}$ fondo, $750\text{ mm}$ alto, $268\text{ mm}$ puerta, $490\text{ mm}$ hueco libre, $423\text{ mm}$ base y $157\text{ mm}$ espacio libre superior.
-* **Fotografía Realista Exterior/Interior**: [`foto_realista_mueble_cuadrado_dos_puertas.jpg`](foto_realista_mueble_cuadrado_dos_puertas.jpg)
-  * Muestra la consola cuadrada acabada en blanco satinado con ambas puertas abiertas hacia delante a cota cero, la estación Dreame interior y el robot saliendo por el centro sobre el parqué de espiga.
+* **Dimensiones Exteriores Totales**: **$540\text{ mm}$ (Ancho) $\times 478\text{ mm}$ (Fondo exacto desde pared) $\times 620\text{ mm}$ (Alto: $600\text{ mm}$ costados $+ 20\text{ mm}$ tapa superior doble)**.
+* **Hueco Interior Libre**: **$510\text{ mm}$ (Ancho) $\times 463\text{ mm}$ (Fondo útil tras frente de $15\text{ mm}$) $\times 600\text{ mm}$ (Alto bajo tapa)**.
 
----
-
-## 2. Dimensiones Generales Recalculadas (Encimera Cuadrada)
-
-Para cumplir la condición de **hacer el mueble todo lo estrecho posible con encimera cuadrada ($Ancho = Fondo$)**, la cota viene fijada por la profundidad de la aspiradora:
-
-| Cota | Medida | Justificación Técnica y Holguras |
-| :--- | :---: | :--- |
-| **Encimera (Planta Cuadrada)**| **$540 \times 540\text{ mm}$** | Planta simétrica perfecta ($54\text{ cm}$ de ancho por $54\text{ cm}$ de fondo). |
-| **Alto exterior** | **750 mm** | Altura esbelta de consola recibidor bajo cintura. |
-| **Cajeado trasero (Rodapié)** | **$18\text{ mm}$ (fondo) $\times 95\text{ mm}$ (alto)** | Vaciado inferior trasero en ambos costados para encajar el zócalo de pared de $15\text{ mm}$ y pegar el mueble 100% a la pared. |
-| **Fondo interior útil libre** | **522 mm** | Desde la pared hasta la cara interior de las puertas cerradas ($540 - 18\text{ mm}$ puerta). |
-| **Posición estación Dreame** | **508 mm desde pared** | $15\text{ mm}$ (rodapié) $+ 493\text{ mm}$ (estación con rampa y robot acoplado). |
-| **Margen frontal libre** | **+14 mm libres** | **La aspiradora NO queda pegada a las puertas** (queda $1,4\text{ cm}$ de separación entre la rampa y las puertas). |
-| **Ancho interior libre** | **490 mm** | $540 - 50\text{ mm}$ (costados regruesados a 25 mm). La base Dreame mide $423\text{ mm}$ $\to$ **$33,5\text{ mm}$ libres por lado**. |
-| **Altura interior diáfana** | **725 mm libres** | **Sin balda interior**: Espacio único y continuo de suelo a techo. |
-| **Margen superior para tapas** | **+157 mm libres** | Sobre los $568\text{ mm}$ de la estación, para abrir las tapas y extraer los depósitos de agua hacia arriba sin mover el mueble. |
-| **Puertas frontales (x2 hojas)**| **$268 \times 723\text{ mm}$ cada una** | Dos hojas batientes que abren hacia delante, dejando 2 mm de holgura con el suelo para girar libremente. |
+| Cód. | Pieza | Dimensiones ($\text{mm}$) | Tablero ($1200 \times 600$) | Corte y Mecanizado |
+| :--- | :--- | :---: | :--- | :--- |
+| **`[P01]`** | Costado Izquierdo | **$478 \times 600 \times 15$** | Tablero #1 ($15\text{ mm}$) | **1 corte transversal recto** a $478\text{ mm}$ ($600\text{ mm}$ directo del ancho del tablero, sin cajeados) |
+| **`[P02]`** | Costado Derecho | **$478 \times 600 \times 15$** | Tablero #1 ($15\text{ mm}$) | **1 corte transversal recto** a $478\text{ mm}$ ($600\text{ mm}$ directo del ancho del tablero, sin cajeados) |
+| **`[P03]`** | Cubierta Frontal Fija | **$510 \times 453 \times 15$** | Tablero #2 ($15\text{ mm}$) | Corte recto puro ($Z \in [147, 600]\text{ mm}$, embutida entre costados) |
+| **`[P04]`** | Portón Abatible $80^\circ$ | **$506 \times 143 \times 15$** | Tablero #2 ($15\text{ mm}$) | $Z \in [2, 145]\text{ mm}$ ($2\text{ mm}$/lado holgura) + arco central LiDAR ($244 \times 22\text{ mm}, R=178\text{ mm}$) |
+| **`[P05]`** | Nervio Trasero Superior | **$510 \times 35 \times 15$** | Tablero #2 ($15\text{ mm}$) | Corte recto puro ($Z \in [565, 600]\text{ mm}, Y \in [-15, 0]\text{ mm}$, pegado bajo la tapa superior) |
+| **`[P06]`** | Lámina Superior Base | **$540 \times 478 \times 10$** | Tablero #1 ($10\text{ mm}$) | Corte recto puro; cubre el $100\%$ de la superficie superior ($Z \in [600, 610]\text{ mm}$) |
+| **`[P07]`** | Lámina Superior Tapa | **$540 \times 478 \times 10$** | Tablero #1 ($10\text{ mm}$) | Corte recto puro; encolada sobre `[P06]` formando tapa rígida de $20\text{ mm}$ ($Z \in [610, 620]\text{ mm}$) |
 
 ---
 
-## 3. Componentes Comprados y su Aprovechamiento
+## 3. Cinemática Exacta y Coordenadas de Taladrado de Herrajes
 
-### 3.1. Tableros de Contrachapado Comprados
-* **5x Tablero contrachapado crudo $60 \times 120 \times 1,0\text{ cm}$**
-* **2x Tablero contrachapado crudo $60 \times 120 \times 1,5\text{ cm}$**
+### 3.1. En Cara Interior de Costados `[P01]` y `[P02]` (medidas desde el Canto Frontal $Y=-478\text{ mm}$ y Suelo $Z=0$)
+* **Bisagra Garosa $135 \times 40 \times 35\text{ mm}$ ($80^\circ$, sin muelle helicoidal)**:
+  * **Eje superior fijo ($O_1$)**: a **$27,0\text{ mm}$ del canto frontal** ($Y = -451,0\text{ mm}$) y **$Z = 124,0\text{ mm}$** del suelo.
+  * **Eje inferior fijo ($O_2$)**: a **$47,0\text{ mm}$ del canto frontal** ($Y = -431,0\text{ mm}$) y **$Z = 80,0\text{ mm}$** del suelo.
+* **Soporte Trasero Actuador Dawnso Mini 150N (Pivote Fijo $A$)**:
+  * **Centro del pasador ($A$)**: a **$252,3\text{ mm}$ del canto frontal** ($225,7\text{ mm}$ del canto trasero) y **$Z = 41,3\text{ mm}$** del suelo.
 
-#### Despiece optimizado sobre las láminas de $60 \times 120\text{ cm}$:
-1. **Lámina 1 (10 mm)**: Costado izquierdo (**$725 \times 522\text{ mm}$**).
-   * *Justificación de fondo ($522\text{ mm}$)*: Costado ($522\text{ mm}$) + Puerta cerrada ($18\text{ mm}$) = **$540\text{ mm}$** (enrasa a la perfección bajo la encimera de $540\text{ mm}$).
-2. **Lámina 2 (10 mm)**: Costado derecho (**$725 \times 522\text{ mm}$**).
-3. **Lámina 3 (10 mm)**: Encimera cuadrada (**$540 \times 540\text{ mm}$**).
-4. **Lámina 4 (10 mm)**: **Puerta izquierda ($268 \times 723\text{ mm}$) + Puerta derecha ($268 \times 723\text{ mm}$)**.
-   * *Ambas puertas caben juntas en un solo tablero*: $268 + 4 + 268 = 540\text{ mm} \le 600\text{ mm}$, y $723\text{ mm} \le 1200\text{ mm}$.
-5. **Lámina 5 (10 mm)**: **Tablero de reserva completo** (la balda interior y la guillotina se han eliminado).
-6. **Láminas de 15 mm (2 uds)**: Se cortan en tiras longitudinales de **$50\text{ mm}$ de ancho** para regruesar los cantos perimetrales a 25 mm.
+### 3.2. En Cara Interior del Portón `[P04]` (medidas desde el Borde Inferior del Portón $Z_p = 0$)
+* **Pletina Móvil de Bisagra Garosa** (a $13,0\text{ mm}$ de cada borde lateral):
+  * **Articulación superior ($P_1$)**: a **$82,0\text{ mm}$ de la base del portón** ($Z = 84,0\text{ mm}$ absolutos).
+  * **Articulación inferior ($P_2$)**: a **$38,0\text{ mm}$ de la base del portón** ($Z = 40,0\text{ mm}$ absolutos).
+* **Escuadra Delantera del Actuador (Pivote Móvil $B$)**:
+  * A $18,0\text{ mm}$ de cada borde lateral; eje $B$ a **$22,0\text{ mm}$ de la base del portón** ($Z = 24,0\text{ mm}$ absolutos, sobresaliendo $23,0\text{ mm}$ hacia el interior del mueble).
 
-### 3.2. Pintura y Acabado
-* **1x Imprimación universal LUXENS 1 L** (2 manos en cantos cortados como tapaporos/sellador + 1 mano general).
-* **1x Esmalte ecológico TITANLUX blanco satinado 750 ml** (2 manos de acabado sedoso y lavable).
-
-### 3.3. Automatización y Herrajes
-* **2x Micro Actuadores Lineales Dawnso Mini 150N 12V DC (carrera 150 mm)**:
-  * **Características físicas**: Modelo cilíndrico delgado de aluminio plateado ($\approx 20\text{ mm}$ diámetro), motor trasero compacto negro en ángulo recto con fino cable bipolar y vástago cromado pulido extensible.
-  * **Ubicación en altura**: Zona superior diáfana bajo la encimera ($157\text{ mm}$ libres sobre la base Dreame).
-  * **Disposición cinemática**: **Diagonal en plano horizontal** (abren puertas batientes que giran $90^\circ$ hacia delante).
-  * **Anclaje de chasis (Punto Fijo Cenital)**: Soporte metálico en horquilla (*clevis bracket*) con pasador **atornillado directamente a la cara inferior de la encimera superior** (retrasado $\approx 280\text{ mm}$ del frente y a $\approx 35\text{ mm}$ del costado). Se fija con tornillos para madera de $3,5 \times 16\text{ mm}$ en el regrueso de 25 mm de la encimera con máxima firmeza y sin asomar a la cara superior.
-  * **Anclaje de puerta (Punto Móvil)**: Soporte metálico en horquilla con pasador atornillado a la cara interior superior de la puerta a $\approx 120\text{ mm}$ del eje de las bisagras.
-  * **Modo Push-to-Open**: Con puerta cerrada, el actuador está retraído ($L_{min} = 255\text{ mm}$) con ángulo de ataque de $18,3^\circ$ (despegue instantáneo sin punto muerto). Al extenderse los $150\text{ mm}$ ($L_{max} = 405\text{ mm}$), empuja la puerta abriéndola a exactamente $90^\circ$ perpendicular a la fachada y sujetándola con firmeza.
-  * **Pivotes articulados obligatorios**: Ambos extremos llevan pasador giratorio (*clevis pin*) para permitir la libre rotación horizontal y eliminar al 100% tensiones laterales (*side load*).
-* **Ausencia Total de Suelo (Cota Cero Real)**: El mueble carece por completo de suelo de madera o travesaño inferior; el parqué de espiga entra de forma continua hasta la pared y la estación Dreame apoya directamente sobre él.
-* **4x Bisagras estándar de cazoleta para muebles de cocina (Ø35 mm)**: 2 bisagras por puerta (4 en total, solape total, apertura $105^\circ-110^\circ$), embutidas a $12\text{ mm}$ en el regrueso interior de 15 mm mediante broca Forstner.
-* **1x Módulo Relé Inteligente ZigBee 2 Canales MHCOZY** (85-250V AC / 5V USB, contactos secos en modo *Interlock* conmutando inversión de polaridad para apertura/cierre).
-* **1x Fuente de alimentación 12V DC** ($\ge 2\text{A}$).
-
----
-
-## 4. Esquema de Cotas en Alzado y Planta
-
-### 4.1. Alzado Frontal (Puertas Abiertas hacia delante)
-
-```
-                     540 mm (Ancho Exterior)
-                     490 mm (Hueco Interior Libre)
-        <------------------------------------------------>
-        +----+--------------------------------------+----+  ^
-        |    |       ENCIMERA CUADRADA (25 mm)      |    |  |
-        | 25 |                                      | 25 |  |
-        | mm |                                      | mm |  |
-        |    |                                      |    |  |
-        | c  |    ESPACIO DIÁFANO SUPERIOR (157 mm) | c  |  | 750 mm
-        | o  |     (Apertura libre de depósitos)    | o  |  | (Alto Total)
-        | s  |                                      | s  |  |
-        | t  + - - - - - - - - - - - - - - - - - - -+ t  |  |
-        | a  |                                      | a  |  |  ^
-        | d  |         BASE DREAME                  | d  |  |  |
-        | o  |         (Ancho: 423 mm)              | o  |  |  | 568 mm (Alto Base)
-        |    |         [Holgura: 33.5 mm por lado]  |    |  |  |
-        | I  |                                      | D  |  |  |
-        | z  |            ROBOT Ø350 mm             | e  |  |  |
-  [Pta] | q  |          (Sale por el centro)        | r  |  |  |
- [Izquierda] +======================================+ [Pta Derecha] Suelo (Cota Cero)
-```
-
-### 4.2. Planta Superior (Corte de Profundidad contra la Pared)
-
-```
-                 Pared con Rodapié de 15 mm
-============================================================= ^
-|| [Cajeado 18x95]                         [Cajeado 18x95] || |
-||<- Costado Izq (522 mm fondo)     Costado Der (522 mm) ->|| |
-||                                                         || |
-||         +-------------------------------------+         || |
-||         |  Base Dreame apoyada en rodapié     |         || | 522 mm
-||         |  (Fondo total con rampa: 493 mm)    |         || | (Fondo costados)
-||         |  [Posición frontal: 508 mm]         |         || |
-||         |                                     |         || |
-||         |            ROBOT Ø350 mm            |         || |
-||         +-------------------------------------+         || |
-||                                                         || v
-||<·············· Margen libre frontal: 14 mm ············>|| === Frente costados
-||===========================|=============================|| ^ 18 mm (Puertas)
-       Puerta Izquierda               Puerta Derecha          v
-        (268 mm ancho)                 (268 mm ancho)
-<---------------------- 540 mm exterior -------------------->
-<------------ 540 mm fondo total (Encimera cuadrada) ------->
-```
-
----
-
-## 5. Procedimiento de Fabricación Paso a Paso
-
-```mermaid
-flowchart TD
-    A["Paso 1: Corte de costados, encimera y 2 puertas (60x120 cm)"] --> B["Paso 2: Cajeado para rodapié (18x95 mm) en costados traseros"]
-    B --> C["Paso 3: Encolado de nervios de 15 mm (Regrueso perimetral a 25 mm)"]
-    C --> D["Paso 4: Fresado de cazoletas de 35 mm para 4 bisagras (2 por puerta)"]
-    D --> E["Paso 5: Sellado de cantos con imprimación Luxens y esmalte blanco"]
-    E --> F["Paso 6: Ensamblaje estructural de costados y encimera a cota cero"]
-    F --> G["Paso 7: Instalación de las 2 puertas y mecanismo de empuje/actuadores"]
-    G --> H["Paso 8: Conexión eléctrica Zigbee y automatización Home Assistant"]
-```
-
-1. **Despiece y Cajeado de Rodapié**:
-   * Corta los 2 costados a **$725 \times 522\text{ mm}$** y la encimera a **$540 \times 540\text{ mm}$**.
-   * En la esquina inferior trasera de ambos costados, realiza con caladora el cajeado de **$18\text{ mm}$ de profundidad $\times 95\text{ mm}$ de altura** para librar el zócalo de la pared.
-   * Corta las 2 puertas a **$268 \times 723\text{ mm}$** del tablero 4.
-2. **Nervios de Regrueso a 25 mm**:
-   * Encola tiras de $50\text{ mm}$ de ancho (tablero de 15 mm) en el perímetro interior de los costados, encimera y bordes de bisagra de ambas puertas.
-   * Pasa lija P150 por los cantos para dejarlos enrasados y uniformes como un bloque de 25 mm.
-3. **Fresado de Cazoletas de Bisagras**:
-   * Con broca Forstner de 35 mm, fresa 2 cazoletas por puerta a 12 mm de profundidad sobre el nervio de 15 mm. Al tener 25 mm de espesor compuesto, no hay riesgo de perforar el frente.
-4. **Tratamiento y Pintura**:
-   * 2 manos de imprimación LUXENS en cantos cortados (como tapaporos) con lija P240 intermedia.
-   * 1 mano general a todo el mueble y 2 manos de esmalte TITANLUX blanco satinado.
-5. **Montaje e Instalación**:
-   * Une los 2 costados y la encimera superior formando el puente estructural en "U" invertida (sin suelo de madera inferior).
-   * Coloca el mueble pegado a la pared encajando el cajeado de $18 \times 95\text{ mm}$ en el rodapié de la vivienda.
-   * Monta las 2 puertas con las 4 bisagras estándar de cocina de $35\text{ mm}$ (2 bisagras por puerta).
-   * Atornilla los soportes de horquilla traseros metálicos de los actuadores Dawnso Mini directamente a la **cara inferior de la encimera superior** (retrasados $280\text{ mm}$ del frente y a $35\text{ mm}$ de cada costado) usando tornillos de $3,5 \times 16\text{ mm}$ en el regrueso de 25 mm.
-   * Atornilla los soportes delanteros a la cara interior superior de cada puerta batiente (a $120\text{ mm}$ del eje de las bisagras) e inserta los pasadores articulados (*clevis pins*) en ambos extremos para permitir el libre giro horizontal sin cargas laterales.
-6. **Conexión Eléctrica ZigBee y Home Assistant**:
-   * Configura el relé MHCOZY de 2 canales en modo **Interlock** (enclavamiento mutuo) para evitar activación simultánea de apertura y cierre.
-   * Conecta la fuente de 12V DC a los contactos COM/NO/NC configurando inversión de polaridad (puente en H) con ambos actuadores cableados en paralelo.
-   * En Home Assistant, crea la automatización: al pasar la entidad de la Dreame a `cleaning`, activa el Canal 1 (abrir puertas); al volver a `docked` y transcurrir 15 segundos, activa el Canal 2 (cerrar puertas).
+### 3.3. Recorrido y Ángulos Verificados
+* **Cerrado ($\theta = 0^\circ$)**: $B(0^\circ) = (-440,0,\; 24,0\text{ mm}) \implies \|B - A\| = \mathbf{215,0\text{ mm}}$ ($\beta_c = -4,6^\circ$).
+* **Abierto ($\theta = 80^\circ$)**: $B(80^\circ) = (-546,9,\; 90,8\text{ mm}) \implies \|B - A\| = \mathbf{325,0\text{ mm}}$ ($\beta_o = +8,8^\circ$, carrera útil completa $= 110,0\text{ mm}$, altura libre de paso $= 109,5\text{ mm}$).
