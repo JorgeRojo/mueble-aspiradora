@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
   <defs>
-    <marker id="arrowS" markerWidth="6.5" markerHeight="6.5" refX="0" refY="3.25" orient="auto">
-      <path d="M 6.5,0 L 0,3.25 L 6.5,6.5 z" fill="#000000"/>
+    <marker id="arrowS" markerWidth="6.0" markerHeight="6.0" refX="0" refY="3.0" orient="auto">
+      <path d="M 6.0,0 L 0,3.0 L 6.0,6.0 z" fill="#000000"/>
     </marker>
-    <marker id="arrowE" markerWidth="6.5" markerHeight="6.5" refX="6.5" refY="3.25" orient="auto">
-      <path d="M 0,0 L 6.5,3.25 L 0,6.5 z" fill="#000000"/>
+    <marker id="arrowE" markerWidth="6.0" markerHeight="6.0" refX="6.0" refY="3.0" orient="auto">
+      <path d="M 0,0 L 6.0,3.0 L 0,6.0 z" fill="#000000"/>
     </marker>
     <pattern id="wasteHatch" width="5" height="5" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
       <line x1="0" y1="0" x2="0" y2="5" stroke="#000000" stroke-width="0.28"/>
@@ -19,153 +19,209 @@
   <rect x="9" y="9" width="279" height="192" fill="none" stroke="#000000" stroke-width="0.35"/>
 
 
-  <text x="148.5" y="14.2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="3.9" font-weight="bold" fill="#000000">
-    PLANO 04: CINEMÁTICA DEL MECANISMO (BISAGRAS GAROSA 80° SIN MUELLES + ACTUADORES)
+  <text x="148.5" y="13.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="3.6" font-weight="bold" fill="#000000">
+    PLANO 04: CINEMÁTICA 80° Y PLANOS DIMENSIONALES DE AGUJEROS DE BISAGRAS GAROSA Y ACTUADORES DAWNSO
   </text>
-  <line x1="16" y1="15.8" x2="281" y2="15.8" stroke="#000000" stroke-width="0.4"/>
+  <line x1="14" y1="15.3" x2="283" y2="15.3" stroke="#000000" stroke-width="0.4"/>
 
 
-  <text x="84" y="23.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.9" font-weight="bold" fill="#000000">
-    1. DIAGRAMA CINEMÁTICO SUPERPUESTO (0° CERRADO VS 80° ABIERTO — ESCALA 1:3.1)
+  <text x="84" y="20.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.6" font-weight="bold" fill="#000000">
+    1. CINEMÁTICA SUPERPUESTA (0° CERRADO VS 80° ABIERTO)
   </text>
-  <rect x="14" y="26" width="140" height="78" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-  <!-- Floor line Z=0 -->
-  <line x1="16" y1="96.00" x2="152" y2="96.00" stroke="#000000" stroke-width="0.45" stroke-dasharray="2.5,1.0"/>
-  <text x="20" y="94.50" font-family="Helvetica, Arial, sans-serif" font-size="2.0" font-weight="bold" fill="#000000">SUELO Z = 0 (COTA CERO)</text>
+  <rect x="14" y="22.5" width="140" height="73.5" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
+  <line x1="16" y1="92.00" x2="152" y2="92.00" stroke="#000000" stroke-width="0.45" stroke-dasharray="2.5,1.0"/>
+  <text x="19" y="90.70" font-family="Helvetica, Arial, sans-serif" font-size="1.9" font-weight="bold" fill="#000000">SUELO Z = 0 (COTA CERO)</text>
 
-  <!-- Fixed Upper Front Cover [P03] bottom part (Z=147..185) -->
-  <rect x="104.16" y="36.80" width="4.80" height="12.16" fill="url(#wasteHatch)" stroke="#000000" stroke-width="0.5"/>
-  <text x="102.16" y="42.50" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">[P03] Cubierta Fija (Z &gt;= 147) →</text>
+  <rect x="100.00" y="37.40" width="4.50" height="10.50" fill="url(#wasteHatch)" stroke="#000000" stroke-width="0.5"/>
+  <text x="98.20" y="42.80" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">[P03] Cubierta Fija (Z &gt;= 147) →</text>
 
-  <!-- Closed Porton [P04] (0 deg, dashed outline) -->
-  <rect x="104.16" y="49.60" width="4.80" height="45.76" fill="none" stroke="#000000" stroke-width="0.45" stroke-dasharray="1.8,1.0"/>
+  <rect x="100.00" y="48.50" width="4.50" height="42.90" fill="none" stroke="#000000" stroke-width="0.45" stroke-dasharray="1.8,1.0"/>
+  <line x1="28.81" y1="79.61" x2="93.10" y2="84.80" stroke="#000000" stroke-width="0.5" stroke-dasharray="2.0,1.2"/>
+  <text x="60.95" y="88.70" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">Cerrado (0°): Lc = 215.0 mm (-4.6°)</text>
 
-  <!-- Closed Actuator & Links (0 deg, dashed) -->
-  <line x1="28.22" y1="82.78" x2="96.80" y2="88.32" stroke="#000000" stroke-width="0.55" stroke-dasharray="2.0,1.2"/>
-  <line x1="100.32" y1="56.32" x2="103.52" y2="69.12" stroke="#000000" stroke-width="0.45" stroke-dasharray="1.4,0.9"/>
-  <line x1="93.92" y1="70.40" x2="103.52" y2="83.20" stroke="#000000" stroke-width="0.45" stroke-dasharray="1.4,0.9"/>
-  
-    <circle cx="96.80" cy="88.32" r="1.00" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-    <circle cx="96.80" cy="88.32" r="0.5" fill="#000000"/>
-    <line x1="94.90" y1="88.32" x2="98.70" y2="88.32" stroke="#000000" stroke-width="0.3"/>
-    <line x1="96.80" y1="86.42" x2="96.80" y2="90.22" stroke="#000000" stroke-width="0.3"/>
-
-  <text x="62.51" y="91.20" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.0" font-weight="bold" fill="#000000">Cerrado (0°): Lc = 215.0 mm (-4.6°)</text>
-
-  <!-- Open Porton [P04] (80 deg, heavy solid black) -->
-  <polygon points="143.01,60.96 97.95,53.02 98.78,48.29 143.84,56.22"
+  <polygon points="139.20,53.77 96.95,46.32 96.17,50.75 138.42,58.20"
            fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
-  <text x="111.50" y="45.80" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">[P04] Abierto a 80° (10° s/horiz.)</text>
+  <text x="106.50" y="44.00" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="2.0" font-weight="bold" fill="#000000">[P04] Abierto a 80° (10° s/horiz.)</text>
 
-  <!-- Open Actuator & Links (80 deg, heavy solid black) -->
-  <line x1="28.22" y1="82.78" x2="131.01" y2="66.94" stroke="#000000" stroke-width="1.2"/>
-  <line x1="100.32" y1="56.32" x2="118.91" y2="57.60" stroke="#000000" stroke-width="0.75"/>
-  <line x1="93.92" y1="70.40" x2="105.06" y2="60.03" stroke="#000000" stroke-width="0.75"/>
+  <line x1="28.81" y1="79.61" x2="125.17" y2="64.76" stroke="#000000" stroke-width="1.15"/>
+  <line x1="96.40" y1="54.80" x2="113.83" y2="56.00" stroke="#000000" stroke-width="0.7"/>
+  <line x1="90.40" y1="68.00" x2="100.84" y2="58.28" stroke="#000000" stroke-width="0.7"/>
   
-    <circle cx="28.22" cy="82.78" r="1.40" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-    <circle cx="28.22" cy="82.78" r="0.5" fill="#000000"/>
-    <line x1="25.92" y1="82.78" x2="30.52" y2="82.78" stroke="#000000" stroke-width="0.3"/>
-    <line x1="28.22" y1="80.48" x2="28.22" y2="85.08" stroke="#000000" stroke-width="0.3"/>
-
-  
-    <circle cx="100.32" cy="56.32" r="1.20" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-    <circle cx="100.32" cy="56.32" r="0.5" fill="#000000"/>
-    <line x1="98.22" y1="56.32" x2="102.42" y2="56.32" stroke="#000000" stroke-width="0.3"/>
-    <line x1="100.32" y1="54.22" x2="100.32" y2="58.42" stroke="#000000" stroke-width="0.3"/>
+    <circle cx="28.81" cy="79.61" r="1.25" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="28.81" cy="79.61" r="0.38" fill="#000000"/>
+    <line x1="26.86" y1="79.61" x2="30.76" y2="79.61" stroke="#000000" stroke-width="0.25"/>
+    <line x1="28.81" y1="77.66" x2="28.81" y2="81.56" stroke="#000000" stroke-width="0.25"/>
 
   
-    <circle cx="93.92" cy="70.40" r="1.20" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-    <circle cx="93.92" cy="70.40" r="0.5" fill="#000000"/>
-    <line x1="91.82" y1="70.40" x2="96.02" y2="70.40" stroke="#000000" stroke-width="0.3"/>
-    <line x1="93.92" y1="68.30" x2="93.92" y2="72.50" stroke="#000000" stroke-width="0.3"/>
+    <circle cx="96.40" cy="54.80" r="1.05" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="96.40" cy="54.80" r="0.38" fill="#000000"/>
+    <line x1="94.65" y1="54.80" x2="98.15" y2="54.80" stroke="#000000" stroke-width="0.25"/>
+    <line x1="96.40" y1="53.05" x2="96.40" y2="56.55" stroke="#000000" stroke-width="0.25"/>
 
   
-    <circle cx="118.91" cy="57.60" r="1.10" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-    <circle cx="118.91" cy="57.60" r="0.5" fill="#000000"/>
-    <line x1="116.91" y1="57.60" x2="120.91" y2="57.60" stroke="#000000" stroke-width="0.3"/>
-    <line x1="118.91" y1="55.60" x2="118.91" y2="59.60" stroke="#000000" stroke-width="0.3"/>
+    <circle cx="90.40" cy="68.00" r="1.05" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="90.40" cy="68.00" r="0.38" fill="#000000"/>
+    <line x1="88.65" y1="68.00" x2="92.15" y2="68.00" stroke="#000000" stroke-width="0.25"/>
+    <line x1="90.40" y1="66.25" x2="90.40" y2="69.75" stroke="#000000" stroke-width="0.25"/>
 
   
-    <circle cx="105.06" cy="60.03" r="1.10" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-    <circle cx="105.06" cy="60.03" r="0.5" fill="#000000"/>
-    <line x1="103.06" y1="60.03" x2="107.06" y2="60.03" stroke="#000000" stroke-width="0.3"/>
-    <line x1="105.06" y1="58.03" x2="105.06" y2="62.03" stroke="#000000" stroke-width="0.3"/>
+    <circle cx="113.83" cy="56.00" r="0.95" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="113.83" cy="56.00" r="0.38" fill="#000000"/>
+    <line x1="112.18" y1="56.00" x2="115.48" y2="56.00" stroke="#000000" stroke-width="0.25"/>
+    <line x1="113.83" y1="54.35" x2="113.83" y2="57.65" stroke="#000000" stroke-width="0.25"/>
 
   
-    <circle cx="131.01" cy="66.94" r="1.30" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-    <circle cx="131.01" cy="66.94" r="0.5" fill="#000000"/>
-    <line x1="128.81" y1="66.94" x2="133.21" y2="66.94" stroke="#000000" stroke-width="0.3"/>
-    <line x1="131.01" y1="64.74" x2="131.01" y2="69.14" stroke="#000000" stroke-width="0.3"/>
+    <circle cx="100.84" cy="58.28" r="0.95" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="100.84" cy="58.28" r="0.38" fill="#000000"/>
+    <line x1="99.19" y1="58.28" x2="102.49" y2="58.28" stroke="#000000" stroke-width="0.25"/>
+    <line x1="100.84" y1="56.63" x2="100.84" y2="59.93" stroke="#000000" stroke-width="0.25"/>
+
+  
+    <circle cx="125.17" cy="64.76" r="1.15" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="125.17" cy="64.76" r="0.38" fill="#000000"/>
+    <line x1="123.32" y1="64.76" x2="127.02" y2="64.76" stroke="#000000" stroke-width="0.25"/>
+    <line x1="125.17" y1="62.91" x2="125.17" y2="66.61" stroke="#000000" stroke-width="0.25"/>
 
 
-  <text x="20.00" y="76.80" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">Pivote Fijo A (-225.7, 41.3)</text>
-  <text x="97.32" y="54.82" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">O1 (-451, 124) →</text>
-  <text x="90.50" y="70.80" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">O2 (-431, 80) →</text>
-  <text x="112.00" y="73.50" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">↑ B(80°) = (-546.9, 90.8)</text>
-  <text x="112.00" y="77.50" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="2.0" font-weight="bold" fill="#000000">Lo = 325.0 mm (+8.8°)</text>
+  <text x="22.81" y="74.41" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">Pivote Fijo A (-225.7, 41.3)</text>
+  <text x="93.90" y="53.60" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">O1 (-451, 124) →</text>
+  <text x="87.90" y="68.80" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">O2 (-431, 80) →</text>
+  <text x="107.50" y="72.80" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">↑ B(80°) = (-546.9, 90.8)</text>
+  <text x="107.50" y="76.70" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">Lo = 325.0 mm (+8.8°)</text>
 
 
-  <g transform="translate(14, 109)">
-    <rect x="0" y="0" width="140" height="67" fill="#ffffff" stroke="#000000" stroke-width="0.5"/>
-    <rect x="0" y="0" width="140" height="6.5" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
-    <text x="70" y="4.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.5" font-weight="bold" fill="#000000">
-      2. ESQUEMA ELÉCTRICO PUENTE EN H (RELÉ ZIGBEE MHCOZY 2 CANALES — INTERLOCK)
+  <text x="84" y="100.2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.55" font-weight="bold" fill="#000000">
+    2. PLANOS DE FABRICANTE: ACTUADOR DAWNSO (S+57.5) Y BISAGRA GAROSA (135x40x35)
+  </text>
+  <g transform="translate(14, 102)">
+    <rect x="0" y="0" width="140" height="74" fill="#ffffff" stroke="#000000" stroke-width="0.5"/>
+    <line x1="72" y1="0" x2="72" y2="74" stroke="#000000" stroke-width="0.4"/>
+
+    <!-- Left Sub-box (x=0..72): Dawnso Mini Actuator Official Drawing (from uploaded_media_1793450561819.jpg) -->
+    <text x="36" y="4.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">
+      A. ACTUADOR DAWNSO MINI (Cotas Fabricante)
     </text>
-    <text x="4" y="12.0" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">• Fuente 12V DC (&gt;= 2A) conectada a los contactos secos COM / NO / NC del relé MHCOZY 2CH:</text>
-    <text x="6" y="17.2" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">- NC1 y NC2 puenteados a GND (-12V) | NO1 y NO2 puenteados a +12V DC.</text>
-    <text x="6" y="22.2" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">- COM1 conectado al cable ROJO de ambos actuadores (en paralelo).</text>
-    <text x="6" y="27.2" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">- COM2 conectado al cable NEGRO de ambos actuadores (en paralelo).</text>
-    <line x1="3" y1="30.5" x2="137" y2="30.5" stroke="#000000" stroke-width="0.3"/>
-    <text x="4" y="35.5" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">• Funcionamiento con Enclavamiento por Hardware (Modo INTERLOCK obligatorio):</text>
-    <text x="6" y="40.7" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">- Canal 1 ON (10 s): +12V en Rojo / GND en Negro → Actuadores extienden (215 → 325 mm, ABRE a 80°).</text>
-    <text x="6" y="45.7" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">- Canal 2 ON (10 s): GND en Rojo / +12V en Negro → Actuadores retraen (325 → 215 mm, CIERRA a 0°).</text>
-    <text x="6" y="50.7" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">- Finales de carrera internos integrados en cada actuador Dawnso Mini (corte automático al llegar al tope).</text>
-    <text x="4" y="56.5" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">• Automatización Home Assistant:</text>
-    <text x="6" y="61.5" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">- Estado Dreame = cleaning → Activa Canal 1 (Abre portón) | Estado = docked (+15 s) → Activa Canal 2 (Cierra).</text>
+    <!-- Top orthographic diagram of actuator with ears -->
+    <!-- Rear clevis tab (9.9 mm wide, 7.9 mm thick, Ø4.2 hole) -->
+    <rect x="8" y="18.5" width="6" height="7" fill="#ffffff" stroke="#000000" stroke-width="0.5"/>
+    <circle cx="11" cy="22" r="1.3" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <line x1="9" y1="22" x2="13" y2="22" stroke="#000000" stroke-width="0.25"/>
+    <line x1="11" y1="20" x2="11" y2="24" stroke="#000000" stroke-width="0.25"/>
+
+    <!-- Gearbox housing (37.5 mm long x 19.9 mm wide) + 2 ears (total 39.9 mm wide, 4-Ø5.0 at 11.0 x 29.9 mm) -->
+    <rect x="14" y="11" width="16" height="22" rx="1.5" fill="#ffffff" stroke="#000000" stroke-width="0.45"/>
+    <rect x="14" y="15" width="23" height="14" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+    <!-- 4x Ø5.0 ear holes -->
+    <circle cx="19" cy="13" r="1.2" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="25" cy="13" r="1.2" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="19" cy="31" r="1.2" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+    <circle cx="25" cy="31" r="1.2" fill="#ffffff" stroke="#000000" stroke-width="0.38"/>
+
+    <!-- Extension tube & Front rod tip (Ø9.0 x 6.1 mm, Ø4.2 hole) -->
+    <rect x="37" y="17.5" width="20" height="9" fill="#ffffff" stroke="#000000" stroke-width="0.55"/>
+    <rect x="57" y="19" width="7" height="6" fill="#ffffff" stroke="#000000" stroke-width="0.5"/>
+    <circle cx="60.5" cy="22" r="1.3" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <line x1="58.5" y1="22" x2="62.5" y2="22" stroke="#000000" stroke-width="0.25"/>
+    <line x1="60.5" y1="20" x2="60.5" y2="24" stroke="#000000" stroke-width="0.25"/>
+
+    <!-- Dimension lines on Actuator drawing -->
+    <line x1="11" y1="8.2" x2="60.5" y2="8.2" stroke="#000000" stroke-width="0.35" marker-start="url(#arrowS)" marker-end="url(#arrowE)"/>
+    <line x1="11" y1="20" x2="11" y2="7.5" stroke="#000000" stroke-width="0.25"/>
+    <line x1="60.5" y1="20" x2="60.5" y2="7.5" stroke="#000000" stroke-width="0.25"/>
+    <text x="35.7" y="7.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="1.85" font-weight="bold" fill="#000000">Entre ejes 2-Ø4.2: Lc=215 / Lo=325 mm</text>
+
+    <text x="22" y="10.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="1.75" font-weight="bold" fill="#000000">11.0 mm</text>
+    <text x="48" y="16.2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="1.75" font-weight="bold" fill="#000000">Punta Ø9.0 x 6.1</text>
+    <text x="36" y="36.2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="1.8" font-weight="bold" fill="#000000">Caja 37.5x19.9x15 mm (Aletas 39.9 mm: 4-Ø5.0 a 11x29.9)</text>
+
+    <line x1="2" y1="38.2" x2="70" y2="38.2" stroke="#000000" stroke-width="0.3"/>
+    <text x="3" y="42.2" font-family="Helvetica, Arial, sans-serif" font-size="1.9" font-weight="bold" fill="#000000">• Soportes de Articulación [H03] (Pasadores M4):</text>
+    <text x="4" y="46.2" font-family="Helvetica, Arial, sans-serif" font-size="1.8" fill="#000000">- Cola trasera: ancho 9.9 x esp. 7.9 mm (orificio Ø4.2).</text>
+    <text x="4" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="1.8" fill="#000000">- Punta vástago: ancho 9.0 x esp. 6.1 mm (orificio Ø4.2).</text>
+    <text x="4" y="54.0" font-family="Helvetica, Arial, sans-serif" font-size="1.85" font-weight="bold" fill="#000000">- Soporte A (Costado): eje a 252.3 mm frente, Z=41.3;</text>
+    <text x="6" y="57.8" font-family="Helvetica, Arial, sans-serif" font-size="1.85" font-weight="bold" fill="#000000">2 taladros A_S1/A_S2 en Z=54.3 y Z=28.3 (sep. 26 mm).</text>
+    <text x="4" y="61.8" font-family="Helvetica, Arial, sans-serif" font-size="1.85" font-weight="bold" fill="#000000">- Soporte B (Portón): a 20 mm del borde lateral;</text>
+    <text x="6" y="65.6" font-family="Helvetica, Arial, sans-serif" font-size="1.85" font-weight="bold" fill="#000000">2 taladros B_S1/B_S2 en Z_loc=32 y 12 (sep. 20 mm).</text>
+    <text x="4" y="70.2" font-family="Helvetica, Arial, sans-serif" font-size="1.75" fill="#000000">* Puente en H Zigbee MHCOZY 2CH Interlock (12V &gt;= 2A).</text>
+
+    <!-- Right Sub-box (x=72..140): Garosa 135x40x35mm Hinge Official Hole Pattern -->
+    <text x="106" y="4.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">
+      B. BISAGRA GAROSA 135x40x35 (Agujeros)
+    </text>
+    <!-- Schematic of Escuadra_Puerta (left) and Placa_Costado (right) -->
+    <!-- Escuadra_Puerta (62.5 x 14 mm, 3 holes T_P1, T_P2, T_P3 with 16 mm pitch) -->
+    <rect x="77" y="9" width="11" height="28" fill="#ffffff" stroke="#000000" stroke-width="0.55"/>
+    <circle cx="82.5" cy="14" r="1.2" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <circle cx="84.0" cy="23" r="1.0" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <circle cx="82.5" cy="32" r="1.2" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <text x="82.5" y="40.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="1.7" font-weight="bold" fill="#000000">Ala Puerta</text>
+    <text x="82.5" y="43.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="1.65" fill="#000000">(Paso 16/32)</text>
+
+    <!-- Placa_Costado (100 x 36 mm, 4 holes H_C1..H_C4 with 32 mm pitch) -->
+    <rect x="94" y="13" width="18" height="33" fill="#ffffff" stroke="#000000" stroke-width="0.55"/>
+    <circle cx="106" cy="16.5" r="1.2" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <circle cx="104.5" cy="25.0" r="1.0" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <circle cx="103" cy="33.5" r="1.2" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <circle cx="99" cy="43.0" r="1.0" fill="#ffffff" stroke="#000000" stroke-width="0.4"/>
+    <text x="114" y="17.2" font-family="Helvetica, Arial, sans-serif" font-size="1.7" font-weight="bold" fill="#000000">H_C1 (Z=98, a 41 fr.)</text>
+    <text x="114" y="25.5" font-family="Helvetica, Arial, sans-serif" font-size="1.7" font-weight="bold" fill="#000000">H_C2 (Z=66, a 38 fr.)</text>
+    <text x="114" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="1.7" font-weight="bold" fill="#000000">H_C3 (Z=34, a 35 fr.)</text>
+    <text x="114" y="43.5" font-family="Helvetica, Arial, sans-serif" font-size="1.7" font-weight="bold" fill="#000000">H_C4 (Z=6.5, a 25 fr.)</text>
+
+    <line x1="74" y1="47.5" x2="138" y2="47.5" stroke="#000000" stroke-width="0.3"/>
+    <text x="75" y="51.5" font-family="Helvetica, Arial, sans-serif" font-size="1.85" font-weight="bold" fill="#000000">• Costado [P01]/[P02] (4 tornillos Ø4x12 mm):</text>
+    <text x="76" y="55.3" font-family="Helvetica, Arial, sans-serif" font-size="1.8" fill="#000000">- Paso vertical Euro: 32.0 mm (Z = 34 → 66 → 98 mm)</text>
+    <text x="76" y="59.0" font-family="Helvetica, Arial, sans-serif" font-size="1.8" fill="#000000">+ taladro inferior H_C4 en Z = 6.5 mm (a 25 mm frente).</text>
+    <text x="75" y="63.2" font-family="Helvetica, Arial, sans-serif" font-size="1.85" font-weight="bold" fill="#000000">• Portón [P04] (3 tornillos Ø4x12 mm por lado):</text>
+    <text x="76" y="67.0" font-family="Helvetica, Arial, sans-serif" font-size="1.8" fill="#000000">- T_P1 (Z_loc=112), T_P2 (Z_loc=96), T_P3 (Z_loc=80)</text>
+    <text x="76" y="70.7" font-family="Helvetica, Arial, sans-serif" font-size="1.8" font-weight="bold" fill="#000000">- Separación: 16.0 mm (32.0 mm entre ranuras T_P1/T_P3).</text>
   </g>
 
 
-  <g transform="translate(158, 26)">
-    <rect x="0" y="0" width="124" height="150" fill="#ffffff" stroke="#000000" stroke-width="0.55"/>
+  <g transform="translate(158, 22.5)">
+    <rect x="0" y="0" width="124" height="153.5" fill="#ffffff" stroke="#000000" stroke-width="0.55"/>
     <rect x="0" y="0" width="124" height="6.8" fill="#ffffff" stroke="#000000" stroke-width="0.5"/>
-    <text x="62" y="4.7" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.55" font-weight="bold" fill="#000000">
-      3. TABLA DE COORDENADAS Y ÁNGULOS DEL MECANISMO
+    <text x="62" y="4.7" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.45" font-weight="bold" fill="#000000">
+      3. COORDENADAS DE ARTICULACIONES, TALADROS Y PUENTE EN H
     </text>
 
-    <text x="4" y="12.5" font-family="Helvetica, Arial, sans-serif" font-size="2.2" font-weight="bold" fill="#000000">A. PUNTOS FIJOS EN COSTADOS [P01] y [P02] (Cotas en mm):</text>
-    <text x="5" y="17.5" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Eje Superior Bisagra (O1): Y = -451.0 mm (a 27 mm del frente), Z = 124.0 mm.</text>
-    <text x="5" y="22.3" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Eje Inferior Bisagra (O2): Y = -431.0 mm (a 47 mm del frente), Z = 80.0 mm.</text>
-    <text x="5" y="27.1" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Pivote Trasero Actuador (A): Y = -225.7 mm (a 252.3 mm del frente), Z = 41.3 mm.</text>
-    <text x="5" y="31.9" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">• Longitudes de eslabones: Brazo L1 = 58.21 mm | Brazo L2 = 48.88 mm | d_P = 44.00 mm.</text>
+    <text x="4" y="12.0" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">A. TALADROS DE MONTAJE DE LA BISAGRA GAROSA EN COSTADO Y PUERTA:</text>
+    <text x="5" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• En Costados [P01]/[P02] (distancias desde el canto frontal Y=-478 y desde el suelo Z=0):</text>
+    <text x="7" y="20.7" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">- H_C1: a 41.0 mm del frente, Z = 98.0 mm | H_C2: a 38.0 mm del frente, Z = 66.0 mm (ΔZ = 32 mm).</text>
+    <text x="7" y="24.9" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">- H_C3: a 35.0 mm del frente, Z = 34.0 mm (ΔZ = 32 mm) | H_C4: a 25.0 mm del frente, Z = 6.5 mm.</text>
+    <text x="5" y="29.3" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• En Portón [P04] (distancias desde el borde lateral X_loc y desde el borde inferior Z_loc):</text>
+    <text x="7" y="33.5" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">- T_P1 (Ranura sup.): a 8.0 mm del borde, Z_loc = 112.0 mm | T_P2 (Centro): a 5.0 mm, Z_loc = 96.0 mm.</text>
+    <text x="7" y="37.7" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">- T_P3 (Ranura inf.): a 8.0 mm del borde, Z_loc = 80.0 mm (paso 16.0 mm; entre ranuras = 32.0 mm).</text>
 
-    <line x1="3" y1="35.5" x2="121" y2="35.5" stroke="#000000" stroke-width="0.35"/>
+    <line x1="3" y1="40.8" x2="121" y2="40.8" stroke="#000000" stroke-width="0.35"/>
 
-    <text x="4" y="41.0" font-family="Helvetica, Arial, sans-serif" font-size="2.2" font-weight="bold" fill="#000000">B. POSICIÓN CERRADA (θ = 0.0° — Portón vertical enrasado en Y = -478 mm):</text>
-    <text x="5" y="46.0" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Articulación superior puerta P1(0°): Y = -461.0 mm, Z = 84.0 mm (a 82 mm de base P04).</text>
-    <text x="5" y="50.8" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Articulación inferior puerta P2(0°): Y = -461.0 mm, Z = 40.0 mm (a 38 mm de base P04).</text>
-    <text x="5" y="55.6" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Ángulos eslabones bisagra: α1(0°) = -104.0° | α2(0°) = -127.9°.</text>
-    <text x="5" y="60.4" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Eje delantero actuador B(0°): Y = -440.0 mm, Z = 24.0 mm (a 22 mm de base P04).</text>
-    <text x="5" y="65.2" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">• Longitud actuador retraído: L_c = 215.00 mm exactos | Ángulo β_c = -4.6°.</text>
+    <text x="4" y="45.5" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">B. TALADROS DE MONTAJE DE LOS SOPORTES DEL ACTUADOR LINEAL [H03]:</text>
+    <text x="5" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• Soporte Trasero A en Costados [P01]/[P02] (Eje pasador M4 en Y = -225.7 mm, Z = 41.3 mm):</text>
+    <text x="7" y="54.2" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">- A_S1 (Superior): a 252.3 mm del frente (225.7 mm de la trasera) y Z = 54.3 mm del suelo.</text>
+    <text x="7" y="58.4" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">- A_S2 (Inferior): a 252.3 mm del frente y Z = 28.3 mm del suelo (separación entre taladros = 26.0 mm).</text>
+    <text x="5" y="62.8" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• Soporte Delantero B en Portón [P04] (Eje pasador M4 en Z_loc = 22.0 mm, a 23.0 mm tras portón):</text>
+    <text x="7" y="67.0" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">- B_S1 (Superior): a 20.0 mm del borde lateral (X_loc = 20 / 486 mm) y Z_loc = 32.0 mm de la base.</text>
+    <text x="7" y="71.2" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">- B_S2 (Inferior): a 20.0 mm del borde lateral y Z_loc = 12.0 mm de la base (separación = 20.0 mm).</text>
 
-    <line x1="3" y1="68.8" x2="121" y2="68.8" stroke="#000000" stroke-width="0.35"/>
+    <line x1="3" y1="74.3" x2="121" y2="74.3" stroke="#000000" stroke-width="0.35"/>
 
-    <text x="4" y="74.3" font-family="Helvetica, Arial, sans-serif" font-size="2.2" font-weight="bold" fill="#000000">C. POSICIÓN ABIERTA (θ = 80.0° — Portón abatido a 10.0° de la horizontal):</text>
-    <text x="5" y="79.3" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Articulación superior puerta P1(80°): Y = -509.1 mm, Z = 120.0 mm.</text>
-    <text x="5" y="84.1" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Articulación inferior puerta P2(80°): Y = -465.8 mm, Z = 112.4 mm.</text>
-    <text x="5" y="88.9" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Ángulos eslabones bisagra: α1(80°) = -176.1° (Δα1 = 72.1°) | α2(80°) = -137.0°.</text>
-    <text x="5" y="93.7" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">• Eje delantero actuador B(80°): Y = -546.9 mm, Z = 90.8 mm.</text>
-    <text x="5" y="98.5" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">• Longitud actuador extendido: L_o = 325.00 mm exactos | Ángulo β_o = +8.8°.</text>
-    <text x="5" y="103.3" font-family="Helvetica, Arial, sans-serif" font-size="2.05" font-weight="bold" fill="#000000">• Carrera consumida: 325.0 - 215.0 = 110.0 mm (100% del recorrido nominal).</text>
+    <text x="4" y="79.0" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">C. VERIFICACIÓN CINEMÁTICA DEL CUADRILÁTERO ARTICULADO (0° → 80°):</text>
+    <text x="5" y="83.5" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• Pivotes de fábrica en bisagra: O1 = (-451.0, 124.0) [L1=58.21 mm] | O2 = (-431.0, 80.0) [L2=48.88 mm].</text>
+    <text x="5" y="87.8" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• Posición Cerrada (0°): P1(0°)=(-461, 84), P2(0°)=(-461, 40), B(0°)=(-440.0, 24.0) → Lc = 215.0 mm (-4.6°).</text>
+    <text x="5" y="92.1" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">• Posición Abierta (80°): P1(80°)=(-509.1, 120.0), P2(80°)=(-465.8, 112.4), B(80°)=(-546.9, 90.8)</text>
+    <text x="7" y="96.3" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">→ Actuador extendido Lo = 325.0 mm exactos (+8.8°) | Carrera consumida: 325 - 215 = 110.0 mm (100%).</text>
 
-    <line x1="3" y1="106.9" x2="121" y2="106.9" stroke="#000000" stroke-width="0.35"/>
+    <line x1="3" y1="99.5" x2="121" y2="99.5" stroke="#000000" stroke-width="0.35"/>
 
-    <text x="4" y="112.4" font-family="Helvetica, Arial, sans-serif" font-size="2.2" font-weight="bold" fill="#000000">D. VENTAJAS DE RETIRAR LOS MUELLES DE LAS BISAGRAS GAROSA:</text>
-    <text x="5" y="117.4" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">1. Sin muelles oponiéndose al movimiento, los 2 actuadores de 150N (300N totales)</text>
-    <text x="7" y="122.0" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">trabajan sin carga parásita, reduciendo el consumo eléctrico (&lt; 0.8A) y el ruido.</text>
-    <text x="5" y="127.0" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">2. Las placas laterales de 15 mm no sufren tensión permanente cuando el portón</text>
-    <text x="7" y="131.6" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">permanece cerrado o abierto, garantizando alineación perfecta a largo plazo.</text>
-    <text x="5" y="136.6" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">3. El bloqueo mecánico irreversible del husillo de los actuadores mantiene el</text>
-    <text x="7" y="141.2" font-family="Helvetica, Arial, sans-serif" font-size="2.05" fill="#000000">portón firmemente cerrado a 0° y firmemente sostenido a 80° sin oscilaciones.</text>
+    <text x="4" y="104.2" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">D. ESQUEMA ELÉCTRICO PUENTE EN H (RELÉ ZIGBEE MHCOZY 2CH INTERLOCK):</text>
+    <text x="5" y="108.8" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• Fuente 12V DC (&gt;= 2A): NC1 y NC2 puenteados a GND (-12V) | NO1 y NO2 puenteados a +12V DC.</text>
+    <text x="5" y="113.1" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• COM1 al cable ROJO de ambos actuadores | COM2 al cable NEGRO de ambos actuadores (en paralelo).</text>
+    <text x="5" y="117.4" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">• Canal 1 ON (10 s): +12V en Rojo / GND en Negro → Extiende (215 → 325 mm, ABRE portón a 80°).</text>
+    <text x="5" y="121.7" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">• Canal 2 ON (10 s): GND en Rojo / +12V en Negro → Retrae (325 → 215 mm, CIERRA portón a 0°).</text>
+    <text x="5" y="126.2" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">• Sin muelles en las bisagras Garosa: cero carga parásita (&lt; 0.8A), cero tensión en reposo sobre los</text>
+    <text x="7" y="130.4" font-family="Helvetica, Arial, sans-serif" font-size="1.95" fill="#000000">costados de 15 mm, y bloqueo mecánico irreversible del husillo tanto cerrado (0°) como abierto (80°).</text>
+    <text x="5" y="135.2" font-family="Helvetica, Arial, sans-serif" font-size="1.95" font-weight="bold" fill="#000000">• Home Assistant: Estado Dreame = cleaning → Abre (CH1) | Estado = docked (+15 s) → Cierra (CH2).</text>
+    <text x="5" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="1.9" fill="#000000">• Ver Hoja de Corte 2/2 (Plano 06/06) para la plantilla gráfica de todos los agujeros en cada tablero.</text>
   </g>
 
 
@@ -175,12 +231,13 @@
     <line x1="232" y1="0" x2="232" y2="20" stroke="#000000" stroke-width="0.45"/>
     <line x1="178" y1="10" x2="279" y2="10" stroke="#000000" stroke-width="0.35"/>
     <line x1="0" y1="9.2" x2="178" y2="9.2" stroke="#000000" stroke-width="0.25"/>
-    <text x="4" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="3.45" font-weight="bold" fill="#000000">PLANO 04: CINEMÁTICA DEL MECANISMO (GAROSA 80° SIN MUELLES + ACTUADORES)</text>
-    <text x="4" y="13.5" font-family="Helvetica, Arial, sans-serif" font-size="2.6" font-weight="bold" fill="#000000">Geometría exacta del cuadrilátero articulado (0° vs 80°), coordenadas de pivotes (O1, O2, P1, P2, A, B) y puente en H Zigbee</text>
-    <text x="4" y="18.2" font-family="Helvetica, Arial, sans-serif" font-size="2.45" fill="#000000">PROYECTO: Mueble Aspiradora Cota Cero (540 x 478 x 620 mm) — Diseño Final Aprobado (Edición Impresión Tóner B/N)</text>
-    <text x="181" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="2.6" font-weight="bold" fill="#000000">ESCALA: 1:3.1 (Cinemática)</text>
+    <text x="4" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="3.35" font-weight="bold" fill="#000000">PLANO 04: CINEMÁTICA 80°, AGUJEROS DE HERRAJES Y ACTUADORES DAWNSO</text>
+    <text x="4" y="13.5" font-family="Helvetica, Arial, sans-serif" font-size="2.5" font-weight="bold" fill="#000000">Planos de fabricante de actuador Dawnso (S+57.5, 2-Ø4.2) y bisagra Garosa (paso 32/16 mm), coordenadas y puente en H</text>
+    <text x="4" y="18.2" font-family="Helvetica, Arial, sans-serif" font-size="2.35" fill="#000000">PROYECTO: Mueble Aspiradora Cota Cero (540 x 478 x 620 mm) — Impresión Tóner B/N con Cotas de Taladrado</text>
+    <text x="181" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="2.55" font-weight="bold" fill="#000000">ESCALA: 1:3.3 y S/E (A4)</text>
     <text x="181" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="2.55" font-weight="bold" fill="#000000">COTAS: Milímetros (mm)</text>
     <text x="235" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="2.65" font-weight="bold" fill="#000000">PLANO 04/06</text>
     <text x="235" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="2.5" font-weight="bold" fill="#000000">FECHA: 2026-11-01</text>
   </g>
+
 </svg>

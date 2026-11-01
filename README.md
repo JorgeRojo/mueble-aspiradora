@@ -51,22 +51,39 @@ Módulo cubre-base a medida diseñado para ocultar la estación de autovaciado y
 
 ---
 
-## 3. Cinemática Exacta y Coordenadas de Taladrado de Herrajes
+## 3. Distancias Exactas de los Agujeros de Montaje (Madera, Bisagras Garosa $80^\circ$ y Actuadores Dawnso)
 
-### 3.1. En Cara Interior de Costados `[P01]` y `[P02]` (medidas desde el Canto Frontal $Y=-478\text{ mm}$ y Suelo $Z=0$)
-* **Bisagra Garosa $135 \times 40 \times 35\text{ mm}$ ($80^\circ$, sin muelle helicoidal)**:
-  * **Eje superior fijo ($O_1$)**: a **$27,0\text{ mm}$ del canto frontal** ($Y = -451,0\text{ mm}$) y **$Z = 124,0\text{ mm}$** del suelo.
-  * **Eje inferior fijo ($O_2$)**: a **$47,0\text{ mm}$ del canto frontal** ($Y = -431,0\text{ mm}$) y **$Z = 80,0\text{ mm}$** del suelo.
-* **Soporte Trasero Actuador Dawnso Mini 150N (Pivote Fijo $A$)**:
-  * **Centro del pasador ($A$)**: a **$252,3\text{ mm}$ del canto frontal** ($225,7\text{ mm}$ del canto trasero) y **$Z = 41,3\text{ mm}$** del suelo.
+### 3.1. Unión entre Piezas de Madera (`[P01]`–`[P07]`)
 
-### 3.2. En Cara Interior del Portón `[P04]` (medidas desde el Borde Inferior del Portón $Z_p = 0$)
-* **Pletina Móvil de Bisagra Garosa** (a $13,0\text{ mm}$ de cada borde lateral):
-  * **Articulación superior ($P_1$)**: a **$82,0\text{ mm}$ de la base del portón** ($Z = 84,0\text{ mm}$ absolutos).
-  * **Articulación inferior ($P_2$)**: a **$38,0\text{ mm}$ de la base del portón** ($Z = 40,0\text{ mm}$ absolutos).
-* **Escuadra Delantera del Actuador (Pivote Móvil $B$)**:
-  * A $18,0\text{ mm}$ de cada borde lateral; eje $B$ a **$22,0\text{ mm}$ de la base del portón** ($Z = 24,0\text{ mm}$ absolutos, sobresaliendo $23,0\text{ mm}$ hacia el interior del mueble).
+| Pieza | Código Taladro | Posición Exacta ($\text{mm}$) | Separación / Paso | Función y Tornillería |
+| :--- | :--- | :--- | :---: | :--- |
+| **`[P01]` / `[P02]`** (Costados $478 \times 600 \times 15$) | **`M_F1`..`M_F4`** (4 uds/lado) | A **$7,5\text{ mm}$ del frente** ($Y = -470,5\text{ mm}$), en **$Z = 180, 310, 440, 570\text{ mm}$** | **$130,0\text{ mm}$** | Unión con cantos laterales de `[P03]` (taladros guía $\varnothing 3\text{ mm}$ a $33, 163, 293, 423\text{ mm}$ de la base de `[P03]`; tornillos $\varnothing 4 \times 40\text{ mm}$). |
+| **`[P01]` / `[P02]`** (Costados $478 \times 600 \times 15$) | **`M_N1`** (1 ud/lado) | A **$7,5\text{ mm}$ de la trasera** ($470,5\text{ mm}$ del frente), en **$Z = 582,5\text{ mm}$** ($17,5\text{ mm}$ del borde sup.) | Centro de $35\text{ mm}$ | Unión con las testas del nervio trasero `[P05]` (tornillos $\varnothing 4 \times 40\text{ mm}$). |
+| **`[P06]`** (Lámina Base $540 \times 478 \times 10$) | **`M_T1`..`M_T6`** (3 uds/lado) | A **$7,5\text{ mm}$ de los bordes laterales** ($X = 7,5$ y $532,5\text{ mm}$), en **$Y_{frente} = 60, 239, 418\text{ mm}$** | **$179,0\text{ mm}$** | Fijación superior hacia costados `[P01]` y `[P02]` (tornillos $\varnothing 4 \times 30\text{ mm}$ avellanados, ocultos bajo `[P07]`). |
+| **`[P06]`** (Lámina Base $540 \times 478 \times 10$) | **`M_T7`..`M_T10`** (2 fr. + 2 tras.) | A **$7,5\text{ mm}$ del frente** y **$7,5\text{ mm}$ de la trasera**, en **$X = 170,0$ y $370,0\text{ mm}$** | **$200,0\text{ mm}$** | Fijación hacia `[P03]` y `[P05]` (a $155$ y $355\text{ mm}$ del extremo izq. de `[P03]`/`[P05]`; tornillos $\varnothing 4 \times 30\text{ mm}$). |
 
-### 3.3. Recorrido y Ángulos Verificados
-* **Cerrado ($\theta = 0^\circ$)**: $B(0^\circ) = (-440,0,\; 24,0\text{ mm}) \implies \|B - A\| = \mathbf{215,0\text{ mm}}$ ($\beta_c = -4,6^\circ$).
-* **Abierto ($\theta = 80^\circ$)**: $B(80^\circ) = (-546,9,\; 90,8\text{ mm}) \implies \|B - A\| = \mathbf{325,0\text{ mm}}$ ($\beta_o = +8,8^\circ$, carrera útil completa $= 110,0\text{ mm}$, altura libre de paso $= 109,5\text{ mm}$).
+### 3.2. Bisagras Garosa $135 \times 40 \times 35\text{ mm}$ ($80^\circ$ Sin Muelles, SKU `B0BX5QCP6J`) — Tornillos $\varnothing 4 \times 12\text{ mm}$
+
+| Elemento de Bisagra | Código Agujero | Distancia al Borde ($\text{mm}$) | Altura $Z$ ($\text{mm}$) | Separación Entre Agujeros |
+| :--- | :--- | :---: | :---: | :--- |
+| **`Placa_Costado`** ($100 \times 36\text{ mm}$ en `[P01]`/`[P02]`, base en $Z_0 = 2,0\text{ mm}$) | **`H_C1`** (Sup., $\varnothing 6,0\text{ mm}$) | **$41,0\text{ mm}$ del canto frontal** ($26\text{ mm}$ tras portón) | **$Z = 98,0\text{ mm}$** ($v = 96,0\text{ mm}$) | Referencia superior |
+| **`Placa_Costado`** ($100 \times 36\text{ mm}$) | **`H_C2`** (Med-Alto, $\varnothing 4,5\text{ mm}$) | **$38,0\text{ mm}$ del canto frontal** ($23\text{ mm}$ tras portón) | **$Z = 66,0\text{ mm}$** ($v = 64,0\text{ mm}$) | **$32,0\text{ mm}$** respecto a `H_C1` |
+| **`Placa_Costado`** ($100 \times 36\text{ mm}$) | **`H_C3`** (Med-Bajo, $\varnothing 6,0\text{ mm}$) | **$35,0\text{ mm}$ del canto frontal** ($20\text{ mm}$ tras portón) | **$Z = 34,0\text{ mm}$** ($v = 32,0\text{ mm}$) | **$32,0\text{ mm}$** respecto a `H_C2` |
+| **`Placa_Costado`** ($100 \times 36\text{ mm}$) | **`H_C4`** (Inf., $\varnothing 4,5\text{ mm}$) | **$25,0\text{ mm}$ del canto frontal** ($10\text{ mm}$ tras portón) | **$Z = 6,5\text{ mm}$** ($v = 4,5\text{ mm}$) | **$27,5\text{ mm}$** respecto a `H_C3` |
+| **`Escuadra_Puerta`** ($62,5 \times 14\text{ mm}$ en cara int. de `[P04]`) | **`T_P1`** (Ranura keyhole sup.) | **$8,0\text{ mm}$ del borde lateral** ($X_{loc} = 8 / 498\text{ mm}$) | **$Z_{loc} = 112,0\text{ mm}$** ($31\text{ mm}$ de arriba) | Referencia superior en puerta |
+| **`Escuadra_Puerta`** ($62,5 \times 14\text{ mm}$) | **`T_P2`** (Bloqueo central, $\varnothing 4,5\text{ mm}$) | **$5,0\text{ mm}$ del borde lateral** ($X_{loc} = 5 / 501\text{ mm}$) | **$Z_{loc} = 96,0\text{ mm}$** ($47\text{ mm}$ de arriba) | **$16,0\text{ mm}$** respecto a `T_P1` |
+| **`Escuadra_Puerta`** ($62,5 \times 14\text{ mm}$) | **`T_P3`** (Ranura keyhole inf.) | **$8,0\text{ mm}$ del borde lateral** ($X_{loc} = 8 / 498\text{ mm}$) | **$Z_{loc} = 80,0\text{ mm}$** ($63\text{ mm}$ de arriba) | **$16,0\text{ mm}$** respecto a `T_P2` (**$32,0\text{ mm}$** a `T_P1`) |
+
+*(Nota: Los remaches articulados internos de fábrica de la bisagra se sitúan en $O_1 = (-451,0,\; 124,0\text{ mm})$ y $O_2 = (-431,0,\; 80,0\text{ mm})$ en el costado, y en $P_1(0^\circ) = (-461,0,\; 84,0\text{ mm})$ y $P_2(0^\circ) = (-461,0,\; 40,0\text{ mm})$ en la puerta).*
+
+### 3.3. Actuadores Lineales Dawnso Mini 150N 12V ($215/325\text{ mm}$) y Soportes `[H03]`
+
+* **Cotas Oficiales del Actuador (Plano Fabricante $L_{min} = S + 57,5\text{ mm}$, carrera $S = 110\text{ mm}$)**:
+  * **Orificios de pasador en extremos (`2-Ø4.2`)**: distancia entre centros **$215,0\text{ mm}$** retraído ($\beta_c = -4,6^\circ$) y **$325,0\text{ mm}$** extendido ($\beta_o = +8,8^\circ$).
+  * **Cola trasera**: ancho **$9,9\text{ mm}$** $\times$ espesor **$7,9\text{ mm}$** ($\varnothing 4,2\text{ mm}$). **Cabeza del vástago**: **$\varnothing 9,0\text{ mm}$** $\times$ espesor plano **$6,1\text{ mm}$** ($\varnothing 4,2\text{ mm}$).
+  * **Carcasa motora**: **$37,5 \times 19,9 \times 15,0\text{ mm}$** (ancho con aletas $= 39,9\text{ mm}$; 4 agujeros en aletas `4-Ø5.0` separados **$11,0 \times 29,9\text{ mm}$**, libres para permitir el basculamiento de $-4,6^\circ$ a $+8,8^\circ$).
+
+| Soporte Metálico `[H03]` | Posición del Eje de Pasador M4 ($\varnothing 4,2\text{ mm}$) | Taladros de Fijación en Madera ($\varnothing 4 \times 12\text{ mm}$) | Separación Entre Agujeros |
+| :--- | :--- | :--- | :---: |
+| **Soporte Trasero Fijo `A`** (en `[P01]` y `[P02]`) | A **$252,3\text{ mm}$ del canto frontal** ($225,7\text{ mm}$ de trasera, $Y = -225,7\text{ mm}$) y **$Z_A = 41,3\text{ mm}$** del suelo ($22\text{ mm}$ hacia el interior) | **`A_S1`**: $252,3\text{ mm}$ frente, **$Z = 54,3\text{ mm}$**<br>**`A_S2`**: $252,3\text{ mm}$ frente, **$Z = 28,3\text{ mm}$** | **$26,0\text{ mm}$** ($\pm 13,0\text{ mm}$ del eje $A$) |
+| **Soporte Delantero Móvil `B`** (en cara int. de `[P04]`) | A **$20,0\text{ mm}$ del borde lateral** ($X_{loc} = 20 / 486\text{ mm}$), en **$Z_{loc} = 22,0\text{ mm}$** de la base del portón ($Z_{global} = 24,0\text{ mm}$, $23\text{ mm}$ tras portón) | **`B_S1`**: $20,0\text{ mm}$ borde lat., **$Z_{loc} = 32,0\text{ mm}$**<br>**`B_S2`**: $20,0\text{ mm}$ borde lat., **$Z_{loc} = 12,0\text{ mm}$** | **$20,0\text{ mm}$** ($\pm 10,0\text{ mm}$ del eje $B$) |
