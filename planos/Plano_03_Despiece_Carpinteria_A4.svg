@@ -15,6 +15,7 @@
     </pattern>
   </defs>
   <rect x="0" y="0" width="297" height="210" fill="#ffffff"/>
+  <g id="printer_margin_wrap" transform="translate(148.5, 105.0) scale(0.88) translate(-148.5, -105.0)">
   <rect x="7" y="7" width="283" height="196" fill="none" stroke="#000000" stroke-width="0.75"/>
   <rect x="9" y="9" width="279" height="192" fill="none" stroke="#000000" stroke-width="0.35"/>
 
@@ -99,7 +100,7 @@
 
     <rect x="0" y="28.10" width="148" height="7.2" fill="#ffffff" stroke="#000000" stroke-width="0.25"/>
     <text x="3" y="32.90" font-family="Helvetica, Arial, sans-serif" font-size="2.15" font-weight="bold" fill="#000000">[P04]</text>
-    <text x="15" y="32.90" font-family="Helvetica, Arial, sans-serif" font-size="2.1" fill="#000000">Portón Inferior Abatible 80° (Arco R178)</text>
+    <text x="15" y="32.90" font-family="Helvetica, Arial, sans-serif" font-size="2.1" fill="#000000">Portón Inferior Abatible 80° (Arco 244x22)</text>
     <text x="76" y="32.90" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">1 ud</text>
     <text x="88" y="32.90" font-family="Helvetica, Arial, sans-serif" font-size="2.15" font-weight="bold" fill="#000000">506 x 143 x 15 mm</text>
     <text x="122" y="32.90" font-family="Helvetica, Arial, sans-serif" font-size="2.0" fill="#000000">Tablero #2 (15 mm)</text>
@@ -153,7 +154,7 @@
     <text x="3" y="82.70" font-family="Helvetica, Arial, sans-serif" font-size="2.15" font-weight="bold" fill="#000000">[H03]</text>
     <text x="15" y="82.70" font-family="Helvetica, Arial, sans-serif" font-size="2.1" fill="#000000">Soportes Metálicos en Horquilla + Pasadores</text>
     <text x="76" y="82.70" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">4 uds</text>
-    <text x="88" y="82.70" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">Pivotes A y B (Ø6)</text>
+    <text x="88" y="82.70" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">Pasadores M4 (Ø4.2)</text>
     <text x="120" y="82.70" font-family="Helvetica, Arial, sans-serif" font-size="2.0" fill="#000000">2 en costados + 2 en P04</text>
     
 
@@ -175,7 +176,7 @@
 
     <rect x="0" y="99.50" width="148" height="7.2" fill="#ffffff" stroke="#000000" stroke-width="0.25"/>
     <text x="3" y="104.30" font-family="Helvetica, Arial, sans-serif" font-size="2.15" font-weight="bold" fill="#000000">[H06]</text>
-    <text x="15" y="104.30" font-family="Helvetica, Arial, sans-serif" font-size="2.1" fill="#000000">Tornillería Madera Ø4x12 mm + Ø4x30 mm</text>
+    <text x="15" y="104.30" font-family="Helvetica, Arial, sans-serif" font-size="2.1" fill="#000000">Tornillería Ø4x12, Ø4x30 y Ø4x40 mm</text>
     <text x="76" y="104.30" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">1 lote</text>
     <text x="88" y="104.30" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">Con arandela M4</text>
     <text x="120" y="104.30" font-family="Helvetica, Arial, sans-serif" font-size="2.0" fill="#000000">Herrajes y unión tableros</text>
@@ -204,6 +205,7 @@
     <text x="181" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="2.6" font-weight="bold" fill="#000000">ESCALA: Sin Escala (BOM)</text>
     <text x="181" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="2.55" font-weight="bold" fill="#000000">COTAS: Milímetros (mm)</text>
     <text x="235" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="2.65" font-weight="bold" fill="#000000">PLANO 03/06</text>
-    <text x="235" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="2.5" font-weight="bold" fill="#000000">FECHA: 2026-11-01</text>
+    <text x="235" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="2.5" font-weight="bold" fill="#000000">FECHA: 2026-11-04</text>
   </g>
+  </g><!-- end printer_margin_wrap -->
 </svg>

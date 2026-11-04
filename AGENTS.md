@@ -23,7 +23,7 @@ Todos los tableros de partida miden **$1200 \times 600\text{ mm}$**:
 3. **`[P03]` Cubierta Frontal Superior Fija ($510 \times 453 \times 15\text{ mm}$ — Tablero #2 de $15\text{ mm}$)**:
    * Rectángulo puro embutido entre ambos costados ($X \in [15, 525]\text{ mm}, Y \in [-478, -463]\text{ mm}, Z \in [147, 600]\text{ mm}$).
 4. **`[P04]` Portón Inferior Abatible $80^\circ$ ($506 \times 143 \times 15\text{ mm}$ — Tablero #2 de $15\text{ mm}$)**:
-   * Situado en $Z \in [2, 145]\text{ mm}$ con $2\text{ mm}$ de holgura perimetral e incluye un arco central inferior de **$244\text{ mm}$ de cuerda $\times 22\text{ mm}$ de flecha ($R = 178\text{ mm}$)** para el paso de la torreta LiDAR.
+   * Situado en $Z \in [2, 145]\text{ mm}$ con $2\text{ mm}$ de holgura perimetral e incluye un arco central inferior de **$244\text{ mm}$ de cuerda $\times 22\text{ mm}$ de flecha ($R = 349,3\text{ mm}$)** para el paso de la torreta LiDAR.
 5. **`[P05]` Nervio Trasero Superior ($510 \times 35 \times 15\text{ mm}$ — Tablero #2 de $15\text{ mm}$)**:
    * Listón transversal trasero superior ($X \in [15, 525]\text{ mm}, Y \in [-15, 0]\text{ mm}, Z \in [565, 600]\text{ mm}$), pegado bajo la cara inferior de la tapa superior `[P06]`.
 6. **`[P06]` Lámina Superior Base ($540 \times 478 \times 10\text{ mm}$ — Tablero #1 de $10\text{ mm}$)**:
@@ -74,10 +74,12 @@ Todos los tableros de partida miden **$1200 \times 600\text{ mm}$**:
 
 ---
 
-## 4. Archivos Maestros en Producción
+## 4. Archivos Maestros en Producción y Formato de Impresión A4
 
+* **Formato de Impresión A4 con Márgenes de Seguridad para Impresora Láser**:
+  * Todos los planos A4 apaisados ($297 \times 210\text{ mm}$, blanco y negro puro `#000000` sobre `#ffffff`) tienen el cajetín y el marco exterior encuadrados en **$249,0 \times 172,5\text{ mm}$**, dejando **$24,0\text{ mm}$ de margen libre a izquierda y derecha** y **$18,8\text{ mm}$ de margen libre arriba y abajo** para evitar cualquier recorte por los márgenes físicos de la impresora.
 * [`Mueble_Aspiradora_Cota_Cero.FCStd`](file:///Users/jorge/projects/mueble-aspiradora/Mueble_Aspiradora_Cota_Cero.FCStd): Modelo CAD 3D cerrado + 6 hojas TechDraw ISO A4.
-* [`Modulo_01_Porton_Abierto_80deg.FCStd`](file:///Users/jorge/projects/mueble-aspiradora/Modulo_01_Porton_Abierto_80deg.FCStd): Modelo CAD 3D con portón abierto a $80^\circ$.
+* [`Mueble_Aspiradora_Porton_Abierto_80deg.FCStd`](file:///Users/jorge/projects/mueble-aspiradora/Mueble_Aspiradora_Porton_Abierto_80deg.FCStd): Modelo CAD 3D con portón abierto a $80^\circ$.
 * [`Mecanismo_Metalico_Bisagras_y_Actuadores.FCStd`](file:///Users/jorge/projects/mueble-aspiradora/Mecanismo_Metalico_Bisagras_y_Actuadores.FCStd) y [`planos/Mecanismo_Metalico_Bisagras_y_Actuadores.step`](file:///Users/jorge/projects/mueble-aspiradora/planos/Mecanismo_Metalico_Bisagras_y_Actuadores.step): Modelo CAD 3D de herrajes y actuadores.
 * [`planos/Planos_Corte_Madera_Diseño_Final_A4.pdf`](file:///Users/jorge/projects/mueble-aspiradora/planos/Planos_Corte_Madera_Diseño_Final_A4.pdf): Dossier de 2 hojas A4 de corte y despiece de madera.
 * [`planos/Planos_Mueble_Aspiradora_Completo_A4.pdf`](file:///Users/jorge/projects/mueble-aspiradora/planos/Planos_Mueble_Aspiradora_Completo_A4.pdf): Dossier maestro completo de 6 hojas A4.

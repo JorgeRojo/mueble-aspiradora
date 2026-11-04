@@ -13,7 +13,7 @@ Documento técnico definitivo del módulo cubre-base para estación **Dreame L10
 | **Altura exterior total** | **$620\text{ mm}$** | $600\text{ mm}$ (costados `[P01]`/`[P02]` directos del ancho del tablero) $+ 20\text{ mm}$ (tapa doble `[P06]`+`[P07]`). |
 | **Hueco libre interior** | **$510 \times 463 \times 600\text{ mm}$** | Base Dreame ($423\text{ mm}$ ancho $\times 568\text{ mm}$ alto) alojada con $43,5\text{ mm}$ libres por lado y $32\text{ mm}$ libres arriba. |
 | **Cubierta frontal fija `[P03]`** | **$510 \times 453 \times 15\text{ mm}$** | Embutida entre costados desde $Z = 147\text{ mm}$ hasta $Z = 600\text{ mm}$ ($Y \in [-478, -463]\text{ mm}$). |
-| **Portón inferior abatible `[P04]`** | **$506 \times 143 \times 15\text{ mm}$** | $Z \in [2, 145]\text{ mm}$, holgura perimetral de $2\text{ mm}$ y arco central LiDAR ($244 \times 22\text{ mm}, R=178\text{ mm}$). |
+| **Portón inferior abatible `[P04]`** | **$506 \times 143 \times 15\text{ mm}$** | $Z \in [2, 145]\text{ mm}$, holgura perimetral de $2\text{ mm}$ y arco central LiDAR ($244 \times 22\text{ mm}, R=349,3\text{ mm}$). |
 | **Nervio trasero superior `[P05]`** | **$510 \times 35 \times 15\text{ mm}$** | Montado en $Z \in [565, 600]\text{ mm}, Y \in [-15, 0]\text{ mm}$, pegado bajo la tapa superior `[P06]`. |
 | **Tapa superior doble `[P06]`+`[P07]`**| **$540 \times 478 \times 20\text{ mm}$** | 2 láminas superpuestas de $10\text{ mm}$ que cubren el $100\%$ de la planta superior ($Z \in [600, 620]\text{ mm}$). |
 
@@ -81,9 +81,12 @@ Documento técnico definitivo del módulo cubre-base para estación **Dreame L10
 
 ---
 
-## 4. Planos de Corte y Mecanizado Incluidos en `planos/`
+## 4. Planos de Corte y Mecanizado Incluidos en `planos/` (Formato A4 con Márgenes de Impresora)
+
+Todas las hojas están formateadas en **ISO A4 Apaisado ($297 \times 210\text{ mm}$) monocromo puro (`#000000` sobre `#ffffff`)** con un **recuadro exterior de $249,0 \times 172,5\text{ mm}$**, proporcionando **$24,0\text{ mm}$ de margen libre lateral (izquierda/derecha) y $18,8\text{ mm}$ de margen libre vertical (arriba/abajo)** para asegurar que quepan íntegramente dentro del área imprimible de cualquier impresora láser A4 sin recortes.
 
 1. [`planos/Planos_Corte_Madera_Diseño_Final_A4.pdf`](../planos/Planos_Corte_Madera_Diseño_Final_A4.pdf): Dossier de 2 hojas ISO A4 para taller.
 2. [`planos/Plano_Corte_01_Mapas_Tableros_A4.pdf`](../planos/Plano_Corte_01_Mapas_Tableros_A4.pdf) / [`.png`](../planos/Plano_Corte_01_Mapas_Tableros_A4.png): Mapas de corte sobre los tableros de $1200 \times 600\text{ mm}$.
-3. [`planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf`](../planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf) / [`.png`](../planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.png): Despiece individual acotado y plantilla de taladros.
-4. [`planos/Planos_Mueble_Aspiradora_Completo_A4.pdf`](../planos/Planos_Mueble_Aspiradora_Completo_A4.pdf): Dossier completo de 6 hojas ISO A4.
+3. [`planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf`](../planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf) / [`.png`](../planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.png): Despiece individual acotado y plantilla completa de taladros.
+4. [`planos/Planos_Mueble_Aspiradora_Completo_A4.pdf`](../planos/Planos_Mueble_Aspiradora_Completo_A4.pdf): Dossier maestro completo de 6 hojas ISO A4.
+5. [`Mueble_Aspiradora_Cota_Cero.FCStd`](../Mueble_Aspiradora_Cota_Cero.FCStd), [`Mueble_Aspiradora_Porton_Abierto_80deg.FCStd`](../Mueble_Aspiradora_Porton_Abierto_80deg.FCStd) y [`Mecanismo_Metalico_Bisagras_y_Actuadores.FCStd`](../Mecanismo_Metalico_Bisagras_y_Actuadores.FCStd): Modelos CAD 3D maestros en FreeCAD.

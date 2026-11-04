@@ -15,6 +15,7 @@
     </pattern>
   </defs>
   <rect x="0" y="0" width="297" height="210" fill="#ffffff"/>
+  <g id="printer_margin_wrap" transform="translate(148.5, 105.0) scale(0.88) translate(-148.5, -105.0)">
   <rect x="7" y="7" width="283" height="196" fill="none" stroke="#000000" stroke-width="0.75"/>
   <rect x="9" y="9" width="279" height="192" fill="none" stroke="#000000" stroke-width="0.35"/>
 
@@ -97,9 +98,9 @@
   <text x="42.01" y="136.88" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.1" fill="#000000">(Z = 147 a 600 mm entre costados)</text>
 
   <rect x="16.00" y="151.51" width="51.61" height="14.59" fill="#ffffff" stroke="#000000" stroke-width="0.65"/>
-  <path d="M 29.36,166.10 A 18.16,18.16 0 0,1 54.25,166.10 Z" fill="url(#notchHatch)" stroke="#000000" stroke-width="0.45"/>
+  <path d="M 29.36,166.10 A 35.63,35.63 0 0,1 54.25,166.10 Z" fill="url(#notchHatch)" stroke="#000000" stroke-width="0.45"/>
   <text x="41.81" y="156.47" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.4" font-weight="bold" fill="#000000">[P04] PORTÓN: 506 x 143 x 15</text>
-  <text x="41.81" y="160.26" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.0" font-weight="bold" fill="#000000">Arco LiDAR 244x22 (R178)</text>
+  <text x="41.81" y="160.26" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.0" font-weight="bold" fill="#000000">Arco LiDAR 244x22 mm</text>
 
   <rect x="68.33" y="105.00" width="52.02" height="3.57" fill="#ffffff" stroke="#000000" stroke-width="0.65"/>
   <text x="94.34" y="107.57" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="2.15" font-weight="bold" fill="#000000">[P05] NERVIO TRASERO: 510 x 35 x 15 mm</text>
@@ -249,7 +250,7 @@
     <text x="15" y="34.85" font-family="Helvetica, Arial, sans-serif" font-size="2.25" fill="#000000">Portón Abatible 80°</text>
     <text x="58" y="34.85" font-family="Helvetica, Arial, sans-serif" font-size="2.25" font-weight="bold" fill="#000000">506 x 143 x 15</text>
     <text x="85" y="34.85" font-family="Helvetica, Arial, sans-serif" font-size="2.15" fill="#000000">Tab. #2 (15mm)</text>
-    <text x="103" y="34.85" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">Arco 244x22 (R178)</text>
+    <text x="103" y="34.85" font-family="Helvetica, Arial, sans-serif" font-size="2.1" font-weight="bold" fill="#000000">Arco 244x22 mm</text>
     
 
     <rect x="0" y="36.80" width="132.00" height="6.15" fill="#ffffff" stroke="#000000" stroke-width="0.25"/>
@@ -297,6 +298,7 @@
     <text x="181" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="2.65" font-weight="bold" fill="#000000">ESCALA: 1:9.8 (Tableros)</text>
     <text x="181" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="2.55" font-weight="bold" fill="#000000">COTAS: Milímetros (mm)</text>
     <text x="235" y="6.8" font-family="Helvetica, Arial, sans-serif" font-size="2.7" font-weight="bold" fill="#000000">PLANO CORTE 1/2</text>
-    <text x="235" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="2.5" font-weight="bold" fill="#000000">FECHA: 2026-11-01</text>
+    <text x="235" y="16.5" font-family="Helvetica, Arial, sans-serif" font-size="2.5" font-weight="bold" fill="#000000">FECHA: 2026-11-04</text>
   </g>
+  </g><!-- end printer_margin_wrap -->
 </svg>

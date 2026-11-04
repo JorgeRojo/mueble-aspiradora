@@ -12,17 +12,19 @@ Módulo cubre-base a medida diseñado para ocultar la estación de autovaciado y
 
 ### 1.1. Modelos 3D Maestros (`.FCStd` y `.step`)
 * [`Mueble_Aspiradora_Cota_Cero.FCStd`](Mueble_Aspiradora_Cota_Cero.FCStd): Modelo CAD 3D maestro en estado cerrado ($\theta = 0^\circ$) con las 6 hojas técnicas ISO A4 integradas en TechDraw.
-* [`Modulo_01_Porton_Abierto_80deg.FCStd`](Modulo_01_Porton_Abierto_80deg.FCStd): Modelo CAD 3D con el portón abierto a $\theta = 80^\circ$ y los actuadores extendidos a $325,0\text{ mm}$ ($\beta_o = +8,8^\circ$).
+* [`Mueble_Aspiradora_Porton_Abierto_80deg.FCStd`](Mueble_Aspiradora_Porton_Abierto_80deg.FCStd): Modelo CAD 3D con el portón abierto a $\theta = 80^\circ$ y los actuadores extendidos a $325,0\text{ mm}$ ($\beta_o = +8,8^\circ$).
 * [`Mecanismo_Metalico_Bisagras_y_Actuadores.FCStd`](Mecanismo_Metalico_Bisagras_y_Actuadores.FCStd) y [`planos/Mecanismo_Metalico_Bisagras_y_Actuadores.step`](planos/Mecanismo_Metalico_Bisagras_y_Actuadores.step): Modelo 3D aislado exclusivamente con los herrajes metálicos (bisagras Garosa sin muelles + escuadras) y los 2 actuadores lineales.
 
-### 1.2. Dossiers de Planos ISO A4 Listos para Impresión
+### 1.2. Dossiers de Planos ISO A4 Listos para Impresión (Con Márgenes de Seguridad de Impresora)
+> **Nota de Impresión A4 ($297 \times 210\text{ mm}$ Apaisado — Tóner Negro B/N)**: Las 6 láminas incluyen un **margen blanco perimetral de seguridad de $24,0\text{ mm}$ a izquierda/derecha y $18,8\text{ mm}$ arriba/abajo** (recuadro exterior de $249,0 \times 172,5\text{ mm}$ centrado en la hoja A4), garantizando que ningún borde ni cajetín se corte al imprimir al $100\%$ en impresoras láser con márgenes físicos no imprimibles.
+
 * **Dossier de Corte y Mecanizado de Madera (2 Hojas A4)**: [`planos/Planos_Corte_Madera_Diseño_Final_A4.pdf`](planos/Planos_Corte_Madera_Diseño_Final_A4.pdf)
 * **Dossier Maestro Completo del Proyecto (6 Hojas A4)**: [`planos/Planos_Mueble_Aspiradora_Completo_A4.pdf`](planos/Planos_Mueble_Aspiradora_Completo_A4.pdf)
 
 | Hoja | Vista Previa / Archivos | Contenido |
 | :--- | :--- | :--- |
-| **Corte 1/2** | [`Plano_Corte_01_Mapas_Tableros_A4.pdf`](planos/Plano_Corte_01_Mapas_Tableros_A4.pdf) · [`.png`](planos/Plano_Corte_01_Mapas_Tableros_A4.png) | Mapas de corte a escala sobre **2 tableros de $1200 \times 600 \times 15\text{ mm}$** y **1 tablero de $1200 \times 600 \times 10\text{ mm}$** + secuencia de 8 cortes rectos. |
-| **Corte 2/2** | [`Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf`](planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf) · [`.png`](planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.png) | Despiece acotado individual de las **7 piezas (`[P01]`–`[P07]`)**, arco LiDAR ($244 \times 22\text{ mm}, R=178\text{ mm}$) y **plantilla milimétrica de taladros**. |
+| **Corte 1/2** | [`Plano_Corte_01_Mapas_Tableros_A4.pdf`](planos/Plano_Corte_01_Mapas_Tableros_A4.pdf) · [`.png`](planos/Plano_Corte_01_Mapas_Tableros_A4.png) | Mapas de corte a escala sobre **2 tableros de $1200 \times 600 \times 15\text{ mm}$** y **1 tablero de $1200 \times 600 \times 10\text{ mm}$** + secuencia de cortes rectos. |
+| **Corte 2/2** | [`Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf`](planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.pdf) · [`.png`](planos/Plano_Corte_02_Despiece_Acotado_Piezas_A4.png) | Despiece acotado individual de las **7 piezas (`[P01]`–`[P07]`)**, arco LiDAR ($244 \times 22\text{ mm}$) y **plantilla milimétrica de todos los taladros**. |
 | **Plano 01** | [`Plano_01_Alzado_y_Planta_A4.pdf`](planos/Plano_01_Alzado_y_Planta_A4.pdf) · [`.svg`](planos/Plano_01_Alzado_y_Planta_A4.svg) | Alzado frontal y planta superior acotados. |
 | **Plano 02** | [`Plano_02_Perfil_e_Isometrica_A4.pdf`](planos/Plano_02_Perfil_e_Isometrica_A4.pdf) · [`.svg`](planos/Plano_02_Perfil_e_Isometrica_A4.svg) | Sección lateral y vista isométrica general. |
 | **Plano 03** | [`Plano_03_Despiece_Carpinteria_A4.pdf`](planos/Plano_03_Despiece_Carpinteria_A4.pdf) · [`.svg`](planos/Plano_03_Despiece_Carpinteria_A4.svg) | Vistas de carpintería y lista de materiales (BOM). |
@@ -44,7 +46,7 @@ Módulo cubre-base a medida diseñado para ocultar la estación de autovaciado y
 | **`[P01]`** | Costado Izquierdo | **$478 \times 600 \times 15$** | Tablero #1 ($15\text{ mm}$) | **1 corte transversal recto** a $478\text{ mm}$ ($600\text{ mm}$ directo del ancho del tablero, sin cajeados) |
 | **`[P02]`** | Costado Derecho | **$478 \times 600 \times 15$** | Tablero #1 ($15\text{ mm}$) | **1 corte transversal recto** a $478\text{ mm}$ ($600\text{ mm}$ directo del ancho del tablero, sin cajeados) |
 | **`[P03]`** | Cubierta Frontal Fija | **$510 \times 453 \times 15$** | Tablero #2 ($15\text{ mm}$) | Corte recto puro ($Z \in [147, 600]\text{ mm}$, embutida entre costados) |
-| **`[P04]`** | Portón Abatible $80^\circ$ | **$506 \times 143 \times 15$** | Tablero #2 ($15\text{ mm}$) | $Z \in [2, 145]\text{ mm}$ ($2\text{ mm}$/lado holgura) + arco central LiDAR ($244 \times 22\text{ mm}, R=178\text{ mm}$) |
+| **`[P04]`** | Portón Abatible $80^\circ$ | **$506 \times 143 \times 15$** | Tablero #2 ($15\text{ mm}$) | $Z \in [2, 145]\text{ mm}$ ($2\text{ mm}$/lado holgura) + arco central LiDAR ($244 \times 22\text{ mm}, R=349,3\text{ mm}$) |
 | **`[P05]`** | Nervio Trasero Superior | **$510 \times 35 \times 15$** | Tablero #2 ($15\text{ mm}$) | Corte recto puro ($Z \in [565, 600]\text{ mm}, Y \in [-15, 0]\text{ mm}$, pegado bajo la tapa superior) |
 | **`[P06]`** | Lámina Superior Base | **$540 \times 478 \times 10$** | Tablero #1 ($10\text{ mm}$) | Corte recto puro; cubre el $100\%$ de la superficie superior ($Z \in [600, 610]\text{ mm}$) |
 | **`[P07]`** | Lámina Superior Tapa | **$540 \times 478 \times 10$** | Tablero #1 ($10\text{ mm}$) | Corte recto puro; encolada sobre `[P06]` formando tapa rígida de $20\text{ mm}$ ($Z \in [610, 620]\text{ mm}$) |
